@@ -1,0 +1,333 @@
+sku,tenant_id,brand,product_line,description,unit,is_active
+CAN-1001,sai-ke,Canon,IT Solutions & Office Automation,Canon 14in business laptop,each,True
+BRO-1002,sai-ke,Brother,IT Solutions & Office Automation,Brother 14in business laptop,each,True
+EPS-1003,sai-ke,Epson,IT Solutions & Office Automation,Epson mono laser printer,each,True
+CAN-1004,sai-ke,Canon,IT Solutions & Office Automation,Canon 14in business laptop,each,True
+LEN-1005,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo wireless keyboard and mouse,each,True
+DEL-1006,sai-ke,Dell,IT Solutions & Office Automation,Dell colour toner cartridge,each,True
+EPS-1007,sai-ke,Epson,IT Solutions & Office Automation,Epson 8-port gigabit switch,each,True
+CAN-1008,sai-ke,Canon,IT Solutions & Office Automation,Canon ink cartridge black,each,True
+BRO-1009,sai-ke,Brother,IT Solutions & Office Automation,Brother mono laser printer,each,True
+BRO-1010,sai-ke,Brother,IT Solutions & Office Automation,Brother drum unit,each,True
+EPS-1011,sai-ke,Epson,IT Solutions & Office Automation,Epson wireless keyboard and mouse,each,True
+BRO-1012,sai-ke,Brother,IT Solutions & Office Automation,Brother 8-port gigabit switch,each,True
+D-L-1013,sai-ke,D-Link,IT Solutions & Office Automation,D-Link ink cartridge black,each,True
+HP-1014,sai-ke,HP,IT Solutions & Office Automation,HP colour toner cartridge,each,True
+LEN-1015,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo 24in monitor,each,True
+D-L-1016,sai-ke,D-Link,IT Solutions & Office Automation,D-Link A4 document scanner,each,True
+DEL-1017,sai-ke,Dell,IT Solutions & Office Automation,Dell black toner cartridge,each,True
+LEN-1018,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo 8-port gigabit switch,each,True
+BRO-1019,sai-ke,Brother,IT Solutions & Office Automation,Brother 24in monitor,each,True
+EPS-1020,sai-ke,Epson,IT Solutions & Office Automation,Epson 24in monitor,each,True
+DEL-1021,sai-ke,Dell,IT Solutions & Office Automation,Dell colour toner cartridge,each,True
+CAN-1022,sai-ke,Canon,IT Solutions & Office Automation,Canon wireless keyboard and mouse,each,True
+CAN-1023,sai-ke,Canon,IT Solutions & Office Automation,Canon black toner cartridge,each,True
+CAN-1024,sai-ke,Canon,IT Solutions & Office Automation,Canon A4 document scanner,each,True
+DEL-1025,sai-ke,Dell,IT Solutions & Office Automation,Dell colour toner cartridge,each,True
+D-L-1026,sai-ke,D-Link,IT Solutions & Office Automation,D-Link 14in business laptop,each,True
+HP-1027,sai-ke,HP,IT Solutions & Office Automation,HP black toner cartridge,each,True
+HP-1028,sai-ke,HP,IT Solutions & Office Automation,HP mono laser printer,each,True
+EPS-1029,sai-ke,Epson,IT Solutions & Office Automation,Epson 24in monitor,each,True
+DEL-1030,sai-ke,Dell,IT Solutions & Office Automation,Dell black toner cartridge,each,True
+HP-1031,sai-ke,HP,IT Solutions & Office Automation,HP ink cartridge black,each,True
+LEN-1032,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo mono laser printer,each,True
+BRO-1033,sai-ke,Brother,IT Solutions & Office Automation,Brother drum unit,each,True
+LEN-1034,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo 24in monitor,each,True
+LEN-1035,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo ink cartridge black,each,True
+EPS-1036,sai-ke,Epson,IT Solutions & Office Automation,Epson A4 document scanner,each,True
+CAN-1037,sai-ke,Canon,IT Solutions & Office Automation,Canon A4 document scanner,each,True
+BRO-1038,sai-ke,Brother,IT Solutions & Office Automation,Brother 8-port gigabit switch,each,True
+D-L-1039,sai-ke,D-Link,IT Solutions & Office Automation,D-Link black toner cartridge,each,True
+CAN-1040,sai-ke,Canon,IT Solutions & Office Automation,Canon 14in business laptop,each,True
+DEL-1041,sai-ke,Dell,IT Solutions & Office Automation,Dell 8-port gigabit switch,each,True
+LEN-1042,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo 8-port gigabit switch,each,True
+HP-1043,sai-ke,HP,IT Solutions & Office Automation,HP 8-port gigabit switch,each,True
+CAN-1044,sai-ke,Canon,IT Solutions & Office Automation,Canon ink cartridge black,each,True
+EPS-1045,sai-ke,Epson,IT Solutions & Office Automation,Epson colour toner cartridge,each,True
+EPS-1046,sai-ke,Epson,IT Solutions & Office Automation,Epson ink cartridge black,each,True
+HP-1047,sai-ke,HP,IT Solutions & Office Automation,HP mono laser printer,each,True
+CAN-1048,sai-ke,Canon,IT Solutions & Office Automation,Canon colour toner cartridge,each,True
+BRO-1049,sai-ke,Brother,IT Solutions & Office Automation,Brother A4 document scanner,each,True
+HP-1050,sai-ke,HP,IT Solutions & Office Automation,HP 24in monitor,each,True
+D-L-1051,sai-ke,D-Link,IT Solutions & Office Automation,D-Link 8-port gigabit switch,each,True
+BRO-1052,sai-ke,Brother,IT Solutions & Office Automation,Brother 24in monitor,each,True
+D-L-1053,sai-ke,D-Link,IT Solutions & Office Automation,D-Link ink cartridge black,each,True
+DEL-1054,sai-ke,Dell,IT Solutions & Office Automation,Dell colour toner cartridge,each,True
+HP-1055,sai-ke,HP,IT Solutions & Office Automation,HP ink cartridge black,each,True
+BRO-1056,sai-ke,Brother,IT Solutions & Office Automation,Brother wireless keyboard and mouse,each,True
+D-L-1057,sai-ke,D-Link,IT Solutions & Office Automation,D-Link wireless keyboard and mouse,each,True
+EPS-1058,sai-ke,Epson,IT Solutions & Office Automation,Epson A4 document scanner,each,True
+D-L-1059,sai-ke,D-Link,IT Solutions & Office Automation,D-Link 14in business laptop,each,True
+CAN-1060,sai-ke,Canon,IT Solutions & Office Automation,Canon black toner cartridge,each,True
+CAN-1061,sai-ke,Canon,IT Solutions & Office Automation,Canon colour toner cartridge,each,True
+LEN-1062,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo A4 document scanner,each,True
+DEL-1063,sai-ke,Dell,IT Solutions & Office Automation,Dell 24in monitor,each,True
+D-L-1064,sai-ke,D-Link,IT Solutions & Office Automation,D-Link ink cartridge black,each,True
+LEN-1065,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo wireless keyboard and mouse,each,True
+CAN-1066,sai-ke,Canon,IT Solutions & Office Automation,Canon A4 document scanner,each,True
+LEN-1067,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo A4 document scanner,each,True
+HP-1068,sai-ke,HP,IT Solutions & Office Automation,HP 24in monitor,each,True
+CAN-1069,sai-ke,Canon,IT Solutions & Office Automation,Canon ink cartridge black,each,True
+D-L-1070,sai-ke,D-Link,IT Solutions & Office Automation,D-Link 8-port gigabit switch,each,True
+LEN-1071,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo A4 document scanner,each,True
+D-L-1072,sai-ke,D-Link,IT Solutions & Office Automation,D-Link mono laser printer,each,True
+D-L-1073,sai-ke,D-Link,IT Solutions & Office Automation,D-Link mono laser printer,each,True
+D-L-1074,sai-ke,D-Link,IT Solutions & Office Automation,D-Link ink cartridge black,each,True
+D-L-1075,sai-ke,D-Link,IT Solutions & Office Automation,D-Link 24in monitor,each,True
+D-L-1076,sai-ke,D-Link,IT Solutions & Office Automation,D-Link wireless keyboard and mouse,each,True
+DEL-1077,sai-ke,Dell,IT Solutions & Office Automation,Dell A4 document scanner,each,True
+CAN-1078,sai-ke,Canon,IT Solutions & Office Automation,Canon colour toner cartridge,each,True
+BRO-1079,sai-ke,Brother,IT Solutions & Office Automation,Brother wireless keyboard and mouse,each,True
+BRO-1080,sai-ke,Brother,IT Solutions & Office Automation,Brother 8-port gigabit switch,each,True
+EPS-1081,sai-ke,Epson,IT Solutions & Office Automation,Epson ink cartridge black,each,True
+LEN-1082,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo black toner cartridge,each,True
+CAN-1083,sai-ke,Canon,IT Solutions & Office Automation,Canon wireless keyboard and mouse,each,True
+HP-1084,sai-ke,HP,IT Solutions & Office Automation,HP 8-port gigabit switch,each,True
+BRO-1085,sai-ke,Brother,IT Solutions & Office Automation,Brother wireless keyboard and mouse,each,True
+BRO-1086,sai-ke,Brother,IT Solutions & Office Automation,Brother wireless keyboard and mouse,each,True
+CAN-1087,sai-ke,Canon,IT Solutions & Office Automation,Canon drum unit,each,True
+LEN-1088,sai-ke,Lenovo,IT Solutions & Office Automation,Lenovo colour toner cartridge,each,True
+BRO-1089,sai-ke,Brother,IT Solutions & Office Automation,Brother colour toner cartridge,each,True
+HP-1090,sai-ke,HP,IT Solutions & Office Automation,HP colour toner cartridge,each,True
+CAN-1091,sai-ke,Canon,IT Solutions & Office Automation,Canon colour toner cartridge,each,True
+HP-1092,sai-ke,HP,IT Solutions & Office Automation,HP colour toner cartridge,each,True
+HP-1093,sai-ke,HP,IT Solutions & Office Automation,HP wireless keyboard and mouse,each,True
+EPS-1094,sai-ke,Epson,IT Solutions & Office Automation,Epson drum unit,each,True
+BRO-1095,sai-ke,Brother,IT Solutions & Office Automation,Brother black toner cartridge,each,True
+DEL-1096,sai-ke,Dell,IT Solutions & Office Automation,Dell drum unit,each,True
+EPS-1097,sai-ke,Epson,IT Solutions & Office Automation,Epson colour toner cartridge,each,True
+CAN-1098,sai-ke,Canon,IT Solutions & Office Automation,Canon wireless keyboard and mouse,each,True
+D-L-1099,sai-ke,D-Link,IT Solutions & Office Automation,D-Link 8-port gigabit switch,each,True
+CAN-1100,sai-ke,Canon,IT Solutions & Office Automation,Canon black toner cartridge,each,True
+CAN-1101,sai-ke,Canon,IT Solutions & Office Automation,Canon wireless keyboard and mouse,each,True
+EPS-1102,sai-ke,Epson,IT Solutions & Office Automation,Epson 14in business laptop,each,True
+DEL-1103,sai-ke,Dell,IT Solutions & Office Automation,Dell drum unit,each,True
+HP-1104,sai-ke,HP,IT Solutions & Office Automation,HP A4 document scanner,each,True
+BRO-1105,sai-ke,Brother,IT Solutions & Office Automation,Brother wireless keyboard and mouse,each,True
+EPS-1106,sai-ke,Epson,IT Solutions & Office Automation,Epson 14in business laptop,each,True
+BRO-1107,sai-ke,Brother,IT Solutions & Office Automation,Brother colour toner cartridge,each,True
+HP-1108,sai-ke,HP,IT Solutions & Office Automation,HP ink cartridge black,each,True
+UHU-1109,sai-ke,UHU,Stationery,UHU correction tape,each,True
+KAN-1110,sai-ke,Kangaro,Stationery,Kangaro A4 copier paper 80gsm,each,True
+PRI-1111,sai-ke,Pritt,Stationery,Pritt stapler heavy duty,each,True
+PRI-1112,sai-ke,Pritt,Stationery,Pritt scissors 210mm,each,True
+ORT-1113,sai-ke,Ortea,Stationery,Ortea glue stick 40g,each,True
+OFF-1114,sai-ke,OfficePoint,Stationery,OfficePoint stapler heavy duty,each,True
+HEL-1115,sai-ke,Helix Oxford,Stationery,Helix Oxford correction tape,each,True
+SKO-1116,sai-ke,Skoolpoint,Stationery,Skoolpoint glue stick 40g,each,True
+VED-1117,sai-ke,Veda,Stationery,Veda ballpoint pen box of 50,each,True
+MAP-1118,sai-ke,Maped,Stationery,Maped whiteboard marker set,each,True
+UHU-1119,sai-ke,UHU,Stationery,UHU highlighter set of 4,each,True
+PRI-1120,sai-ke,Pritt,Stationery,Pritt stapler heavy duty,each,True
+FEL-1121,sai-ke,Fellowes,Stationery,Fellowes highlighter set of 4,each,True
+FEL-1122,sai-ke,Fellowes,Stationery,Fellowes whiteboard marker set,each,True
+ORT-1123,sai-ke,Ortea,Stationery,Ortea correction tape,each,True
+PRI-1124,sai-ke,Pritt,Stationery,Pritt correction tape,each,True
+ORT-1125,sai-ke,Ortea,Stationery,Ortea highlighter set of 4,each,True
+HEL-1126,sai-ke,Helix Oxford,Stationery,Helix Oxford A4 copier paper 80gsm,each,True
+SKO-1127,sai-ke,Skoolpoint,Stationery,Skoolpoint glue stick 40g,each,True
+UHU-1128,sai-ke,UHU,Stationery,UHU scissors 210mm,each,True
+SKO-1129,sai-ke,Skoolpoint,Stationery,Skoolpoint scissors 210mm,each,True
+SKO-1130,sai-ke,Skoolpoint,Stationery,Skoolpoint lever arch file,each,True
+UHU-1131,sai-ke,UHU,Stationery,UHU glue stick 40g,each,True
+ORT-1132,sai-ke,Ortea,Stationery,Ortea manila folder pack of 100,each,True
+PRI-1133,sai-ke,Pritt,Stationery,Pritt whiteboard marker set,each,True
+OFF-1134,sai-ke,OfficePoint,Stationery,OfficePoint scissors 210mm,each,True
+OFF-1135,sai-ke,OfficePoint,Stationery,OfficePoint highlighter set of 4,each,True
+FEL-1136,sai-ke,Fellowes,Stationery,Fellowes scissors 210mm,each,True
+REX-1137,sai-ke,Rexel,Stationery,Rexel ballpoint pen box of 50,each,True
+SKO-1138,sai-ke,Skoolpoint,Stationery,Skoolpoint lever arch file,each,True
+ORT-1139,sai-ke,Ortea,Stationery,Ortea correction tape,each,True
+FEL-1140,sai-ke,Fellowes,Stationery,Fellowes scissors 210mm,each,True
+VED-1141,sai-ke,Veda,Stationery,Veda stapler heavy duty,each,True
+CRA-1142,sai-ke,Crayola,Stationery,Crayola whiteboard marker set,each,True
+KAN-1143,sai-ke,Kangaro,Stationery,Kangaro A4 copier paper 80gsm,each,True
+FEL-1144,sai-ke,Fellowes,Stationery,Fellowes manila folder pack of 100,each,True
+UHU-1145,sai-ke,UHU,Stationery,UHU stapler heavy duty,each,True
+FEL-1146,sai-ke,Fellowes,Stationery,Fellowes stapler heavy duty,each,True
+MAP-1147,sai-ke,Maped,Stationery,Maped stapler heavy duty,each,True
+PRI-1148,sai-ke,Pritt,Stationery,Pritt highlighter set of 4,each,True
+MAP-1149,sai-ke,Maped,Stationery,Maped stapler heavy duty,each,True
+KAN-1150,sai-ke,Kangaro,Stationery,Kangaro whiteboard marker set,each,True
+UHU-1151,sai-ke,UHU,Stationery,UHU scissors 210mm,each,True
+CRA-1152,sai-ke,Crayola,Stationery,Crayola highlighter set of 4,each,True
+UHU-1153,sai-ke,UHU,Stationery,UHU glue stick 40g,each,True
+PRI-1154,sai-ke,Pritt,Stationery,Pritt stapler heavy duty,each,True
+MAP-1155,sai-ke,Maped,Stationery,Maped highlighter set of 4,each,True
+HEL-1156,sai-ke,Helix Oxford,Stationery,Helix Oxford whiteboard marker set,each,True
+PRI-1157,sai-ke,Pritt,Stationery,Pritt A4 copier paper 80gsm,each,True
+KAN-1158,sai-ke,Kangaro,Stationery,Kangaro highlighter set of 4,each,True
+SKO-1159,sai-ke,Skoolpoint,Stationery,Skoolpoint scissors 210mm,each,True
+PRI-1160,sai-ke,Pritt,Stationery,Pritt manila folder pack of 100,each,True
+KAN-1161,sai-ke,Kangaro,Stationery,Kangaro scissors 210mm,each,True
+ORT-1162,sai-ke,Ortea,Stationery,Ortea lever arch file,each,True
+PRI-1163,sai-ke,Pritt,Stationery,Pritt A4 copier paper 80gsm,each,True
+OFF-1164,sai-ke,OfficePoint,Stationery,OfficePoint correction tape,each,True
+ORT-1165,sai-ke,Ortea,Stationery,Ortea ballpoint pen box of 50,each,True
+VED-1166,sai-ke,Veda,Stationery,Veda highlighter set of 4,each,True
+SKO-1167,sai-ke,Skoolpoint,Stationery,Skoolpoint highlighter set of 4,each,True
+OFF-1168,sai-ke,OfficePoint,Stationery,OfficePoint highlighter set of 4,each,True
+OFF-1169,sai-ke,OfficePoint,Stationery,OfficePoint scissors 210mm,each,True
+REX-1170,sai-ke,Rexel,Stationery,Rexel highlighter set of 4,each,True
+SKO-1171,sai-ke,Skoolpoint,Stationery,Skoolpoint A4 copier paper 80gsm,each,True
+MAP-1172,sai-ke,Maped,Stationery,Maped lever arch file,each,True
+HEL-1173,sai-ke,Helix Oxford,Stationery,Helix Oxford manila folder pack of 100,each,True
+PRI-1174,sai-ke,Pritt,Stationery,Pritt whiteboard marker set,each,True
+REX-1175,sai-ke,Rexel,Stationery,Rexel ballpoint pen box of 50,each,True
+UHU-1176,sai-ke,UHU,Stationery,UHU scissors 210mm,each,True
+CRA-1177,sai-ke,Crayola,Stationery,Crayola correction tape,each,True
+REX-1178,sai-ke,Rexel,Stationery,Rexel A4 copier paper 80gsm,each,True
+SKO-1179,sai-ke,Skoolpoint,Stationery,Skoolpoint stapler heavy duty,each,True
+OFF-1180,sai-ke,OfficePoint,Stationery,OfficePoint stapler heavy duty,each,True
+PRI-1181,sai-ke,Pritt,Stationery,Pritt stapler heavy duty,each,True
+FEL-1182,sai-ke,Fellowes,Stationery,Fellowes manila folder pack of 100,each,True
+MAP-1183,sai-ke,Maped,Stationery,Maped stapler heavy duty,each,True
+KAN-1184,sai-ke,Kangaro,Stationery,Kangaro glue stick 40g,each,True
+VED-1185,sai-ke,Veda,Stationery,Veda scissors 210mm,each,True
+FEL-1186,sai-ke,Fellowes,Stationery,Fellowes correction tape,each,True
+KAN-1187,sai-ke,Kangaro,Stationery,Kangaro highlighter set of 4,each,True
+MAP-1188,sai-ke,Maped,Stationery,Maped scissors 210mm,each,True
+KAN-1189,sai-ke,Kangaro,Stationery,Kangaro scissors 210mm,each,True
+UHU-1190,sai-ke,UHU,Stationery,UHU glue stick 40g,each,True
+HEL-1191,sai-ke,Helix Oxford,Stationery,Helix Oxford manila folder pack of 100,each,True
+SKO-1192,sai-ke,Skoolpoint,Stationery,Skoolpoint A4 copier paper 80gsm,each,True
+VED-1193,sai-ke,Veda,Stationery,Veda correction tape,each,True
+PRI-1194,sai-ke,Pritt,Stationery,Pritt highlighter set of 4,each,True
+KAN-1195,sai-ke,Kangaro,Stationery,Kangaro manila folder pack of 100,each,True
+VED-1196,sai-ke,Veda,Stationery,Veda lever arch file,each,True
+FEL-1197,sai-ke,Fellowes,Stationery,Fellowes manila folder pack of 100,each,True
+FEL-1198,sai-ke,Fellowes,Stationery,Fellowes lever arch file,each,True
+CRA-1199,sai-ke,Crayola,Stationery,Crayola stapler heavy duty,each,True
+VED-1200,sai-ke,Veda,Stationery,Veda highlighter set of 4,each,True
+PRI-1201,sai-ke,Pritt,Stationery,Pritt whiteboard marker set,each,True
+PRI-1202,sai-ke,Pritt,Stationery,Pritt ballpoint pen box of 50,each,True
+VED-1203,sai-ke,Veda,Stationery,Veda scissors 210mm,each,True
+SKO-1204,sai-ke,Skoolpoint,Stationery,Skoolpoint correction tape,each,True
+ORT-1205,sai-ke,Ortea,Stationery,Ortea ballpoint pen box of 50,each,True
+REX-1206,sai-ke,Rexel,Stationery,Rexel whiteboard marker set,each,True
+KAN-1207,sai-ke,Kangaro,Stationery,Kangaro whiteboard marker set,each,True
+OFF-1208,sai-ke,OfficePoint,Stationery,OfficePoint ballpoint pen box of 50,each,True
+VED-1209,sai-ke,Veda,Stationery,Veda highlighter set of 4,each,True
+ORT-1210,sai-ke,Ortea,Stationery,Ortea manila folder pack of 100,each,True
+VED-1211,sai-ke,Veda,Stationery,Veda stapler heavy duty,each,True
+VED-1212,sai-ke,Veda,Stationery,Veda correction tape,each,True
+PRI-1213,sai-ke,Pritt,Stationery,Pritt glue stick 40g,each,True
+VED-1214,sai-ke,Veda,Stationery,Veda lever arch file,each,True
+FEL-1215,sai-ke,Fellowes,Stationery,Fellowes scissors 210mm,each,True
+CRA-1216,sai-ke,Crayola,Stationery,Crayola glue stick 40g,each,True
+HEL-1217,sai-ke,Helix Oxford,Stationery,Helix Oxford whiteboard marker set,each,True
+KAN-1218,sai-ke,Kangaro,Stationery,Kangaro whiteboard marker set,each,True
+REX-1219,sai-ke,Rexel,Stationery,Rexel manila folder pack of 100,each,True
+OFF-1220,sai-ke,OfficePoint,Stationery,OfficePoint A4 copier paper 80gsm,each,True
+UHU-1221,sai-ke,UHU,Stationery,UHU A4 copier paper 80gsm,each,True
+HEL-1222,sai-ke,Helix Oxford,Stationery,Helix Oxford manila folder pack of 100,each,True
+FEL-1223,sai-ke,Fellowes,Stationery,Fellowes stapler heavy duty,each,True
+SKO-1224,sai-ke,Skoolpoint,Stationery,Skoolpoint manila folder pack of 100,each,True
+FEL-1225,sai-ke,Fellowes,Stationery,Fellowes manila folder pack of 100,each,True
+PRI-1226,sai-ke,Pritt,Stationery,Pritt glue stick 40g,each,True
+SKO-1227,sai-ke,Skoolpoint,Stationery,Skoolpoint A4 copier paper 80gsm,each,True
+SKO-1228,sai-ke,Skoolpoint,Stationery,Skoolpoint lever arch file,each,True
+MAP-1229,sai-ke,Maped,Stationery,Maped A4 copier paper 80gsm,each,True
+OFF-1230,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1231,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1232,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1233,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1234,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1235,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+OFF-1236,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1237,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1238,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1239,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1240,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1241,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1242,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1243,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1244,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1245,sai-ke,OfficePoint,Office Furniture,OfficePoint operator chair mesh back,each,True
+OFF-1246,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1247,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1248,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+OFF-1249,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+OFF-1250,sai-ke,OfficePoint,Office Furniture,OfficePoint operator chair mesh back,each,True
+OFF-1251,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1252,sai-ke,OfficePoint,Office Furniture,OfficePoint operator chair mesh back,each,True
+OFF-1253,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1254,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1255,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+OFF-1256,sai-ke,OfficePoint,Office Furniture,OfficePoint operator chair mesh back,each,True
+OFF-1257,sai-ke,OfficePoint,Office Furniture,OfficePoint operator chair mesh back,each,True
+OFF-1258,sai-ke,OfficePoint,Office Furniture,OfficePoint 4-door steel cabinet,each,True
+OFF-1259,sai-ke,OfficePoint,Office Furniture,OfficePoint operator chair mesh back,each,True
+OFF-1260,sai-ke,OfficePoint,Office Furniture,OfficePoint 3-drawer pedestal,each,True
+OFF-1261,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1262,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+OFF-1263,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1264,sai-ke,OfficePoint,Office Furniture,OfficePoint reception counter,each,True
+OFF-1265,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+OFF-1266,sai-ke,OfficePoint,Office Furniture,OfficePoint boardroom table 8 seat,each,True
+OFF-1267,sai-ke,OfficePoint,Office Furniture,OfficePoint 1400mm desk,each,True
+SCH-1268,sai-ke,Schneider,Solar,Schneider hybrid inverter 5kVA,each,True
+BLU-1269,sai-ke,Blue Edge,Solar,Blue Edge solar charge controller,each,True
+EAT-1270,sai-ke,Eaton,Solar,Eaton solar panel 450W,each,True
+TRI-1271,sai-ke,Tripp Lite,Solar,Tripp Lite lithium battery 5kWh,each,True
+TRI-1272,sai-ke,Tripp Lite,Solar,Tripp Lite solar panel 450W,each,True
+BLU-1273,sai-ke,Blue Edge,Solar,Blue Edge solar charge controller,each,True
+EAT-1274,sai-ke,Eaton,Solar,Eaton hybrid inverter 5kVA,each,True
+TRI-1275,sai-ke,Tripp Lite,Solar,Tripp Lite hybrid inverter 5kVA,each,True
+EAT-1276,sai-ke,Eaton,Solar,Eaton hybrid inverter 5kVA,each,True
+EAT-1277,sai-ke,Eaton,Solar,Eaton solar panel 450W,each,True
+SCH-1278,sai-ke,Schneider,Solar,Schneider lithium battery 5kWh,each,True
+SCH-1279,sai-ke,Schneider,Solar,Schneider lithium battery 5kWh,each,True
+TRI-1280,sai-ke,Tripp Lite,Solar,Tripp Lite solar panel 450W,each,True
+APC-1281,sai-ke,APC,Solar,APC solar panel 450W,each,True
+TRI-1282,sai-ke,Tripp Lite,Solar,Tripp Lite solar panel 450W,each,True
+EAT-1283,sai-ke,Eaton,Solar,Eaton solar panel 450W,each,True
+APC-1284,sai-ke,APC,Solar,APC solar charge controller,each,True
+EAT-1285,sai-ke,Eaton,Solar,Eaton solar charge controller,each,True
+EAT-1286,sai-ke,Eaton,Solar,Eaton solar panel 450W,each,True
+TRI-1287,sai-ke,Tripp Lite,Solar,Tripp Lite solar charge controller,each,True
+SCH-1288,sai-ke,Schneider,Solar,Schneider solar panel 450W,each,True
+BLU-1289,sai-ke,Blue Edge,Solar,Blue Edge solar charge controller,each,True
+TRI-1290,sai-ke,Tripp Lite,Solar,Tripp Lite hybrid inverter 5kVA,each,True
+EAT-1291,sai-ke,Eaton,Solar,Eaton solar charge controller,each,True
+SCH-1292,sai-ke,Schneider,Solar,Schneider solar charge controller,each,True
+BLU-1293,sai-ke,Blue Edge,Cooling Solutions,Blue Edge cassette AC 36000BTU,each,True
+ORT-1294,sai-ke,Ortea,Cooling Solutions,Ortea portable air conditioner,each,True
+BLU-1295,sai-ke,Blue Edge,Cooling Solutions,Blue Edge cassette AC 36000BTU,each,True
+APC-1296,sai-ke,APC,Cooling Solutions,APC commercial outdoor unit,each,True
+TRI-1297,sai-ke,Tripp Lite,Cooling Solutions,Tripp Lite split air conditioner 18000BTU,each,True
+TRI-1298,sai-ke,Tripp Lite,Cooling Solutions,Tripp Lite portable air conditioner,each,True
+TRI-1299,sai-ke,Tripp Lite,Cooling Solutions,Tripp Lite cassette AC 36000BTU,each,True
+APC-1300,sai-ke,APC,Cooling Solutions,APC portable air conditioner,each,True
+BLU-1301,sai-ke,Blue Edge,Cooling Solutions,Blue Edge portable air conditioner,each,True
+BLU-1302,sai-ke,Blue Edge,Cooling Solutions,Blue Edge cassette AC 36000BTU,each,True
+APC-1303,sai-ke,APC,Cooling Solutions,APC cassette AC 36000BTU,each,True
+BLU-1304,sai-ke,Blue Edge,Cooling Solutions,Blue Edge commercial outdoor unit,each,True
+BLU-1305,sai-ke,Blue Edge,Cooling Solutions,Blue Edge cassette AC 36000BTU,each,True
+SCH-1306,sai-ke,Schneider,Cooling Solutions,Schneider commercial outdoor unit,each,True
+APC-1307,sai-ke,APC,Cooling Solutions,APC portable air conditioner,each,True
+BLU-1308,sai-ke,Blue Edge,Cooling Solutions,Blue Edge portable air conditioner,each,True
+TRI-1309,sai-ke,Tripp Lite,Cooling Solutions,Tripp Lite split air conditioner 18000BTU,each,True
+TRI-1310,sai-ke,Tripp Lite,Cooling Solutions,Tripp Lite portable air conditioner,each,True
+APC-1311,sai-ke,APC,Cooling Solutions,APC split air conditioner 18000BTU,each,True
+SCH-1312,sai-ke,Schneider,Cooling Solutions,Schneider cassette AC 36000BTU,each,True
+ORT-1313,sai-ke,Ortea,Cooling Solutions,Ortea cassette AC 36000BTU,each,True
+TRI-1314,sai-ke,Tripp Lite,Cooling Solutions,Tripp Lite commercial outdoor unit,each,True
+ORT-1315,sai-ke,Ortea,Cooling Solutions,Ortea split air conditioner 18000BTU,each,True
+SCH-1316,sai-ke,Schneider,Cooling Solutions,Schneider cassette AC 36000BTU,each,True
+SCH-1317,sai-ke,Schneider,Cooling Solutions,Schneider commercial outdoor unit,each,True
+HP-CF226A,sai-ke,HP,IT Solutions & Office Automation,HP 26A black toner cartridge,each,True
+BRO-TN2421,sai-ke,Brother,IT Solutions & Office Automation,Brother TN-2421 black toner cartridge,each,True
+OFP-A4-80,sai-ke,OfficePoint,Stationery,"OfficePoint A4 copier paper 80gsm, ream",each,True
+TZ-2000,sai-tz,Veda,Stationery,Veda stationery item 1,each,True
+TZ-2001,sai-tz,Veda,Stationery,Veda stationery item 2,each,True
+TZ-2002,sai-tz,Veda,Stationery,Veda stationery item 3,each,True
+TZ-2003,sai-tz,Veda,Stationery,Veda stationery item 4,each,True
+TZ-2004,sai-tz,Veda,Stationery,Veda stationery item 5,each,True
+TZ-2005,sai-tz,Veda,Stationery,Veda stationery item 6,each,True
+TZ-2006,sai-tz,Veda,Stationery,Veda stationery item 7,each,True
+TZ-2007,sai-tz,Veda,Stationery,Veda stationery item 8,each,True
+TZ-2008,sai-tz,Veda,Stationery,Veda stationery item 9,each,True
+TZ-2009,sai-tz,Veda,Stationery,Veda stationery item 10,each,True
+TZ-2010,sai-tz,Veda,Stationery,Veda stationery item 11,each,True
+TZ-2011,sai-tz,Veda,Stationery,Veda stationery item 12,each,True

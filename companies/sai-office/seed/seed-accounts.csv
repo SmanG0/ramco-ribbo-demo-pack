@@ -1,0 +1,41 @@
+account_id,tenant_id,account_code,company_name,industry,credit_terms_days,credit_limit,account_class,status,onboarded_at
+ea938fb0-0084-6aba-6d9e-9f0c793b22c6,sai-ke,KCH-0041,Kenya Commercial Holdings,Banking,30,500000,platinum,active,2019-03-14
+49b3cfd6-582c-702c-b9ae-bd7911f87156,sai-ke,NIG-0088,Nairobi Insurance Group,Insurance,30,2500000,standard,active,2019-11-02
+e55f68bc-a73a-e9a3-7089-c1b02e0e0e94,sai-tz,KTC-0012,Kilimanjaro Trading Co,Logistics,30,5000000,gold,active,2020-12-15
+1315321f-4004-8a33-cbaa-9bc193174212,sai-ke,KE-8055,Nyali Limited,Telecoms,14,500000,standard,active,2021-07-04
+fb46e631-53ee-c623-c4d2-c4d0ffb7b162,sai-ke,KE-2857,Cardinal Group,FMCG,14,5000000,standard,active,2023-08-15
+f3e21a56-a02d-0377-5fdf-351a439d3c05,sai-ke,KE-3332,Cardinal Group,Banking,14,2500000,platinum,active,2020-01-28
+2d88b186-a85b-af34-53ba-732eee247387,sai-ke,KE-2351,Nia Partners,Construction,30,500000,gold,active,2024-04-18
+15cdfa54-0dd4-f1ab-e9dc-2169d092207a,sai-ke,KE-7568,Serengeti Enterprises,Agriculture,14,500000,platinum,active,2021-02-09
+8af13860-9fc0-2d32-e476-bd13a289d846,sai-ke,KE-5525,Upendo Limited,Construction,14,5000000,gold,active,2022-11-24
+07ea7ec8-6b78-953f-0b66-ad7cd3b3ba4d,sai-ke,KE-4332,Upendo Capital,Agriculture,45,2500000,standard,active,2020-08-22
+75891ee8-ff77-b7cc-3ab3-5af3772f7f5a,sai-ke,KE-6912,Tembo Industries,Logistics,14,5000000,standard,active,2023-02-08
+767c0c6f-9fe5-eed6-6962-a4952889f486,sai-ke,KE-4871,Anga Solutions,Healthcare,30,500000,platinum,active,2022-02-02
+04c823b4-adac-2af1-e7ad-31e0930ab83a,sai-ke,KE-9593,Lulu Partners,Legal,45,2500000,gold,active,2024-05-04
+c331d694-9eab-fac3-010e-df895fb6c6c3,sai-ke,KE-2815,Zuri Holdings,Insurance,30,2500000,platinum,active,2021-10-14
+a0c565be-900e-95df-1213-4697fa3dc6a9,sai-ke,KE-9055,Mara Kenya,Manufacturing,30,500000,gold,active,2021-08-26
+9d8ade04-d1b3-022b-a213-db5ef2c0b831,sai-ke,KE-2724,Amani Limited,Logistics,30,1000000,standard,active,2020-12-13
+465e4f1a-6a37-d3dc-465b-196715bda2f2,sai-ke,KE-9305,Lulu Enterprises,Manufacturing,30,1000000,gold,active,2020-09-07
+d1799e4c-d526-50cb-a3ed-18dbd6b1a22f,sai-ke,KE-2353,Savannah Capital,NGO,45,5000000,platinum,active,2023-04-15
+279e0f97-abdc-f275-6a39-ad4f0903cc4f,sai-ke,KE-2745,Amani Solutions,Education,14,5000000,gold,active,2023-11-03
+368f908c-6cf2-b82d-fbca-fd0bbd84b4df,sai-ke,KE-4964,Karibu Africa,Agriculture,30,5000000,gold,active,2023-10-04
+3da496f2-6c68-6255-d3b3-12e2087ce75e,sai-ke,KE-6490,Nyali Systems,Education,30,500000,standard,active,2022-04-11
+33729b60-8b0b-ac69-5da0-6057f4a19148,sai-ke,KE-1189,Vantage Industries,FMCG,45,5000000,platinum,active,2019-11-27
+5afbc6bf-d652-a4e7-114a-3a7ab3a44394,sai-ke,KE-1181,Zuri Enterprises,Insurance,30,1000000,platinum,active,2022-12-07
+70274f14-b261-bd97-100c-a3de0bddc6c2,sai-ke,KE-6888,Kilimo Systems,FMCG,14,2500000,standard,active,2020-12-19
+73a024ee-4954-3236-9f12-654a9e4b07f8,sai-ke,KE-7218,Rift Limited,FMCG,30,500000,platinum,active,2020-01-27
+749a986b-fac7-0a30-9406-0ffa15f00b5f,sai-ke,KE-3247,Karibu Solutions,Manufacturing,30,1000000,standard,active,2019-03-02
+2198fcae-b678-397a-2ebe-15c1c94a5532,sai-ke,KE-9917,Lulu Partners,Construction,14,500000,standard,active,2020-06-23
+53faa3a3-625b-b313-c8e1-3e82e5703f89,sai-ke,KE-4283,Zuri Africa,Government,45,2500000,standard,active,2018-06-24
+94fe56f4-73dc-9f8d-0db4-a784e97fedc4,sai-ke,KE-1032,Aurora Capital,Hospitality,30,1000000,standard,active,2023-03-12
+26e918e8-5d7f-2dd9-b7d4-f81e963d9690,sai-ke,KE-2946,Jamii Partners,Healthcare,30,2500000,platinum,active,2020-09-04
+9fa38338-87f1-32ce-9c34-465c521dbb7a,sai-ke,KE-3043,Bahari Limited,Government,14,2500000,gold,active,2022-07-10
+fbadbef4-7a3d-b782-c9c7-a0778d6c0417,sai-ke,KE-2053,Baraka Africa,Agriculture,30,1000000,gold,active,2019-06-28
+07adceca-7f95-305b-444a-82b96276faf2,sai-tz,TZ-5155,Tuskys Systems,Agriculture,30,1000000,standard,active,2023-10-21
+936cdb97-44f2-e321-63ee-ca2307d8efd1,sai-tz,TZ-6075,Upendo Capital,Hospitality,45,2500000,standard,active,2024-07-14
+aac19ab6-a142-9f98-39ea-dcc7c5e38c9d,sai-tz,TZ-4879,Lulu Kenya,Construction,30,1000000,standard,active,2020-08-02
+7cda934e-9aab-cb6f-4cd4-abd78f657ab9,sai-tz,TZ-4210,Anga Africa,Construction,45,5000000,standard,active,2022-05-12
+a9d0b8b9-076f-71ce-2bc7-1816d9834567,sai-tz,TZ-9962,Imara Systems,Agriculture,30,1000000,gold,active,2023-11-15
+6b562e00-5380-224d-a1cc-e0653a3617e6,sai-tz,TZ-1548,Jua Capital,Education,30,1000000,standard,active,2024-12-12
+2c23a856-3538-fbd6-1db5-7ec38bda420f,sai-tz,TZ-7933,Kilimo Systems,Hospitality,45,1000000,standard,active,2023-08-13
+582d92d4-ad2a-1d55-12bb-547d1f333a42,sai-tz,TZ-7214,Faraja Capital,NGO,45,1000000,standard,active,2025-02-25

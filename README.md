@@ -10,7 +10,7 @@ the same way, the demo would prove nothing.
 
 | Bot | Company | Vertical | Agent pattern | Package status |
 |---|---|---|---|---|
-| 02 | Sai Office Supplies | Kora — Office & IT | Lookup and transact | ⏳ **pending** |
+| 02 | Sai Office Supplies | Kora — Office & IT | Lookup and transact | ✅ **ready** |
 | 03 | Ramco Printing Works | Plexus — Print & Packaging | Structured capture | ⏳ **pending** |
 | 04 | Safarilink Aviation | Oritsu — Services & Trading | Inventory query + identity verification | ✅ **ready** |
 
@@ -24,7 +24,7 @@ Do these in order. **Do not start a company bot until the shared spine passes it
 2. **`build-pack/01-shared-spine.md`** — build this completely. ~70% of total effort (4–5 eng days). Multi-tenant WhatsApp platform, Postgres schema, tool router, RLS isolation, auth. No company-specific code lives here.
 3. Then each company, in any order (they're independent once the spine exists):
    - **Safarilink** → spec `build-pack/04-safarilink.md` + package `companies/safarilink/` ✅ ready to build now
-   - **Sai Office** → spec `build-pack/02-sai-office.md` (package pending)
+   - **Sai Office** → spec `build-pack/02-sai-office.md` + package `companies/sai-office/` ✅ ready to build now
    - **Ramco Printing** → spec `build-pack/03-ramco-printing.md` (package pending)
 
 ---
@@ -46,7 +46,12 @@ companies/                    ← the deliverables (KBs + data to build with)
     kb/                         12 knowledge base docs (markdown)
     seed/                       11 seed CSVs (generated)
     scripts/generate_seed.py    reproducible generator, 20 assertions
-  sai-office/     ⏳ pending
+  sai-office/     ✅ READY
+    README.md                   package guide + demo beats the data supports
+    SPEC-CORRECTIONS.md         ⚠️ SUPERSEDES parts of 02-sai-office.md — read before building
+    kb/                         7 knowledge base docs (markdown)
+    seed/                       14 seed CSVs (generated)
+    scripts/generate_seed.py    reproducible generator, 26 assertions
   ramco-printing/ ⏳ pending
 ```
 
@@ -96,6 +101,26 @@ Build from the corrected figures, not the ones in sections 1, 4 and 6 of the spe
 
 ---
 
+## ⚠️ Sai Office: the spec under-described the business
+
+`companies/sai-office/SPEC-CORRECTIONS.md` **supersedes `build-pack/02-sai-office.md`**. This isn't
+detail-fixing — the spec treated Sai Office as a consumables reseller. It is a **seven-line operation**,
+and two of the best demo beats only exist once you know that:
+
+| Wrong / missing in spec | Correct |
+|---|---|
+| Toner/paper/stationery reseller | **Seven lines:** IT & automation, stationery, furniture, **solar**, **cooling/AC**, **printer & copier leasing**, **authorised Epson/APC service centre** |
+| — | **Repair-job status** beat ("your printer's been ready since Tuesday") — from the service centre |
+| — | **Lease & meter queries** beat — from Office Technologies leasing |
+| Published list price → contract price on auth | **No prices published anywhere** (quote-request form). New beat: *anonymous enquiry → captured lead* vs *recognised account → contract price* |
+| Brands incl. Konica Minolta, Hisense, Nataraj | Those **do not appear**; corrected brand list in the doc |
+| Delivery unspecified | **48-hour delivery** is a published SLA the bot can state |
+
+The `products` table deliberately has **no `list_price` column** (asserted in the generator) — price
+lives only in `price_lists`, per account.
+
+---
+
 ## `[VERIFY]` markers = the client questionnaire
 
 The KBs contain 30+ `[VERIFY]` markers. That is **not** incompleteness — it's the honest boundary
@@ -103,9 +128,12 @@ of what's publicly knowable (check-in windows, frequent-flyer mechanics, special
 prohibited items). Four Safarilink KB files are deliberately "structure only": the bot hands off
 rather than inventing an answer until the client fills them in.
 
+Sai Office has the same pattern — B2B distributors don't publish credit terms, discount bands or
+returns policy, so `kb-accounts-and-ordering.md` is structured as the client questionnaire.
+
 Pull the full list into a questionnaire to take to each client meeting:
 ```bash
-grep -rn "\[VERIFY" companies/safarilink/kb/ | sed 's/`//g'
+grep -rn "\[VERIFY" companies/*/kb/ | sed 's/`//g'
 ```
 Asking an airline precise operational questions is a far better first impression than a bot that
 confidently invented the answers.

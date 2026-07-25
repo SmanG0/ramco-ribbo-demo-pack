@@ -1,0 +1,71 @@
+machine_id,lease_id,asset_tag,model,location,current_meter_reading
+985370ca-1782-476f-3535-1495d4cfa7e3,ac50e397-060d-82d2-b1e1-61620eb37049,OT-88706,HP LaserJet Managed E82560,3rd Floor,77333
+5a4b9110-f2be-7592-1d57-e627cdda84ad,ac50e397-060d-82d2-b1e1-61620eb37049,OT-28362,Epson WorkForce Pro WF-C879R,Reception,27926
+77fae9d6-2c63-ad96-507c-7cff4b688baa,ac50e397-060d-82d2-b1e1-61620eb37049,OT-45145,Canon imageRUNNER 2630i,Reception,28575
+7b6aba1b-7933-a111-ac65-6ed9765ee084,ac50e397-060d-82d2-b1e1-61620eb37049,OT-70123,Epson WorkForce Pro WF-C879R,Boardroom,9133
+08d3b90f-1f38-a2f7-bfa8-8b3775e747fe,fbdb66bf-7bce-ade7-1bd2-8ff33c29f874,OT-68641,Canon imageRUNNER 2630i,Registry,80158
+33f8d3b7-cd06-cb24-7fef-f0d07752b7a4,fbdb66bf-7bce-ade7-1bd2-8ff33c29f874,OT-58481,Canon imageRUNNER 2630i,Registry,59674
+209edc78-2747-ba1e-0e23-a3f51960b539,fbdb66bf-7bce-ade7-1bd2-8ff33c29f874,OT-83938,HP LaserJet Managed E82560,Registry,12333
+ae7660ff-1096-f085-8dd5-9e8db7f2bf45,4f72ccab-927b-be76-b77d-a9167c7b1cdc,OT-31691,Epson WorkForce Pro WF-C879R,Boardroom,84691
+892d1adc-1e0c-b136-afb8-a13143824c9b,4f72ccab-927b-be76-b77d-a9167c7b1cdc,OT-18679,Epson WorkForce Pro WF-C879R,Registry,68223
+204ac67a-b768-50ec-2964-1ca1a7ba84ac,4f72ccab-927b-be76-b77d-a9167c7b1cdc,OT-72139,Epson WorkForce Pro WF-C879R,Reception,36282
+24603c84-9d97-4d3c-d92d-16934b3bf047,4f72ccab-927b-be76-b77d-a9167c7b1cdc,OT-60708,Canon imageRUNNER 2630i,Boardroom,86725
+0919fbfc-4f6c-1350-ffe8-0d85f7d710f9,26a233c6-827c-8501-1ed3-9d00107cafda,OT-13189,Canon imageRUNNER 2630i,Finance,38740
+5f1828d4-6532-d1d9-6364-1a17f5c71998,26a233c6-827c-8501-1ed3-9d00107cafda,OT-62226,Canon imageRUNNER 2630i,3rd Floor,81277
+04c1d0bb-169e-fad6-433e-2ad74c3035cd,26a233c6-827c-8501-1ed3-9d00107cafda,OT-78581,Epson WorkForce Pro WF-C879R,Boardroom,62345
+84ddff1f-81a1-6b04-7787-8174b1b28c64,cbff5f83-3d3f-bfcf-381b-5461c2fe6109,OT-42731,HP LaserJet Managed E82560,Registry,62429
+2cd2630e-fff9-4c48-f318-e881cb8bdfa7,d21e1913-7175-9366-3f47-7d8c6947db5a,OT-50331,Epson WorkForce Pro WF-C879R,Finance,16245
+97b22955-b29f-4c11-08ef-9ddd9d0d4630,d21e1913-7175-9366-3f47-7d8c6947db5a,OT-40024,Epson WorkForce Pro WF-C879R,Finance,43418
+16c56866-eb36-61d9-ff67-bc147e05dfca,d21e1913-7175-9366-3f47-7d8c6947db5a,OT-48812,Epson WorkForce Pro WF-C879R,Finance,20750
+c35410e4-437a-f2dd-4a07-5a7e435f2d2f,00e296a9-6761-3278-bbad-9b84bf789a84,OT-97046,HP LaserJet Managed E82560,Boardroom,77063
+35821992-1508-1431-2fd1-4ef33a1b7d4f,00e296a9-6761-3278-bbad-9b84bf789a84,OT-27508,HP LaserJet Managed E82560,Reception,66516
+e8c396a2-33af-b2fc-eeb1-5dcfcc01caac,00e296a9-6761-3278-bbad-9b84bf789a84,OT-77037,Epson WorkForce Pro WF-C879R,3rd Floor,71276
+8865f631-923f-a63d-e140-b1125aee9d31,cf52331f-dbbc-d633-92f8-d81373eaa0ac,OT-19792,Canon imageRUNNER 2630i,Registry,39720
+68fa5f77-7a40-2862-3507-1d014701f127,cf52331f-dbbc-d633-92f8-d81373eaa0ac,OT-69883,Epson WorkForce Pro WF-C879R,Reception,69995
+da82e19c-e766-a55d-234e-869dbcef6b8d,cf52331f-dbbc-d633-92f8-d81373eaa0ac,OT-15971,HP LaserJet Managed E82560,Finance,84355
+a0bf155c-9ad6-1f7b-3295-f947f80684c5,ab092e04-a042-9786-7819-1154821a031a,OT-33018,HP LaserJet Managed E82560,Reception,43548
+c53715ba-686b-08ac-0066-aa5a33f96fd3,ba00c439-209b-15c3-6c0e-cccffa54295e,OT-59543,Canon imageRUNNER 2630i,Boardroom,4709
+eab4e980-953f-1969-7f0d-99cdeec7ed3f,ba00c439-209b-15c3-6c0e-cccffa54295e,OT-14141,HP LaserJet Managed E82560,Finance,78598
+488f14f0-1509-7e9a-531d-c5210f0a20a8,e8b45cc1-da91-8797-fe3e-c8e17271a0a6,OT-10131,Epson WorkForce Pro WF-C879R,Finance,30965
+52752109-e365-7b03-0b52-4776d7a6e269,e8b45cc1-da91-8797-fe3e-c8e17271a0a6,OT-45871,Canon imageRUNNER 2630i,3rd Floor,79879
+57b88f6e-ab55-af29-7cc5-8a077563a204,e8b45cc1-da91-8797-fe3e-c8e17271a0a6,OT-74707,Canon imageRUNNER 2630i,Finance,84697
+c55eef98-8bdf-f22c-1deb-9ae35c4a5c73,09e7ad94-5bfa-13f9-a156-e9b347b41e93,OT-43066,Canon imageRUNNER 2630i,Finance,6987
+08cef9f0-7834-b52e-4841-842d55eca4b4,09e7ad94-5bfa-13f9-a156-e9b347b41e93,OT-97529,Canon imageRUNNER 2630i,3rd Floor,7051
+61689cc0-d78a-2c6e-5a2b-db0000511387,09e7ad94-5bfa-13f9-a156-e9b347b41e93,OT-31294,HP LaserJet Managed E82560,Registry,6538
+0da2ea39-75b9-55e3-28e0-b601e86f0dad,09e7ad94-5bfa-13f9-a156-e9b347b41e93,OT-75295,Epson WorkForce Pro WF-C879R,Reception,88551
+df05f39e-d772-91c5-e315-2c20d570d43c,ba1c98df-035d-af4b-7ccf-c473c6922f18,OT-53595,Epson WorkForce Pro WF-C879R,Reception,24792
+be52ece7-26db-b187-941d-f5fcf4190933,ba1c98df-035d-af4b-7ccf-c473c6922f18,OT-56989,Epson WorkForce Pro WF-C879R,3rd Floor,86022
+f1859ab0-f2a9-56d7-cb61-a27ca66ae62b,1262808a-fc76-c6b0-42d4-8718fbcc79ea,OT-11442,Epson WorkForce Pro WF-C879R,Registry,39972
+2b7398aa-aec5-5799-e52f-9f9cb8d27a50,1262808a-fc76-c6b0-42d4-8718fbcc79ea,OT-14341,Canon imageRUNNER 2630i,Registry,66076
+5b8cc99a-b39d-6c89-afcb-16a4f4ef6399,1262808a-fc76-c6b0-42d4-8718fbcc79ea,OT-20694,Epson WorkForce Pro WF-C879R,3rd Floor,68470
+f307e603-9012-45c0-d283-cf4eb86c8515,1262808a-fc76-c6b0-42d4-8718fbcc79ea,OT-80712,Epson WorkForce Pro WF-C879R,Finance,10864
+78f4a92c-0d6d-a54e-c189-f00163a6bf2f,db0d45ed-608d-d633-2674-c38517b64d8f,OT-39867,Canon imageRUNNER 2630i,Reception,86249
+ff8b8480-6fdd-ede0-c031-e6d0b9c41b58,0a19010a-b7b4-03f8-91ab-2d0a2921dad0,OT-18517,Epson WorkForce Pro WF-C879R,Registry,89973
+c162d44c-9d84-9698-dd80-a1b52dbd016b,65dc0029-eb67-b14f-8a71-d7c22b23f4f7,OT-92456,Canon imageRUNNER 2630i,3rd Floor,27395
+ebb08b2a-0027-99ff-213e-5c155ec7acda,9f9a8276-e74d-5831-b2ca-312511d4e39e,OT-87461,Epson WorkForce Pro WF-C879R,Boardroom,75395
+604122ae-1d12-0ae8-97ff-282e555c845a,9f9a8276-e74d-5831-b2ca-312511d4e39e,OT-87298,Canon imageRUNNER 2630i,Finance,26403
+c9eb66b1-f851-fdc5-8880-6e4a841115c2,9f9a8276-e74d-5831-b2ca-312511d4e39e,OT-66280,Canon imageRUNNER 2630i,3rd Floor,78721
+149a4199-cc39-866c-cd05-05cf4e70a9fa,656079bb-dc30-0a2f-b5ba-3c56d47130e7,OT-22136,Canon imageRUNNER 2630i,Finance,40070
+076efa59-2d6b-e95f-2134-cea7c534ecc3,656079bb-dc30-0a2f-b5ba-3c56d47130e7,OT-48863,Canon imageRUNNER 2630i,Registry,89465
+59ba7bef-4093-f399-f8ac-6f16f14db836,172c557a-410e-ed4f-bcab-da0da4040c1b,OT-85265,HP LaserJet Managed E82560,Finance,62966
+9b666398-3d69-c3c9-0bd9-9d019daf6b48,f83f72b3-94ff-f838-09a5-acbed5a5d74c,OT-63542,Canon imageRUNNER 2630i,Registry,67684
+24b06c07-743a-5ab4-c064-68cee74f4882,f83f72b3-94ff-f838-09a5-acbed5a5d74c,OT-37711,Epson WorkForce Pro WF-C879R,Finance,60649
+691f786c-036e-f447-38ed-756394b2ff9a,f83f72b3-94ff-f838-09a5-acbed5a5d74c,OT-82876,Canon imageRUNNER 2630i,3rd Floor,43507
+56810efe-fad1-588d-e4c9-db64f92655a4,78a8b9a4-6bfb-78c2-4605-262a0a54aabb,OT-10574,HP LaserJet Managed E82560,Registry,36270
+636476d6-71a0-d170-cd09-76913d7c2140,78a8b9a4-6bfb-78c2-4605-262a0a54aabb,OT-82372,Epson WorkForce Pro WF-C879R,3rd Floor,15720
+286767be-9ba7-8ef7-832d-5d33cdea359a,78a8b9a4-6bfb-78c2-4605-262a0a54aabb,OT-69676,Epson WorkForce Pro WF-C879R,3rd Floor,40621
+2530290e-f98e-383e-62ae-267b27ae8e8e,0385e06c-7891-bd76-e3a0-cc7d3f8a3f22,OT-60276,Epson WorkForce Pro WF-C879R,Reception,52441
+3743ece5-928c-703c-2fa2-f9c9026144de,5788f8ea-3b1e-a0cd-d85a-37fffea7ea39,OT-64633,Canon imageRUNNER 2630i,Reception,44198
+d9c36027-5265-5028-9254-ac72e832215d,5788f8ea-3b1e-a0cd-d85a-37fffea7ea39,OT-23330,HP LaserJet Managed E82560,3rd Floor,28848
+c6802bfb-e9ef-58fe-69b4-f958869d02ec,5788f8ea-3b1e-a0cd-d85a-37fffea7ea39,OT-91705,HP LaserJet Managed E82560,Registry,86487
+924bace8-6cfb-8163-03e6-9625792fd15a,bfc64bf7-d311-acbe-ac99-84c7ae141792,OT-23576,HP LaserJet Managed E82560,Finance,40119
+1a72d498-c840-a443-4d0b-1f834039b419,bfc64bf7-d311-acbe-ac99-84c7ae141792,OT-28382,HP LaserJet Managed E82560,3rd Floor,19832
+acf1a75a-6216-293c-7670-c8ee4f5f9fdb,bfc64bf7-d311-acbe-ac99-84c7ae141792,OT-98845,Epson WorkForce Pro WF-C879R,3rd Floor,52991
+8bf558cc-7f3e-d19d-d24e-1f133ea86b0d,3d3b02cb-6bac-17b0-112a-c41fc60b7357,OT-79295,HP LaserJet Managed E82560,Registry,67848
+3f2007fb-7412-1cc0-e8ab-d33977d0cea9,3d3b02cb-6bac-17b0-112a-c41fc60b7357,OT-18310,HP LaserJet Managed E82560,3rd Floor,18087
+bf7e5e8d-58dc-ba1b-b1bc-01e5328d2a80,3d3b02cb-6bac-17b0-112a-c41fc60b7357,OT-40359,Canon imageRUNNER 2630i,Registry,5867
+b6b4fd02-35f3-8e21-cbd6-a0d0feaf25a6,7b1925ea-f3f1-c077-70d4-d7e6e86c75b8,OT-95708,Epson WorkForce Pro WF-C879R,Reception,44193
+1880ad88-b581-1b6b-46ba-be1854bc1614,7b1925ea-f3f1-c077-70d4-d7e6e86c75b8,OT-12756,Epson WorkForce Pro WF-C879R,Finance,29928
+3efc6a09-395f-0f0e-fa8c-ee5cfb93d85f,7b1925ea-f3f1-c077-70d4-d7e6e86c75b8,OT-23771,Epson WorkForce Pro WF-C879R,Registry,68251
+ac2a5a80-a549-4dd3-c732-d70e07448236,10b3ef78-82d9-e001-5870-796b78557ee6,OT-68136,Canon imageRUNNER 2630i,3rd Floor,26542
+dc2f1233-6e0d-4011-5ca2-ba882ae08d23,10b3ef78-82d9-e001-5870-796b78557ee6,OT-26988,HP LaserJet Managed E82560,Finance,65956

@@ -1,0 +1,61 @@
+quote_ref,tenant_id,product_line,account_id,contact_name,contact_phone,requirement,status,created_at
+QR-7000,sai-ke,IT Solutions & Office Automation,,Beatrice Achieng,254783287311,Enquiry for it solutions & office automation,lost,2026-07-11
+QR-7001,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Faith Omondi,254771705452,Enquiry for cooling solutions,quoted,2026-07-25
+QR-7002,sai-ke,Office Furniture,,Dennis Barasa,254792321841,Enquiry for office furniture,won,2026-07-03
+QR-7003,sai-ke,IT Solutions & Office Automation,,Dennis Omondi,254773111392,Enquiry for it solutions & office automation,quoted,2026-06-12
+QR-7004,sai-ke,Stationery,,Beatrice Wafula,254767741401,Enquiry for stationery,lost,2026-07-20
+QR-7005,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Victor Mwende,254770058501,Enquiry for office furniture,lost,2026-06-23
+QR-7006,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Grace Wanjiru,254721274677,Enquiry for stationery,won,2026-06-22
+QR-7007,sai-ke,IT Solutions & Office Automation,,Peter Otieno,254774160412,Enquiry for it solutions & office automation,won,2026-06-28
+QR-7008,sai-ke,IT Solutions & Office Automation,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,James Njeri,254789854568,Enquiry for it solutions & office automation,won,2026-07-06
+QR-7009,sai-ke,Office Furniture,,James Mutiso,254741075767,Enquiry for office furniture,with_sales,2026-07-02
+QR-7010,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Esther Auma,254792026142,Enquiry for cooling solutions,with_sales,2026-07-13
+QR-7011,sai-ke,Stationery,,Brian Kilonzo,254782137500,Enquiry for stationery,quoted,2026-07-31
+QR-7012,sai-ke,IT Solutions & Office Automation,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,John Ochieng,254778642002,Enquiry for it solutions & office automation,quoted,2026-08-02
+QR-7013,sai-ke,Stationery,,Victor Kilonzo,254749231698,Enquiry for stationery,won,2026-07-30
+QR-7014,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Mary Mutiso,254724481919,Enquiry for cooling solutions,won,2026-07-10
+QR-7015,sai-ke,Cooling Solutions,,Winnie Wafula,254755003607,Enquiry for cooling solutions,lost,2026-06-23
+QR-7016,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Anthony Mureithi,254714572253,Enquiry for cooling solutions,new,2026-06-28
+QR-7017,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Esther Mwende,254799419191,Enquiry for stationery,won,2026-07-14
+QR-7018,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Alice Odhiambo,254768734286,Enquiry for stationery,with_sales,2026-06-13
+QR-7019,sai-ke,Office Furniture,,Sharon Adhiambo,254711809449,Enquiry for office furniture,won,2026-06-27
+QR-7020,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Peter Kamau,254729795091,Enquiry for office furniture,lost,2026-07-06
+QR-7021,sai-ke,IT Solutions & Office Automation,,Joyce Njeri,254792950463,Enquiry for it solutions & office automation,won,2026-06-23
+QR-7022,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Faith Mutiso,254768480874,Enquiry for stationery,with_sales,2026-06-21
+QR-7023,sai-ke,Solar,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Peter Kamau,254779589441,Enquiry for solar,quoted,2026-06-15
+QR-7024,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Kevin Adhiambo,254763885355,Enquiry for office furniture,new,2026-06-22
+QR-7025,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Grace Chebet,254750535364,Enquiry for stationery,lost,2026-06-14
+QR-7026,sai-ke,Stationery,,Caroline Kariuki,254720781170,Enquiry for stationery,quoted,2026-07-29
+QR-7027,sai-ke,Stationery,,Daniel Kamau,254721562318,Enquiry for stationery,quoted,2026-07-31
+QR-7028,sai-ke,Office Furniture,,Dennis Kamau,254760193379,Enquiry for office furniture,lost,2026-07-10
+QR-7029,sai-ke,Cooling Solutions,,Naomi Mureithi,254772616220,Enquiry for cooling solutions,new,2026-07-26
+QR-7030,sai-ke,Solar,,Kevin Odhiambo,254715161900,Enquiry for solar,lost,2026-06-23
+QR-7031,sai-ke,Stationery,,Winnie Mutiso,254787987723,Enquiry for stationery,lost,2026-06-29
+QR-7032,sai-ke,Stationery,,Joyce Wekesa,254744803346,Enquiry for stationery,quoted,2026-07-28
+QR-7033,sai-ke,Office Furniture,,Samuel Njeri,254728411747,Enquiry for office furniture,won,2026-06-29
+QR-7034,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,David Kilonzo,254761331900,Enquiry for cooling solutions,won,2026-08-03
+QR-7035,sai-ke,Solar,,Samuel Kariuki,254736114072,Enquiry for solar,quoted,2026-08-05
+QR-7036,sai-ke,IT Solutions & Office Automation,,Winnie Kamau,254725362244,Enquiry for it solutions & office automation,with_sales,2026-06-12
+QR-7037,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Dennis Kariuki,254799368441,Enquiry for stationery,with_sales,2026-06-26
+QR-7038,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Mercy Chebet,254731076321,Enquiry for office furniture,won,2026-07-30
+QR-7039,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Winnie Chebet,254710491787,Enquiry for cooling solutions,lost,2026-08-09
+QR-7040,sai-ke,IT Solutions & Office Automation,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Paul Ochieng,254765956580,Enquiry for it solutions & office automation,quoted,2026-07-21
+QR-7041,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Anthony Odhiambo,254773820945,Enquiry for cooling solutions,quoted,2026-07-12
+QR-7042,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,David Muthoni,254776994615,Enquiry for office furniture,new,2026-06-22
+QR-7043,sai-ke,IT Solutions & Office Automation,,Naomi Achieng,254795957890,Enquiry for it solutions & office automation,new,2026-06-17
+QR-7044,sai-ke,Solar,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Kevin Mutiso,254792388542,Enquiry for solar,won,2026-08-01
+QR-7045,sai-ke,Solar,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Sharon Auma,254757991683,Enquiry for solar,quoted,2026-07-14
+QR-7046,sai-ke,IT Solutions & Office Automation,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Samuel Njeri,254778379287,Enquiry for it solutions & office automation,quoted,2026-07-18
+QR-7047,sai-ke,Solar,,John Mwende,254748489278,Enquiry for solar,quoted,2026-07-28
+QR-7048,sai-ke,Stationery,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,James Ochieng,254771051074,Enquiry for stationery,new,2026-07-15
+QR-7049,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Daniel Mutiso,254748123097,Enquiry for office furniture,lost,2026-06-13
+QR-7050,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Brian Nyambura,254719534096,Enquiry for office furniture,lost,2026-06-22
+QR-7051,sai-ke,Solar,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Dennis Mutiso,254769053814,Enquiry for solar,quoted,2026-06-22
+QR-7052,sai-ke,Cooling Solutions,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Grace Wanjiru,254791816885,Enquiry for cooling solutions,quoted,2026-07-14
+QR-7053,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Peter Achieng,254711689120,Enquiry for office furniture,won,2026-06-17
+QR-7054,sai-ke,IT Solutions & Office Automation,,Beatrice Barasa,254757571448,Enquiry for it solutions & office automation,quoted,2026-06-30
+QR-7055,sai-ke,Stationery,,James Odhiambo,254740563536,Enquiry for stationery,won,2026-07-13
+QR-7056,sai-ke,Solar,,Joyce Achieng,254787591912,Enquiry for solar,quoted,2026-07-28
+QR-7057,sai-ke,IT Solutions & Office Automation,,Samuel Adhiambo,254737927249,Enquiry for it solutions & office automation,quoted,2026-07-31
+QR-7058,sai-ke,Office Furniture,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,Peter Auma,254798207352,Enquiry for office furniture,lost,2026-07-15
+QR-7059,sai-ke,IT Solutions & Office Automation,,Kevin Chebet,254796794563,Enquiry for it solutions & office automation,new,2026-07-31

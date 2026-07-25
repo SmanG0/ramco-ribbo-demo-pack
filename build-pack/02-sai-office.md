@@ -1,5 +1,13 @@
 # 02 — Sai Office Supplies
 
+> ⚠️ **READ THIS SPEC ALONGSIDE `companies/sai-office/SPEC-CORRECTIONS.md`.**
+> The corrections doc supersedes this spec. It doesn't just fix details — it **under-described the business**, which changes the demo design:
+> Sai Office is a **seven-line operation** (IT/automation, stationery, furniture, **solar**, **cooling/AC**, **printer & copier leasing**, and an **authorised Epson/APC service centre**), **not** a consumables reseller.
+> Two of the strongest demo beats — **repair-job status** and **lease/meter queries** — come only from the corrected description.
+> Also: **no prices are published anywhere** (site uses a quote-request form, so the list-vs-contract beat is replaced by *anonymous enquiry → captured lead* vs *recognised account → contract price*);
+> brand list corrected (**Konica Minolta, Hisense, Nataraj do not appear**); **48-hour delivery** is a published SLA; 500+ staff; incorporated 1994.
+> Build from the corrected description, not sections 1–2 below.
+
 **Vertical:** Ramco Kora (Office & IT Distribution)
 **Agent pattern:** Lookup and transact
 **Tenants:** `sai-ke` (primary), `sai-tz` (for the live tenant switch)

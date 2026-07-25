@@ -1,0 +1,10 @@
+branch_id,tenant_id,branch_name,city,address,is_trade_counter,opening_hours
+bfb69fe8-1548-6f0b-3f13-f26c740f0c1f,sai-ke,Westlands (Head Office),Westlands,VERIFY - obtain address,False,VERIFY - obtain hours
+8efa6771-e1d6-8ea8-08d8-13c5a1acffce,sai-ke,Industrial Area,Industrial Area,VERIFY - obtain address,True,VERIFY - obtain hours
+4e87eafa-e937-ff84-ae92-fc9068abf480,sai-ke,Mombasa Road,Mombasa Road,VERIFY - obtain address,True,VERIFY - obtain hours
+1e401c64-aea5-9092-c7c7-11e1e0c79b36,sai-ke,Nairobi CBD,Nairobi CBD,VERIFY - obtain address,False,VERIFY - obtain hours
+b39999e9-ac87-cd22-4751-5e4d2d25ae47,sai-ke,Mombasa,Mombasa,VERIFY - obtain address,False,VERIFY - obtain hours
+0f9aa6b8-15cc-0d9b-56c3-61f5f86544f9,sai-ke,Kisumu,Kisumu,VERIFY - obtain address,False,VERIFY - obtain hours
+ff88541a-8c54-5afd-bec8-f2112874cd5d,sai-tz,Dar es Salaam,Dar es Salaam,VERIFY - obtain address,False,VERIFY - obtain hours
+b16b1b8d-a80e-28c7-6981-24e0c0c890ea,sai-tz,Arusha,Arusha,VERIFY - obtain address,False,VERIFY - obtain hours
+c4ce17fe-ee69-e939-ed3c-f7adf6ef4b89,sai-tz,Mwanza,Mwanza,VERIFY - obtain address,False,VERIFY - obtain hours

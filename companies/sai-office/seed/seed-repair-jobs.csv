@@ -1,0 +1,73 @@
+repair_job_no,account_id,contact_id,tenant_id,brand,model,serial_no,fault_description,current_stage,received_at,quote_amount,warranty_status
+RJ-4401,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,b01a7154-dd90-a260-74ed-d3ec54a67c04,sai-ke,Epson,WorkForce Pro WF-C5790,X4TY882031,"Paper feed jam, intermittent",ready_for_collection,2026-07-31,,out_of_warranty
+RJ-4402,49b3cfd6-582c-702c-b9ae-bd7911f87156,d8413a8f-e988-7014-92dd-f0e4b48b5224,sai-ke,APC,Smart-UPS SRT 3000VA,AS2419110776,"Unit not holding charge, battery module suspect",awaiting_customer_approval,2026-08-03,48750.0,out_of_warranty
+RJ-4403,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,b01a7154-dd90-a260-74ed-d3ec54a67c04,sai-ke,APC,Back-UPS Pro 1200,A5644593,Print quality streaking,awaiting_customer_approval,2026-07-29,,out_of_warranty
+RJ-4404,04c823b4-adac-2af1-e7ad-31e0930ab83a,1b5b6cfd-e39e-d63f-ab83-0b9561ed94b4,sai-ke,Epson,Back-UPS Pro 1200,B9730533,Print quality streaking,awaiting_parts,2026-07-26,,in_warranty
+RJ-4405,04c823b4-adac-2af1-e7ad-31e0930ab83a,1b5b6cfd-e39e-d63f-ab83-0b9561ed94b4,sai-ke,APC,Smart-UPS 1500VA,B8383546,Network module failure,received,2026-07-07,14204.32,out_of_warranty
+RJ-4406,749a986b-fac7-0a30-9406-0ffa15f00b5f,96cd5282-186d-97ad-84a9-9bc64a0e53b3,sai-ke,APC,Smart-UPS 1500VA,A5474167,Will not power on,awaiting_parts,2026-07-30,,out_of_warranty
+RJ-4407,fb46e631-53ee-c623-c4d2-c4d0ffb7b162,911e5327-c97b-f75d-950a-255d3e61a361,sai-ke,Epson,Back-UPS Pro 1200,B6885915,Will not power on,ready_for_collection,2026-08-06,,in_warranty
+RJ-4408,53faa3a3-625b-b313-c8e1-3e82e5703f89,9bed7792-2017-0ffd-1ed6-8d4b49fd994e,sai-ke,Epson,WorkForce WF-7840,B3666867,Battery fault,collected,2026-06-30,,out_of_warranty
+RJ-4409,2d88b186-a85b-af34-53ba-732eee247387,513e6e94-8ca7-8a74-88ab-bfec36f3df83,sai-ke,Epson,WorkForce WF-7840,X1764802,Network module failure,ready_for_collection,2026-08-02,,out_of_warranty
+RJ-4410,465e4f1a-6a37-d3dc-465b-196715bda2f2,704342d7-7ad3-43ef-0dcd-c690449e0600,sai-ke,APC,Back-UPS Pro 1200,X6677356,Will not power on,under_repair,2026-07-07,47455.73,out_of_warranty
+RJ-4411,04c823b4-adac-2af1-e7ad-31e0930ab83a,1b5b6cfd-e39e-d63f-ab83-0b9561ed94b4,sai-ke,APC,EcoTank L6290,A4820080,Battery fault,ready_for_collection,2026-07-14,22456.04,out_of_warranty
+RJ-4412,3da496f2-6c68-6255-d3b3-12e2087ce75e,c8a2b4aa-942a-c492-f8f4-3e6a162a8e9d,sai-ke,Epson,WorkForce WF-7840,A2175160,Battery fault,under_repair,2026-07-06,,in_warranty
+RJ-4413,767c0c6f-9fe5-eed6-6962-a4952889f486,1440d33c-a7df-b5ed-7b95-4c9eae780266,sai-ke,Epson,Back-UPS Pro 1200,A5569811,Print quality streaking,awaiting_parts,2026-07-31,,out_of_warranty
+RJ-4414,c331d694-9eab-fac3-010e-df895fb6c6c3,0a19ad6e-6628-8099-0a7c-415e45ecf47c,sai-ke,APC,WorkForce WF-7840,X2752888,Print quality streaking,ready_for_collection,2026-07-30,44613.71,out_of_warranty
+RJ-4415,d1799e4c-d526-50cb-a3ed-18dbd6b1a22f,de5550e6-e029-4c9b-5d94-b2efd3504761,sai-ke,Epson,WorkForce WF-7840,X9070402,Network module failure,ready_for_collection,2026-07-22,40435.1,out_of_warranty
+RJ-4416,f3e21a56-a02d-0377-5fdf-351a439d3c05,ad7ffc2d-68fd-bdb6-78cd-f10fff39af01,sai-ke,APC,EcoTank L6290,A1506898,Will not power on,awaiting_customer_approval,2026-07-27,34513.37,in_warranty
+RJ-4417,33729b60-8b0b-ac69-5da0-6057f4a19148,1ce9988d-ae7e-a81a-64fb-61438ba6e1a4,sai-ke,APC,Smart-UPS 1500VA,A5241936,Network module failure,awaiting_customer_approval,2026-08-04,,in_warranty
+RJ-4418,1315321f-4004-8a33-cbaa-9bc193174212,930baecc-d0eb-3b1b-76a8-03f6484242b9,sai-ke,Epson,EcoTank L6290,B8247207,Network module failure,ready_for_collection,2026-07-15,,out_of_warranty
+RJ-4419,767c0c6f-9fe5-eed6-6962-a4952889f486,1440d33c-a7df-b5ed-7b95-4c9eae780266,sai-ke,APC,EcoTank L6290,B9905704,Battery fault,collected,2026-07-25,,out_of_warranty
+RJ-4420,767c0c6f-9fe5-eed6-6962-a4952889f486,1440d33c-a7df-b5ed-7b95-4c9eae780266,sai-ke,APC,Back-UPS Pro 1200,A3415375,Network module failure,awaiting_customer_approval,2026-07-02,,in_warranty
+RJ-4421,33729b60-8b0b-ac69-5da0-6057f4a19148,1ce9988d-ae7e-a81a-64fb-61438ba6e1a4,sai-ke,Epson,Smart-UPS 1500VA,X9623630,Will not power on,awaiting_customer_approval,2026-07-03,63459.06,in_warranty
+RJ-4422,9d8ade04-d1b3-022b-a213-db5ef2c0b831,95a78e07-d62b-b9a7-b255-34ed5be13b09,sai-ke,Epson,EcoTank L6290,X4744639,Network module failure,under_repair,2026-07-03,,in_warranty
+RJ-4423,9fa38338-87f1-32ce-9c34-465c521dbb7a,43005775-ddf4-beab-037f-7331744272c1,sai-ke,Epson,Back-UPS Pro 1200,B1278686,Print quality streaking,diagnosed,2026-07-19,6181.58,out_of_warranty
+RJ-4424,a0c565be-900e-95df-1213-4697fa3dc6a9,f1c29bd3-2b32-3dbd-8353-031a1df0c91b,sai-ke,APC,EcoTank L6290,B8208526,Print quality streaking,received,2026-07-24,68276.52,out_of_warranty
+RJ-4425,9d8ade04-d1b3-022b-a213-db5ef2c0b831,95a78e07-d62b-b9a7-b255-34ed5be13b09,sai-ke,Epson,Back-UPS Pro 1200,X1209240,Print quality streaking,awaiting_parts,2026-07-07,55720.95,in_warranty
+RJ-4426,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,b01a7154-dd90-a260-74ed-d3ec54a67c04,sai-ke,Epson,EcoTank L6290,B4779489,Battery fault,received,2026-08-04,78962.27,out_of_warranty
+RJ-4427,f3e21a56-a02d-0377-5fdf-351a439d3c05,ad7ffc2d-68fd-bdb6-78cd-f10fff39af01,sai-ke,APC,Back-UPS Pro 1200,X4739208,Network module failure,diagnosed,2026-07-15,,in_warranty
+RJ-4428,9fa38338-87f1-32ce-9c34-465c521dbb7a,43005775-ddf4-beab-037f-7331744272c1,sai-ke,APC,Smart-UPS 1500VA,X9481785,Scanner unit error,under_repair,2026-08-01,,out_of_warranty
+RJ-4429,04c823b4-adac-2af1-e7ad-31e0930ab83a,1b5b6cfd-e39e-d63f-ab83-0b9561ed94b4,sai-ke,Epson,EcoTank L6290,B3455020,Will not power on,awaiting_parts,2026-07-06,88004.71,out_of_warranty
+RJ-4430,15cdfa54-0dd4-f1ab-e9dc-2169d092207a,0bc7f186-2f34-1187-e643-9fc9c7342c47,sai-ke,APC,WorkForce WF-7840,A6139850,Battery fault,under_repair,2026-06-28,20426.51,in_warranty
+RJ-4431,5afbc6bf-d652-a4e7-114a-3a7ab3a44394,37202963-f1f9-4cdf-6f35-3b0780757642,sai-ke,Epson,Smart-UPS 1500VA,X8362675,Battery fault,awaiting_customer_approval,2026-07-31,,in_warranty
+RJ-4432,04c823b4-adac-2af1-e7ad-31e0930ab83a,1b5b6cfd-e39e-d63f-ab83-0b9561ed94b4,sai-ke,APC,Smart-UPS 1500VA,X9277360,Print quality streaking,ready_for_collection,2026-07-31,,out_of_warranty
+RJ-4433,26e918e8-5d7f-2dd9-b7d4-f81e963d9690,055e8953-3ef6-9f7b-8394-461070840e77,sai-ke,Epson,Back-UPS Pro 1200,A6894625,Print quality streaking,ready_for_collection,2026-07-11,77080.58,out_of_warranty
+RJ-4434,15cdfa54-0dd4-f1ab-e9dc-2169d092207a,0bc7f186-2f34-1187-e643-9fc9c7342c47,sai-ke,APC,Back-UPS Pro 1200,B6514094,Battery fault,diagnosed,2026-07-28,,out_of_warranty
+RJ-4435,26e918e8-5d7f-2dd9-b7d4-f81e963d9690,055e8953-3ef6-9f7b-8394-461070840e77,sai-ke,Epson,WorkForce WF-7840,A7476565,Print quality streaking,diagnosed,2026-07-11,79653.82,out_of_warranty
+RJ-4436,465e4f1a-6a37-d3dc-465b-196715bda2f2,704342d7-7ad3-43ef-0dcd-c690449e0600,sai-ke,Epson,EcoTank L6290,X2974637,Battery fault,awaiting_customer_approval,2026-07-26,,out_of_warranty
+RJ-4437,fbadbef4-7a3d-b782-c9c7-a0778d6c0417,dfc2a245-2e43-02c2-089a-64b24b692d5b,sai-ke,Epson,WorkForce WF-7840,B2097315,Print quality streaking,awaiting_customer_approval,2026-07-17,,in_warranty
+RJ-4438,279e0f97-abdc-f275-6a39-ad4f0903cc4f,12d1062c-a3ce-8b35-006b-d5a6400d7e34,sai-ke,APC,Back-UPS Pro 1200,A9492979,Scanner unit error,diagnosed,2026-06-25,,in_warranty
+RJ-4439,70274f14-b261-bd97-100c-a3de0bddc6c2,055de868-31c4-e16a-f7de-d00178f72b98,sai-ke,Epson,Back-UPS Pro 1200,X9190153,Will not power on,under_repair,2026-07-26,,out_of_warranty
+RJ-4440,d1799e4c-d526-50cb-a3ed-18dbd6b1a22f,de5550e6-e029-4c9b-5d94-b2efd3504761,sai-ke,APC,Smart-UPS 1500VA,X5002678,Scanner unit error,awaiting_parts,2026-06-26,24694.85,out_of_warranty
+RJ-4441,73a024ee-4954-3236-9f12-654a9e4b07f8,017228fb-554f-2447-43eb-6f9babf6345d,sai-ke,Epson,EcoTank L6290,B8638420,Scanner unit error,diagnosed,2026-07-14,,out_of_warranty
+RJ-4442,fb46e631-53ee-c623-c4d2-c4d0ffb7b162,911e5327-c97b-f75d-950a-255d3e61a361,sai-ke,Epson,EcoTank L6290,A5330417,Print quality streaking,collected,2026-07-30,,out_of_warranty
+RJ-4443,3da496f2-6c68-6255-d3b3-12e2087ce75e,c8a2b4aa-942a-c492-f8f4-3e6a162a8e9d,sai-ke,Epson,EcoTank L6290,X7880820,Scanner unit error,diagnosed,2026-07-31,63971.33,in_warranty
+RJ-4444,8af13860-9fc0-2d32-e476-bd13a289d846,b47776ce-1153-3be0-6118-511933c53def,sai-ke,APC,Smart-UPS 1500VA,B5883400,Network module failure,awaiting_customer_approval,2026-07-08,64841.44,in_warranty
+RJ-4445,a0c565be-900e-95df-1213-4697fa3dc6a9,f1c29bd3-2b32-3dbd-8353-031a1df0c91b,sai-ke,Epson,WorkForce WF-7840,X3530808,Scanner unit error,collected,2026-08-04,65629.02,in_warranty
+RJ-4446,368f908c-6cf2-b82d-fbca-fd0bbd84b4df,a1c595f3-bb88-d88d-4225-1d39e4e3bee3,sai-ke,Epson,Smart-UPS 1500VA,B8078562,Scanner unit error,under_repair,2026-07-26,52661.31,out_of_warranty
+RJ-4447,2198fcae-b678-397a-2ebe-15c1c94a5532,6fb426ae-4ab3-75ca-5f82-d3a1794c4f4f,sai-ke,Epson,WorkForce WF-7840,A7692647,Battery fault,collected,2026-07-07,63074.89,out_of_warranty
+RJ-4448,fbadbef4-7a3d-b782-c9c7-a0778d6c0417,dfc2a245-2e43-02c2-089a-64b24b692d5b,sai-ke,Epson,Back-UPS Pro 1200,A7246748,Scanner unit error,collected,2026-07-27,,in_warranty
+RJ-4449,15cdfa54-0dd4-f1ab-e9dc-2169d092207a,0bc7f186-2f34-1187-e643-9fc9c7342c47,sai-ke,Epson,Back-UPS Pro 1200,X2396435,Network module failure,received,2026-07-29,,in_warranty
+RJ-4450,749a986b-fac7-0a30-9406-0ffa15f00b5f,96cd5282-186d-97ad-84a9-9bc64a0e53b3,sai-ke,Epson,WorkForce WF-7840,B3750659,Print quality streaking,received,2026-07-02,89009.86,in_warranty
+RJ-4451,1315321f-4004-8a33-cbaa-9bc193174212,930baecc-d0eb-3b1b-76a8-03f6484242b9,sai-ke,APC,Smart-UPS 1500VA,B9576461,Will not power on,received,2026-07-24,76256.18,in_warranty
+RJ-4452,70274f14-b261-bd97-100c-a3de0bddc6c2,055de868-31c4-e16a-f7de-d00178f72b98,sai-ke,APC,Smart-UPS 1500VA,X4829727,Scanner unit error,ready_for_collection,2026-07-05,,out_of_warranty
+RJ-4453,ea938fb0-0084-6aba-6d9e-9f0c793b22c6,b01a7154-dd90-a260-74ed-d3ec54a67c04,sai-ke,Epson,Back-UPS Pro 1200,X4564860,Battery fault,diagnosed,2026-08-06,84304.31,in_warranty
+RJ-4454,70274f14-b261-bd97-100c-a3de0bddc6c2,055de868-31c4-e16a-f7de-d00178f72b98,sai-ke,APC,Smart-UPS 1500VA,X4802607,Will not power on,under_repair,2026-07-10,,out_of_warranty
+RJ-4455,368f908c-6cf2-b82d-fbca-fd0bbd84b4df,a1c595f3-bb88-d88d-4225-1d39e4e3bee3,sai-ke,APC,WorkForce WF-7840,A6371363,Network module failure,collected,2026-08-06,,out_of_warranty
+RJ-4456,fbadbef4-7a3d-b782-c9c7-a0778d6c0417,dfc2a245-2e43-02c2-089a-64b24b692d5b,sai-ke,Epson,EcoTank L6290,A9359501,Battery fault,diagnosed,2026-06-26,42706.61,out_of_warranty
+RJ-4457,fbadbef4-7a3d-b782-c9c7-a0778d6c0417,dfc2a245-2e43-02c2-089a-64b24b692d5b,sai-ke,APC,Smart-UPS 1500VA,A6557537,Scanner unit error,diagnosed,2026-06-27,15944.42,in_warranty
+RJ-4458,15cdfa54-0dd4-f1ab-e9dc-2169d092207a,0bc7f186-2f34-1187-e643-9fc9c7342c47,sai-ke,APC,WorkForce WF-7840,X6699306,Scanner unit error,received,2026-06-27,,in_warranty
+RJ-4459,75891ee8-ff77-b7cc-3ab3-5af3772f7f5a,b4d7b2e7-9fd5-5436-a4e5-edf8e2a60e39,sai-ke,APC,WorkForce WF-7840,A8103281,Scanner unit error,received,2026-08-06,74834.43,out_of_warranty
+RJ-4460,9d8ade04-d1b3-022b-a213-db5ef2c0b831,95a78e07-d62b-b9a7-b255-34ed5be13b09,sai-ke,Epson,Smart-UPS 1500VA,B3396424,Scanner unit error,received,2026-07-27,,in_warranty
+RJ-4461,767c0c6f-9fe5-eed6-6962-a4952889f486,1440d33c-a7df-b5ed-7b95-4c9eae780266,sai-ke,APC,Back-UPS Pro 1200,A7387612,Scanner unit error,diagnosed,2026-07-09,,in_warranty
+RJ-4462,49b3cfd6-582c-702c-b9ae-bd7911f87156,d8413a8f-e988-7014-92dd-f0e4b48b5224,sai-ke,APC,Smart-UPS 1500VA,X7273953,Will not power on,diagnosed,2026-07-21,,in_warranty
+RJ-4463,49b3cfd6-582c-702c-b9ae-bd7911f87156,d8413a8f-e988-7014-92dd-f0e4b48b5224,sai-ke,APC,Back-UPS Pro 1200,B9571354,Scanner unit error,collected,2026-07-28,58596.29,in_warranty
+RJ-4464,465e4f1a-6a37-d3dc-465b-196715bda2f2,704342d7-7ad3-43ef-0dcd-c690449e0600,sai-ke,Epson,WorkForce WF-7840,A2942541,Scanner unit error,awaiting_customer_approval,2026-07-08,,in_warranty
+RJ-4465,8af13860-9fc0-2d32-e476-bd13a289d846,b47776ce-1153-3be0-6118-511933c53def,sai-ke,APC,Back-UPS Pro 1200,A2356319,Print quality streaking,diagnosed,2026-07-22,15228.43,in_warranty
+RJ-4466,2198fcae-b678-397a-2ebe-15c1c94a5532,6fb426ae-4ab3-75ca-5f82-d3a1794c4f4f,sai-ke,Epson,Smart-UPS 1500VA,A1191214,Network module failure,awaiting_parts,2026-06-29,57405.78,in_warranty
+RJ-4467,a0c565be-900e-95df-1213-4697fa3dc6a9,f1c29bd3-2b32-3dbd-8353-031a1df0c91b,sai-ke,Epson,Smart-UPS 1500VA,X8048256,Print quality streaking,ready_for_collection,2026-06-28,,in_warranty
+RJ-4468,75891ee8-ff77-b7cc-3ab3-5af3772f7f5a,b4d7b2e7-9fd5-5436-a4e5-edf8e2a60e39,sai-ke,Epson,WorkForce WF-7840,X2889106,Battery fault,collected,2026-07-25,,out_of_warranty
+RJ-4469,fbadbef4-7a3d-b782-c9c7-a0778d6c0417,dfc2a245-2e43-02c2-089a-64b24b692d5b,sai-ke,APC,Back-UPS Pro 1200,B4817021,Network module failure,received,2026-07-06,6665.57,in_warranty
+RJ-4470,9fa38338-87f1-32ce-9c34-465c521dbb7a,43005775-ddf4-beab-037f-7331744272c1,sai-ke,Epson,Back-UPS Pro 1200,A6548439,Scanner unit error,received,2026-06-29,,in_warranty
+RJ-4471,26e918e8-5d7f-2dd9-b7d4-f81e963d9690,055e8953-3ef6-9f7b-8394-461070840e77,sai-ke,APC,Back-UPS Pro 1200,X7641688,Will not power on,awaiting_customer_approval,2026-07-09,,out_of_warranty
+RJ-4472,fbadbef4-7a3d-b782-c9c7-a0778d6c0417,dfc2a245-2e43-02c2-089a-64b24b692d5b,sai-ke,Epson,WorkForce WF-7840,B4975706,Network module failure,collected,2026-07-21,60497.5,in_warranty
