@@ -1,12 +1,12 @@
 # Ramco Group — Ribbo AI Demo Build Pack
 
-Everything needed to build three demonstration WhatsApp chatbots for **Ramco Group**
+Everything needed to build **four** demonstration WhatsApp chatbots for **Ramco Group**
 (Nairobi conglomerate — 40+ companies, ~4,500 staff, ~USD 320M revenue, operating across
 Kenya, Tanzania, Uganda and Rwanda). Prepared by Kitstek.
 
-The three bots each run a **different agent pattern** on **one shared platform**. That is the
-whole point of the demo: to prove Ribbo is a platform, not a point solution. If all three ran
-the same way, the demo would prove nothing.
+The four bots each run a **different agent pattern** on **one shared platform**, across **four of
+Ramco's six verticals**. That is the whole point of the demo: to prove Ribbo is a platform, not a
+point solution. If all four ran the same way, the demo would prove nothing.
 
 > ### 👉 New here? Read **[`DEMO-FLOWS.md`](DEMO-FLOWS.md)** first.
 > It explains, in plain English with no assumptions, **what each bot is, the exact conversation to
@@ -19,10 +19,16 @@ the same way, the demo would prove nothing.
 | 02 | Sai Office Supplies | Kora — Office & IT | Lookup and transact | ✅ **ready** |
 | 03 | Ramco Printing Works | Plexus — Print & Packaging | Structured capture | ✅ **ready** |
 | 04 | Safarilink Aviation | Oritsu — Services & Trading | Inventory query + identity verification | ✅ **ready** |
+| — | Kitchens & Beyond | Ekon — Building Materials | Consultative qualification + appointment booking | ✅ **ready** |
 
-All three packages are delivered. Each `companies/<name>/` folder is complete and includes a
+All four packages are delivered. Each `companies/<name>/` folder is complete and includes a
 `site-mirror/` — the company's real homepage + one more page, mirrored for offline use, for
 dropping the Ribbo widget onto (see "Website mirrors" below).
+
+> **Kitchens & Beyond replaces the originally-suggested Kentainers.** Ramco **exited Kentainers in
+> 2023** — do not build it. See `companies/kitchens-beyond/RATIONALE.md`. K&B has **no spec file** in
+> `build-pack/` (it wasn't in the original pack); build it from its package README + `RATIONALE.md`.
+> Put this bot **last** in the demo — it's the only one that *makes* money rather than saving it.
 
 ---
 
@@ -30,12 +36,13 @@ dropping the Ribbo widget onto (see "Website mirrors" below).
 
 Do these in order. **Do not start a company bot until the shared spine passes its acceptance checklist** — every bot depends on it.
 
-1. **`build-pack/00-overview.md`** — read first. Global conventions that apply to all three bots.
+1. **`build-pack/00-overview.md`** — read first. Global conventions that apply to all four bots.
 2. **`build-pack/01-shared-spine.md`** — build this completely. ~70% of total effort (4–5 eng days). Multi-tenant WhatsApp platform, Postgres schema, tool router, RLS isolation, auth. No company-specific code lives here.
 3. Then each company, in any order (they're independent once the spine exists):
    - **Safarilink** → spec `build-pack/04-safarilink.md` + package `companies/safarilink/` ✅
    - **Sai Office** → spec `build-pack/02-sai-office.md` + package `companies/sai-office/` ✅
    - **Ramco Printing** → spec `build-pack/03-ramco-printing.md` + package `companies/ramco-printing/` ✅
+   - **Kitchens & Beyond** → **no spec** — package `companies/kitchens-beyond/` (README + `RATIONALE.md`) ✅ — **demo this one last**
 
 ---
 
@@ -43,7 +50,7 @@ Do these in order. **Do not start a company bot until the shared spine passes it
 
 ```
 README.md                     ← you are here
-build-pack/                   ← the specs (what to build)
+build-pack/                   ← the specs (what to build) — note: no spec for Kitchens & Beyond
   00-overview.md                global conventions + acceptance for the whole pack
   01-shared-spine.md            the shared platform — BUILD FIRST
   02-sai-office.md              Sai Office spec
@@ -71,6 +78,15 @@ companies/                    ← the deliverables (KBs + data to build with)
     seed/                       9 seed CSVs (generated)
     scripts/generate_seed.py    reproducible generator, 19 assertions
     site-mirror/                real homepage + The Company, mirrored offline (widget target)
+  kitchens-beyond/ ✅ READY   (no build-pack spec — built from source)
+    README.md                   package guide + demo beats the data supports
+    RATIONALE.md                why K&B, and why NOT Kentainers (Ramco exited it 2023)
+    kb/                         8 knowledge base docs (markdown)
+    seed/                       9 seed CSVs (generated)
+    scripts/generate_seed.py    reproducible generator, 25 assertions
+    site-mirror/                real homepage + About Us, mirrored offline (widget target)
+DEMO-FLOWS.md                 ← plain-English: what each bot is + exact demo to show
+MIRRORS.md                    ← how the site mirrors were made / how to refresh
 ```
 
 **Specs** (`build-pack/`) tell you *what to build*. **Packages** (`companies/`) give you the
@@ -158,6 +174,33 @@ automated quoting) before demoing.
 
 ---
 
+## ⚠️ Kitchens & Beyond: the fourth bot — and NOT Kentainers
+
+The original pack suggested **Kentainers** as an optional fourth. **Do not build it — Ramco exited
+Kentainers in 2023** (Vantage Capital buy-out of Aquasantec; the Ramco/family shareholding was sold).
+Both kentainers.co.ke and ramco-group.com are stale on this. Pitching a family conglomerate a demo
+built on a business they sold three years ago would burn the credibility the other three buy.
+
+**Kitchens & Beyond** (Ramco **Ekon** — building materials, the heritage vertical) replaces it, and is
+verified current (ramco-group.com, kitchensandbeyond.co.ke). It has **no spec file** — build from
+`companies/kitchens-beyond/README.md` + `RATIONALE.md`. Why it's the right fourth:
+
+| | |
+|---|---|
+| **New agent pattern** | Consultative qualification + **appointment booking**. Its write action is a **calendar slot**, not an order — nothing else in the demo books anything. |
+| **The only revenue bot** | The other three save money (deflection). This one makes it: an 11pm luxury-kitchen browser is peak-intent with nobody at the showroom. Qualify → capture brief → book the visit. **Demo it last.** |
+| **One fact worth owning** | *No product in the range carries a warranty under ten years.* Answers the quality objection in one line — without quoting a price. |
+| **No prices** | Like Sai Office, K&B publishes none. The generator asserts no seeded table has a price field. |
+
+**The close for the whole demo:** three of the four bots surface the *same* planted problem from
+unrelated businesses — Ramco Printing (job waiting on the client's proof approval), Sai Office (a
+repair waiting on collection / a quote waiting on a yes), Kitchens & Beyond (an installation waiting
+on the client's tile selection). One line: *"In every one of your businesses, work is sitting still
+waiting on your own customers, and nobody is telling them."* That's a group-platform argument, not
+four product demos.
+
+---
+
 ## `[VERIFY]` markers = the client questionnaire
 
 The KBs contain 30+ `[VERIFY]` markers. That is **not** incompleteness — it's the honest boundary
@@ -188,6 +231,7 @@ the client what it looks like on *their own site*.
 | Safarilink | `companies/safarilink/site-mirror/flysafarilink.com/index.html` · `…/about-us/about.html` |
 | Sai Office | `companies/sai-office/site-mirror/www.sai-office.com/kenya/index.html` · `…/kenya/contact-us/index.html` |
 | Ramco Printing | `companies/ramco-printing/site-mirror/www.ramcoprinting.com/index.html` · `…/the-company.html` |
+| Kitchens & Beyond | `companies/kitchens-beyond/site-mirror/kitchensandbeyond.co.ke/index.html` · `…/about-us.html` |
 
 **To add the widget:** open a mirror's `index.html` in an editor, paste the Ribbo embed snippet just
 before `</body>`, save, and open the file in a browser. The widget loads live from Ribbo over the
@@ -212,7 +256,7 @@ Notes:
 
 ## Acceptance — the whole pack is done when
 
-- [ ] All three bots run on the same spine with no company-specific code in shared components
+- [ ] All four bots run on the same spine with no company-specific code in shared components
 - [ ] Switching tenant changes language, currency, catalogue and bot identity with no redeploy
 - [ ] Every tool returns within 800ms at p95
 - [ ] Every authenticated tool is provably isolated (account A cannot retrieve account B's data)

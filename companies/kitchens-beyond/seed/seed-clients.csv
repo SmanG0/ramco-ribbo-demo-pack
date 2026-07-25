@@ -1,0 +1,76 @@
+client_id,tenant_id,full_name,wa_id,email,area,property_type,first_contact_at
+47264b96-e13d-6c59-8fe1-e0c9be1207f8,kandb,Amina Karanja,254733204118,amina@example.co.ke,Runda,new_build,2025-03-04
+0ab8df95-d372-7d96-3ac9-1fd49b42d9bd,kandb,Achieng Ochieng,,achieng@example.co.ke,Kitisuru,renovation,2025-05-18
+49f45412-9489-632c-5766-05fe8e7ccdbb,kandb,Anand Njoroge,254712505950,anand@example.co.ke,Loresho,renovation,2026-03-06
+ccd523a8-5248-9262-4966-6ae154f625d2,kandb,Grace Ochieng,,grace@example.co.ke,Rosslyn,new_build,2025-03-16
+b158aabe-da47-bb36-41a2-91ec5fad813a,kandb,Anand Kimani,,anand@example.co.ke,Runda,renovation,2025-01-25
+7866535e-34c2-7f88-e7df-2817d90ad050,kandb,Priya Kariuki,,priya@example.co.ke,Spring Valley,renovation,2025-06-03
+784ac71b-6588-5e71-bf5d-b55f1e3526ad,kandb,Nadia Rana,,nadia@example.co.ke,Rosslyn,renovation,2026-07-13
+70615896-c361-0640-da27-93890fcff102,kandb,Rajesh Rana,254753242729,rajesh@example.co.ke,Gigiri,renovation,2025-01-03
+2e8b0d36-e7d6-6a23-7f93-864589fa764d,kandb,Meera Farah,254744986846,meera@example.co.ke,Spring Valley,renovation,2025-11-24
+fd293d3e-77c9-f2f7-58f6-ff2f76cd6c31,kandb,Sanjay Mehta,254763205478,sanjay@example.co.ke,Karen,new_build,2024-09-14
+3c7f3f36-fc1d-2279-f6c2-c36d4a40a4c7,kandb,Hassan Joshi,,hassan@example.co.ke,Westlands,renovation,2025-06-05
+c3ed1904-ad38-d0f9-2142-36741cdc5297,kandb,Leila Otieno,,leila@example.co.ke,Kileleshwa,apartment,2025-07-03
+34d28b9d-4006-4fcb-7449-19a2c93da39c,kandb,Yusuf Kimani,254777216271,yusuf@example.co.ke,Spring Valley,renovation,2025-10-31
+4b57aa48-dbdd-1c03-e625-74620749422b,kandb,Meera Patel,254749506844,meera@example.co.ke,Westlands,renovation,2024-12-30
+44d1cd20-12b8-de90-24f6-c7e5b8f611bf,kandb,Vikram Karanja,254775417694,vikram@example.co.ke,Nyari,new_build,2026-05-15
+a1367e80-5e8d-e6a8-7581-d4e4855ed41f,kandb,Suresh Kariuki,,suresh@example.co.ke,Karen,renovation,2026-01-01
+5394f4ca-b095-55fb-2828-129417a4b094,kandb,Fatuma Hussein,,fatuma@example.co.ke,Runda,new_build,2024-10-12
+55edf9ec-017a-244e-6c28-af0cd628eebd,kandb,Hassan Njoroge,254789566932,hassan@example.co.ke,Muthaiga,apartment,2026-03-17
+6c49921f-04d0-338e-bf7c-069a978e6084,kandb,Vikram Mwangi,254780619225,vikram@example.co.ke,Spring Valley,apartment,2026-05-27
+00eaad40-275e-13d8-7ab0-73d50bd7fcb6,kandb,Brian Joshi,,brian@example.co.ke,Gigiri,renovation,2025-09-01
+73ffce35-6f23-eff6-13b1-395ffbb33f17,kandb,Grace Farah,,grace@example.co.ke,Lavington,renovation,2024-09-11
+1ef2dca1-c3b3-b3f9-088b-736136c53ff1,kandb,Hassan Maina,,hassan@example.co.ke,Lavington,apartment,2024-12-18
+0a7387fa-82ca-76ce-649b-a3183e396475,kandb,Hassan Wanjala,,hassan@example.co.ke,Runda,new_build,2025-03-31
+5a4b3f7d-60be-125f-ae49-3928d7b8e2a3,kandb,Muthoni Mwangi,254749143002,muthoni@example.co.ke,Spring Valley,new_build,2025-05-20
+2efa621b-6d35-da65-a156-5dd8538b54be,kandb,Tariq Ali,254769354478,tariq@example.co.ke,Kileleshwa,renovation,2025-10-19
+371f1357-fc06-49a4-9a32-20f1afc2abc9,kandb,Amina Otieno,254736051030,amina@example.co.ke,Muthaiga,new_build,2025-04-27
+4eebf6d3-0613-9d88-e32c-2ba21b091a72,kandb,Njeri Karanja,,njeri@example.co.ke,Muthaiga,new_build,2026-01-02
+b3bf16d2-9ab7-8408-7b37-97ada9e85e6d,kandb,Rajesh Njoroge,254735338291,rajesh@example.co.ke,Kitisuru,apartment,2025-01-20
+a1fdbb1e-2a63-325f-aecc-ddf579be1f4f,kandb,Hassan Kariuki,254788007829,hassan@example.co.ke,Kitisuru,renovation,2025-06-22
+e0e10536-4259-6dde-66a4-dddf874bbf9d,kandb,Amina Wanjala,254749550320,amina@example.co.ke,Runda,new_build,2025-09-10
+1e180780-d55b-643d-be80-aeea377edb26,kandb,Omar Ali,,omar@example.co.ke,Spring Valley,apartment,2024-11-27
+f868424e-a575-fc73-05f6-e18a1969f3ce,kandb,Nyambura Joshi,254756751452,nyambura@example.co.ke,Spring Valley,renovation,2025-06-02
+47d3e053-8088-a238-e018-179cc7aa6a2a,kandb,Yusuf Ochieng,,yusuf@example.co.ke,Muthaiga,new_build,2026-06-16
+de44810d-e8c6-96ba-d7c7-0f61cab3e7f1,kandb,Deepak Kimani,254743890565,deepak@example.co.ke,Gigiri,renovation,2025-09-11
+2cc5c9a2-68e1-d9f5-8974-44eeaecd1272,kandb,Grace Patel,254749323828,grace@example.co.ke,Kileleshwa,renovation,2025-12-18
+70a25623-5a95-ad08-a021-5d48c97d2018,kandb,Vikram Shah,,vikram@example.co.ke,Spring Valley,new_build,2025-02-25
+af86634d-bd94-0e67-92c1-e36e83c300b2,kandb,Tariq Patel,254782670031,tariq@example.co.ke,Nyari,new_build,2025-08-10
+b5863139-47e7-324d-6dc7-f58b5eda9563,kandb,Omar Ochieng,,omar@example.co.ke,Loresho,renovation,2026-04-24
+aef3d8bb-93a8-13d3-042f-6a3f710f2d76,kandb,Njeri Ochieng,,njeri@example.co.ke,Spring Valley,renovation,2024-10-19
+1324a716-a050-c567-d02f-429f6b34b40e,kandb,Kamau Shah,,kamau@example.co.ke,Westlands,apartment,2025-04-08
+ed686dc9-ec6a-36f7-06c0-1f2bfa7e1031,kandb,Wanjiku Rana,254717211432,wanjiku@example.co.ke,Lavington,renovation,2025-09-17
+3e040891-da78-a341-b358-9790e0754f1d,kandb,Deepak Desai,254757358325,deepak@example.co.ke,Nyari,apartment,2026-02-27
+1b9a02c1-1ae3-63fa-2a76-6e1691ec91f4,kandb,Brian Rana,,brian@example.co.ke,Westlands,apartment,2026-02-03
+ce4dc336-738c-1760-1c29-fe477a51d459,kandb,Amina Ochieng,,amina@example.co.ke,Rosslyn,new_build,2024-09-30
+1a19d2f0-9809-ec52-74b0-d76b47bfe7f6,kandb,Waweru Abdi,254788638619,waweru@example.co.ke,Runda,new_build,2025-01-01
+12013adb-2965-57fc-c163-8b780b31e813,kandb,Muthoni Njoroge,254769539324,muthoni@example.co.ke,Runda,apartment,2026-06-29
+bcaa3d27-887f-7a33-6247-818995d31a27,kandb,Nadia Gupta,254718827470,nadia@example.co.ke,Kileleshwa,renovation,2026-04-16
+63e064b2-b786-9f25-0305-a2402b397a76,kandb,Omar Joshi,,omar@example.co.ke,Gigiri,renovation,2025-06-27
+63c7b630-a26f-ae59-825d-72ad26b70b50,kandb,Wanjiku Karanja,254795444137,wanjiku@example.co.ke,Nyari,renovation,2026-01-28
+f4f8cf49-6cf6-293d-9a33-7308483b6cba,kandb,Tariq Karanja,,tariq@example.co.ke,Spring Valley,renovation,2025-04-27
+25dc4c0e-6965-a240-e29e-ddc2b42319be,kandb,Priya Karanja,,priya@example.co.ke,Rosslyn,apartment,2025-01-26
+3fb76b4a-7e94-d09c-f657-148e67af9664,kandb,Tariq Bhatt,254752167337,tariq@example.co.ke,Lavington,new_build,2025-02-16
+31ec47e4-6353-f084-ba47-4528437b3c53,kandb,Grace Ochieng,254771901003,grace@example.co.ke,Kitisuru,new_build,2025-11-16
+85aa91a2-7463-a870-37c0-a62aaa445483,kandb,Leila Wanjala,254727472658,leila@example.co.ke,Kitisuru,new_build,2025-10-14
+ac73351e-6ea3-6946-7ec8-53c704b1212e,kandb,Grace Abdi,254718692387,grace@example.co.ke,Loresho,renovation,2026-03-19
+a874a8e6-7ed6-3d78-8a7e-64f467e9ed4d,kandb,Kamau Bhatt,254750383710,kamau@example.co.ke,Kitisuru,renovation,2026-06-14
+113f1b88-e817-d5eb-1fae-b1b334ec4906,kandb,Muthoni Kimani,254740470775,muthoni@example.co.ke,Kitisuru,new_build,2025-11-17
+f5c19d9a-2e33-9f72-793f-728bb758377f,kandb,Nadia Abdi,,nadia@example.co.ke,Westlands,renovation,2025-12-05
+62b7b93d-2eaf-c7c0-658f-d453a70a28ab,kandb,Grace Rana,,grace@example.co.ke,Nyari,new_build,2026-03-30
+4f1e23df-3350-0519-d9f7-47b12f0f1d06,kandb,Anand Kariuki,,anand@example.co.ke,Spring Valley,apartment,2025-01-10
+b6588f03-da71-ef29-5250-1959b7df19c2,kandb,Brian Karanja,,brian@example.co.ke,Nyari,renovation,2025-12-29
+d7dd835f-89ab-eebc-c8aa-08b902aba5fe,kandb,Nikhil Hussein,254765664458,nikhil@example.co.ke,Nyari,renovation,2026-02-07
+e450469f-8e65-a7a5-98a9-df77883c2c10,kandb,Brian Njoroge,254746380467,brian@example.co.ke,Rosslyn,new_build,2024-11-29
+23b2ffab-fc9a-bb85-244f-36ef4a99bdac,kandb,Deepak Abdi,254762998894,deepak@example.co.ke,Gigiri,renovation,2025-05-12
+747124d9-588a-2ce9-3490-c573def9c2f7,kandb,Hassan Otieno,254715038033,hassan@example.co.ke,Rosslyn,apartment,2025-12-23
+e922ff44-0a6f-e3d6-2d29-00db2ba11f3f,kandb,Njeri Abdi,254761420284,njeri@example.co.ke,Loresho,renovation,2025-03-20
+c02450e3-8edc-a8af-dc49-3bfcae6d30c3,kandb,Waweru Kimani,,waweru@example.co.ke,Muthaiga,apartment,2026-04-30
+3461bb83-bd78-7d25-5fea-15f44796f3de,kandb,Fatuma Bhatt,,fatuma@example.co.ke,Muthaiga,apartment,2026-06-11
+dd7332bb-4fc7-a15f-1a9b-93e52df84c16,kandb,Brian Patel,254728376634,brian@example.co.ke,Kileleshwa,new_build,2026-03-08
+25e53d5b-f410-c394-9d06-f109eaeeec3d,kandb,Rajesh Abdi,,rajesh@example.co.ke,Loresho,renovation,2026-03-01
+1b5abb8a-9746-e7c4-0427-77e0bdaa03de,kandb,Muthoni Ochieng,254738219869,muthoni@example.co.ke,Rosslyn,renovation,2025-11-20
+377c49ec-0188-7ae7-1e4b-9991c09b9052,kandb,Waweru Gupta,254744999243,waweru@example.co.ke,Rosslyn,renovation,2025-11-16
+f2e9667e-c216-00f2-6702-e0c360995057,kandb,Brian Ochieng,,brian@example.co.ke,Spring Valley,apartment,2024-11-26
+d1711c26-cce5-60a9-a867-ef800d6c93d6,kandb,Muthoni Mwangi,,muthoni@example.co.ke,Lavington,renovation,2024-10-20
+5aa4eca6-67db-31d4-5640-a68fd76a1470,kandb,Leila Kariuki,,leila@example.co.ke,Kileleshwa,apartment,2025-06-01

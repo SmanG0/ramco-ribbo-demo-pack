@@ -8,6 +8,39 @@ Package 2 of 3 for the Ramco Group demo. Companion to `02-sai-office.md`.
 
 **Read `SPEC-CORRECTIONS.md` first.** The original spec under-described this business — it is a seven-line operation including solar, cooling, equipment leasing and an authorised Epson/APC service centre, not a consumables reseller. That changes the demo.
 
+## What this bot is for (use case)
+
+**Type: B2B · customer-facing.** The people messaging this bot are **procurement/admin officers
+ordering on behalf of their company** — busy repeat buyers who reorder the same supplies every month.
+On WhatsApp their phone number *is* their identity, so the bot can recognise them and use their own
+confidential contract pricing.
+
+**What the bot does:** recognises the customer, pulls their order history, checks stock across
+branches, quotes *their* contract price, and places the order (held for a PIN). It also handles
+repair-status and leasing questions. For an unknown number it stays generic (list price only) and
+captures a lead instead.
+
+## What each folder here is for
+
+- **`kb/`** — fixed facts the bot reads to answer general questions (who Sai Office is, the seven
+  lines, delivery promise). Never contains prices, stock or order status — those come from tools.
+- **`seed/`** — realistic fake demo data (accounts, contacts, orders, stock, repair jobs) engineered
+  so the rehearsed demo questions always return a good answer.
+- **`scripts/`** — `generate_seed.py`, which regenerates that data relative to the demo date.
+- **`site-mirror/`** — an offline copy of two real Sai Office web pages to drop the Ribbo widget onto.
+
+## What each knowledge base file is for
+
+| File | The customer situation it covers |
+|---|---|
+| `kb-product-lines.md` | **The routing file — read first.** "What do you sell / who handles my enquiry?" The seven lines (IT, stationery, furniture, solar, cooling, leasing, service) and how the bot works out which one an enquiry belongs to. |
+| `kb-about.md` | "Who is Sai Office?" 30 years (since 1994), Ramco Kora vertical, four countries, 500+ staff, Epson/APC service centre. |
+| `kb-brands.md` | "Do you carry brand X?" The brands distributed/represented, plus own brands (OfficePoint, Veda, Skoolpoint). |
+| `kb-service-centre.md` | "My Epson/APC is broken — where's my repair?" The authorised service centre, repair stages, what to bring, warranty handling. **Powers the "your printer's been ready since Tuesday" beat.** |
+| `kb-leasing.md` | "I lease a copier — contract end date, meter reading, report a fault, toner under lease." Office Technologies leasing queries. |
+| `kb-delivery.md` | "How fast is delivery?" The published **48-hour** commitment and its scope. |
+| `kb-accounts-and-ordering.md` | "How do I open an account, credit terms, returns?" ⚠️ *Mostly a client questionnaire* — B2B distributors don't publish credit terms, so the bot captures the request and hands off. |
+
 ## Contents
 
 ```

@@ -8,6 +8,43 @@ Package 1 of 3 for the Ramco Group demo. Companion to `04-safarilink.md` in the 
 
 **Read `SPEC-CORRECTIONS.md` first.** It supersedes the original spec in five places.
 
+## What this bot is for (use case)
+
+**Type: B2C · customer-facing.** The people messaging this bot are **individual travellers** — mostly
+international leisure tourists flying to safari destinations, often writing at 2am the night before a
+trip, from another time zone, when the airline desk is closed. They ask simple, high-stakes questions
+("how much luggage?", "where's my flight?") and expect an instant, correct answer.
+
+**What the bot does:** answers general travel questions instantly from the knowledge base, and — only
+after confirming the traveller's identity (booking code + surname) — shows their private booking. It
+never changes a booking; those go to a human.
+
+## What each folder here is for
+
+- **`kb/`** — fixed facts the bot reads to answer general questions ("what is a bush airstrip", baggage
+  policy). Never contains anything that changes (times, fares, seats) — those come from tools.
+- **`seed/`** — realistic fake demo data (bookings, passengers, flights) engineered so the rehearsed
+  demo questions always return a good answer.
+- **`scripts/`** — `generate_seed.py`, which regenerates that data relative to the demo date.
+- **`site-mirror/`** — an offline copy of two real Safarilink web pages to drop the Ribbo widget onto.
+
+## What each knowledge base file is for
+
+| File | The customer situation it covers |
+|---|---|
+| `kb-baggage.md` | **The #1 question.** "How much luggage can I bring?" 15kg standard, 20kg exception routes, soft-bags-only, excess/freight options. Answered instantly, no lookup. |
+| `kb-about.md` | "Who are you, how big, are you safe?" Founded 2004, 15 aircraft, 18 destinations, ISSA safety, based at Wilson Airport. |
+| `kb-destinations.md` | "Do you fly to X? What's a bush airstrip like?" Describes the places served and what to expect — **not** schedules or times (those are tools). |
+| `kb-wilson-airport.md` | "How do I get to the airport, where's your desk, how long from JKIA?" |
+| `kb-charters.md` | "Can I charter a private plane?" The enquiry process and what info is needed. |
+| `kb-codeshare-kq.md` | "I'm connecting on Kenya Airways — how does that work?" What the partnership covers, baggage, connections. |
+| `kb-check-in.md` | "When do I check in, what ID?" ⚠️ *Structure only* — bot hands off until Safarilink supplies the timings. |
+| `kb-prohibited-items.md` | "Can I bring X in my bag?" ⚠️ *Structure only* — official list must be loaded first. |
+| `kb-frequent-flyer.md` | "Do you have a loyalty programme?" ⚠️ *Structure only* — programme mechanics needed. |
+| `kb-children-infants.md` | "Travelling with a baby or child — seats, baggage, unaccompanied minors?" |
+| `kb-special-assistance.md` | "I need wheelchair / medical / oxygen help." **Deliberately hands everything to a human** (safety). |
+| `kb-weather-delays.md` | "What happens if weather delays my bush flight?" Sets expectations generally; live disruptions go to a human. |
+
 ## Contents
 
 ```

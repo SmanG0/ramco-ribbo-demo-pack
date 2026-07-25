@@ -1,0 +1,91 @@
+appointment_ref,tenant_id,client_id,designer_id,appointment_date,appointment_time,purpose,status,brief_note
+APT-6637,kandb,85aa91a2-7463-a870-37c0-a62aaa445483,0041ec08-91d6-3577-d091-2633030efba4,2026-08-11,10:00,first_consultation,confirmed,Brief captured by assistant
+APT-7479,kandb,f868424e-a575-fc73-05f6-e18a1969f3ce,0041ec08-91d6-3577-d091-2633030efba4,2026-08-11,12:00,first_consultation,confirmed,
+APT-9208,kandb,a874a8e6-7ed6-3d78-8a7e-64f467e9ed4d,0041ec08-91d6-3577-d091-2633030efba4,2026-08-11,16:00,design_presentation,confirmed,Brief captured by assistant
+APT-4880,kandb,0a7387fa-82ca-76ce-649b-a3183e396475,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-11,12:00,selections_review,confirmed,
+APT-6430,kandb,31ec47e4-6353-f084-ba47-4528437b3c53,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-11,14:00,design_presentation,confirmed,
+APT-6908,kandb,47264b96-e13d-6c59-8fe1-e0c9be1207f8,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-11,10:00,design_presentation,confirmed,
+APT-7651,kandb,f5c19d9a-2e33-9f72-793f-728bb758377f,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-11,12:00,selections_review,confirmed,Brief captured by assistant
+APT-9153,kandb,4b57aa48-dbdd-1c03-e625-74620749422b,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-11,14:00,selections_review,confirmed,
+APT-9972,kandb,e922ff44-0a6f-e3d6-2d29-00db2ba11f3f,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-11,16:00,first_consultation,confirmed,
+APT-4699,kandb,0ab8df95-d372-7d96-3ac9-1fd49b42d9bd,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-12,10:00,design_presentation,confirmed,
+APT-8055,kandb,6c49921f-04d0-338e-bf7c-069a978e6084,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-12,14:00,first_consultation,confirmed,
+APT-9164,kandb,1b9a02c1-1ae3-63fa-2a76-6e1691ec91f4,0041ec08-91d6-3577-d091-2633030efba4,2026-08-12,14:00,design_presentation,confirmed,
+APT-7094,kandb,25dc4c0e-6965-a240-e29e-ddc2b42319be,0041ec08-91d6-3577-d091-2633030efba4,2026-08-12,16:00,selections_review,confirmed,Brief captured by assistant
+APT-3818,kandb,b158aabe-da47-bb36-41a2-91ec5fad813a,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-12,10:00,first_consultation,confirmed,
+APT-7375,kandb,113f1b88-e817-d5eb-1fae-b1b334ec4906,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-12,12:00,selections_review,confirmed,Brief captured by assistant
+APT-4954,kandb,c3ed1904-ad38-d0f9-2142-36741cdc5297,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-12,14:00,selections_review,confirmed,
+APT-4160,kandb,0a7387fa-82ca-76ce-649b-a3183e396475,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-12,16:00,design_presentation,confirmed,
+APT-5733,kandb,113f1b88-e817-d5eb-1fae-b1b334ec4906,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-12,10:00,first_consultation,confirmed,Brief captured by assistant
+APT-3878,kandb,34d28b9d-4006-4fcb-7449-19a2c93da39c,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-13,10:00,selections_review,confirmed,Brief captured by assistant
+APT-3611,kandb,1324a716-a050-c567-d02f-429f6b34b40e,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-13,12:00,selections_review,confirmed,
+APT-9636,kandb,63c7b630-a26f-ae59-825d-72ad26b70b50,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-13,14:00,design_presentation,confirmed,
+APT-6827,kandb,1b9a02c1-1ae3-63fa-2a76-6e1691ec91f4,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-13,16:00,selections_review,confirmed,Brief captured by assistant
+APT-8677,kandb,3461bb83-bd78-7d25-5fea-15f44796f3de,0041ec08-91d6-3577-d091-2633030efba4,2026-08-13,10:00,design_presentation,confirmed,
+APT-9700,kandb,fd293d3e-77c9-f2f7-58f6-ff2f76cd6c31,0041ec08-91d6-3577-d091-2633030efba4,2026-08-13,14:00,first_consultation,confirmed,Brief captured by assistant
+APT-9023,kandb,784ac71b-6588-5e71-bf5d-b55f1e3526ad,0041ec08-91d6-3577-d091-2633030efba4,2026-08-13,16:00,first_consultation,confirmed,Brief captured by assistant
+APT-6950,kandb,ac73351e-6ea3-6946-7ec8-53c704b1212e,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-13,10:00,design_presentation,confirmed,
+APT-5112,kandb,a1367e80-5e8d-e6a8-7581-d4e4855ed41f,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-13,14:00,design_presentation,confirmed,
+APT-7146,kandb,2e8b0d36-e7d6-6a23-7f93-864589fa764d,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-14,10:00,selections_review,confirmed,Brief captured by assistant
+APT-3047,kandb,3fb76b4a-7e94-d09c-f657-148e67af9664,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-14,14:00,first_consultation,confirmed,
+APT-3797,kandb,b6588f03-da71-ef29-5250-1959b7df19c2,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-14,16:00,design_presentation,confirmed,
+APT-7435,kandb,44d1cd20-12b8-de90-24f6-c7e5b8f611bf,0041ec08-91d6-3577-d091-2633030efba4,2026-08-14,12:00,first_consultation,confirmed,Brief captured by assistant
+APT-6640,kandb,4f1e23df-3350-0519-d9f7-47b12f0f1d06,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-14,12:00,design_presentation,confirmed,
+APT-9467,kandb,12013adb-2965-57fc-c163-8b780b31e813,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-14,14:00,selections_review,confirmed,
+APT-5044,kandb,44d1cd20-12b8-de90-24f6-c7e5b8f611bf,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-14,16:00,selections_review,confirmed,Brief captured by assistant
+APT-3831,kandb,a874a8e6-7ed6-3d78-8a7e-64f467e9ed4d,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-14,12:00,design_presentation,confirmed,Brief captured by assistant
+APT-3808,kandb,b6588f03-da71-ef29-5250-1959b7df19c2,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-14,14:00,design_presentation,confirmed,
+APT-6720,kandb,c3ed1904-ad38-d0f9-2142-36741cdc5297,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-14,16:00,first_consultation,confirmed,
+APT-7680,kandb,44d1cd20-12b8-de90-24f6-c7e5b8f611bf,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-15,10:00,first_consultation,confirmed,Brief captured by assistant
+APT-6669,kandb,d7dd835f-89ab-eebc-c8aa-08b902aba5fe,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-15,14:00,first_consultation,confirmed,
+APT-5859,kandb,ce4dc336-738c-1760-1c29-fe477a51d459,0041ec08-91d6-3577-d091-2633030efba4,2026-08-15,10:00,design_presentation,confirmed,Brief captured by assistant
+APT-8572,kandb,f2e9667e-c216-00f2-6702-e0c360995057,0041ec08-91d6-3577-d091-2633030efba4,2026-08-15,11:30,selections_review,confirmed,
+APT-8767,kandb,2efa621b-6d35-da65-a156-5dd8538b54be,0041ec08-91d6-3577-d091-2633030efba4,2026-08-15,14:00,design_presentation,confirmed,Brief captured by assistant
+APT-6320,kandb,1ef2dca1-c3b3-b3f9-088b-736136c53ff1,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-15,10:00,design_presentation,confirmed,Brief captured by assistant
+APT-5888,kandb,3e040891-da78-a341-b358-9790e0754f1d,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-15,11:30,selections_review,confirmed,
+APT-5720,kandb,49f45412-9489-632c-5766-05fe8e7ccdbb,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-15,14:00,selections_review,confirmed,
+APT-5320,kandb,f5c19d9a-2e33-9f72-793f-728bb758377f,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-15,10:00,selections_review,confirmed,Brief captured by assistant
+APT-7085,kandb,1e180780-d55b-643d-be80-aeea377edb26,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-15,11:30,design_presentation,confirmed,Brief captured by assistant
+APT-7412,kandb,ed686dc9-ec6a-36f7-06c0-1f2bfa7e1031,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-17,12:00,design_presentation,confirmed,
+APT-6552,kandb,d7dd835f-89ab-eebc-c8aa-08b902aba5fe,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-17,14:00,design_presentation,confirmed,Brief captured by assistant
+APT-3860,kandb,e450469f-8e65-a7a5-98a9-df77883c2c10,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-17,16:00,design_presentation,confirmed,Brief captured by assistant
+APT-8465,kandb,23b2ffab-fc9a-bb85-244f-36ef4a99bdac,0041ec08-91d6-3577-d091-2633030efba4,2026-08-17,14:00,design_presentation,confirmed,Brief captured by assistant
+APT-9175,kandb,47d3e053-8088-a238-e018-179cc7aa6a2a,0041ec08-91d6-3577-d091-2633030efba4,2026-08-17,16:00,first_consultation,confirmed,
+APT-7043,kandb,747124d9-588a-2ce9-3490-c573def9c2f7,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-17,10:00,design_presentation,confirmed,
+APT-3356,kandb,ccd523a8-5248-9262-4966-6ae154f625d2,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-17,14:00,first_consultation,confirmed,Brief captured by assistant
+APT-5815,kandb,31ec47e4-6353-f084-ba47-4528437b3c53,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-17,16:00,selections_review,confirmed,Brief captured by assistant
+APT-6089,kandb,49f45412-9489-632c-5766-05fe8e7ccdbb,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-17,12:00,selections_review,confirmed,Brief captured by assistant
+APT-6426,kandb,3461bb83-bd78-7d25-5fea-15f44796f3de,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-18,14:00,design_presentation,confirmed,Brief captured by assistant
+APT-9074,kandb,2efa621b-6d35-da65-a156-5dd8538b54be,0041ec08-91d6-3577-d091-2633030efba4,2026-08-18,12:00,selections_review,confirmed,
+APT-5474,kandb,5aa4eca6-67db-31d4-5640-a68fd76a1470,0041ec08-91d6-3577-d091-2633030efba4,2026-08-18,16:00,selections_review,confirmed,
+APT-9480,kandb,b3bf16d2-9ab7-8408-7b37-97ada9e85e6d,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-18,10:00,selections_review,confirmed,Brief captured by assistant
+APT-7751,kandb,bcaa3d27-887f-7a33-6247-818995d31a27,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-18,14:00,first_consultation,confirmed,Brief captured by assistant
+APT-3303,kandb,b3bf16d2-9ab7-8408-7b37-97ada9e85e6d,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-18,16:00,first_consultation,confirmed,
+APT-4502,kandb,aef3d8bb-93a8-13d3-042f-6a3f710f2d76,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-18,10:00,selections_review,confirmed,
+APT-4238,kandb,4b57aa48-dbdd-1c03-e625-74620749422b,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-18,12:00,design_presentation,confirmed,
+APT-5185,kandb,3461bb83-bd78-7d25-5fea-15f44796f3de,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-19,10:00,selections_review,confirmed,Brief captured by assistant
+APT-3388,kandb,f2e9667e-c216-00f2-6702-e0c360995057,0041ec08-91d6-3577-d091-2633030efba4,2026-08-19,10:00,design_presentation,confirmed,Brief captured by assistant
+APT-5468,kandb,f2e9667e-c216-00f2-6702-e0c360995057,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-19,10:00,design_presentation,confirmed,
+APT-6412,kandb,747124d9-588a-2ce9-3490-c573def9c2f7,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-19,14:00,selections_review,confirmed,
+APT-7214,kandb,2e8b0d36-e7d6-6a23-7f93-864589fa764d,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-19,10:00,design_presentation,confirmed,
+APT-7077,kandb,1e180780-d55b-643d-be80-aeea377edb26,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-20,12:00,first_consultation,confirmed,Brief captured by assistant
+APT-5935,kandb,b6588f03-da71-ef29-5250-1959b7df19c2,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-20,14:00,first_consultation,confirmed,
+APT-6963,kandb,de44810d-e8c6-96ba-d7c7-0f61cab3e7f1,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-20,16:00,selections_review,confirmed,
+APT-8875,kandb,5a4b3f7d-60be-125f-ae49-3928d7b8e2a3,0041ec08-91d6-3577-d091-2633030efba4,2026-08-20,10:00,first_consultation,confirmed,
+APT-8801,kandb,b5863139-47e7-324d-6dc7-f58b5eda9563,0041ec08-91d6-3577-d091-2633030efba4,2026-08-20,14:00,first_consultation,confirmed,Brief captured by assistant
+APT-8382,kandb,a1fdbb1e-2a63-325f-aecc-ddf579be1f4f,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-20,10:00,design_presentation,confirmed,
+APT-5248,kandb,1e180780-d55b-643d-be80-aeea377edb26,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-20,14:00,design_presentation,confirmed,
+APT-6287,kandb,1b5abb8a-9746-e7c4-0427-77e0bdaa03de,e538f0ab-6c51-5a78-a9ee-f6e4d0616d3b,2026-08-20,12:00,selections_review,confirmed,
+APT-7734,kandb,371f1357-fc06-49a4-9a32-20f1afc2abc9,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-21,14:00,selections_review,confirmed,Brief captured by assistant
+APT-5411,kandb,5a4b3f7d-60be-125f-ae49-3928d7b8e2a3,0041ec08-91d6-3577-d091-2633030efba4,2026-08-21,10:00,selections_review,confirmed,Brief captured by assistant
+APT-5146,kandb,1ef2dca1-c3b3-b3f9-088b-736136c53ff1,0041ec08-91d6-3577-d091-2633030efba4,2026-08-21,12:00,design_presentation,confirmed,
+APT-3874,kandb,b6588f03-da71-ef29-5250-1959b7df19c2,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-21,10:00,design_presentation,confirmed,
+APT-5929,kandb,a874a8e6-7ed6-3d78-8a7e-64f467e9ed4d,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-21,12:00,first_consultation,confirmed,
+APT-7447,kandb,5aa4eca6-67db-31d4-5640-a68fd76a1470,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-21,14:00,selections_review,confirmed,
+APT-4638,kandb,ce4dc336-738c-1760-1c29-fe477a51d459,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-22,10:00,first_consultation,confirmed,
+APT-9051,kandb,de44810d-e8c6-96ba-d7c7-0f61cab3e7f1,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-22,11:30,design_presentation,confirmed,
+APT-9939,kandb,34d28b9d-4006-4fcb-7449-19a2c93da39c,d053d595-3282-47c7-3a1e-bfd85cfa24cf,2026-08-22,14:00,first_consultation,confirmed,
+APT-9392,kandb,44d1cd20-12b8-de90-24f6-c7e5b8f611bf,0041ec08-91d6-3577-d091-2633030efba4,2026-08-22,10:00,selections_review,confirmed,
+APT-8669,kandb,3c7f3f36-fc1d-2279-f6c2-c36d4a40a4c7,0041ec08-91d6-3577-d091-2633030efba4,2026-08-22,11:30,selections_review,confirmed,
+APT-9909,kandb,bcaa3d27-887f-7a33-6247-818995d31a27,0041ec08-91d6-3577-d091-2633030efba4,2026-08-22,14:00,selections_review,confirmed,Brief captured by assistant
+APT-6210,kandb,e922ff44-0a6f-e3d6-2d29-00db2ba11f3f,17c0d4ff-a323-52ab-a488-1158fc6c8f23,2026-08-22,11:30,design_presentation,confirmed,Brief captured by assistant

@@ -1,0 +1,42 @@
+project_ref,client_id,tenant_id,scope,area,current_stage,started_at,target_installation,designer
+KB-1201,47264b96-e13d-6c59-8fe1-e0c9be1207f8,kandb,"Snaidero kitchen, Kohler bathrooms (x3), Caesar tiles, Novamobili wardrobes",Nyari,client_selections,2026-05-24,2026-10-10,Aisha Noor
+KB-1202,ccd523a8-5248-9262-4966-6ae154f625d2,kandb,Kohler bathroom refit,Runda,showroom_consultation,2026-07-07,2026-09-25,Kevin Otieno
+KB-1203,b158aabe-da47-bb36-41a2-91ec5fad813a,kandb,Kohler bathroom refit,Gigiri,handover,2026-05-21,2026-09-10,Daniel Mwangi
+KB-1204,7866535e-34c2-7f88-e7df-2817d90ad050,kandb,Full interior fit-out,Runda,delivery,2026-03-12,2026-09-25,Aisha Noor
+KB-1205,784ac71b-6588-5e71-bf5d-b55f1e3526ad,kandb,Kohler bathroom refit,Kileleshwa,client_selections,2026-07-14,,Priya Shah
+KB-1206,3c7f3f36-fc1d-2279-f6c2-c36d4a40a4c7,kandb,Snaidero kitchen + Bosch appliances,Runda,survey,2026-04-25,,Kevin Otieno
+KB-1207,34d28b9d-4006-4fcb-7449-19a2c93da39c,kandb,Novamobili wardrobes,Spring Valley,client_selections,2026-06-08,,Priya Shah
+KB-1208,a1367e80-5e8d-e6a8-7581-d4e4855ed41f,kandb,Full interior fit-out,Runda,order_placed,2026-05-08,2026-11-09,Priya Shah
+KB-1209,6c49921f-04d0-338e-bf7c-069a978e6084,kandb,Full interior fit-out,Kileleshwa,delivery,2026-05-15,2026-12-09,Kevin Otieno
+KB-1210,00eaad40-275e-13d8-7ab0-73d50bd7fcb6,kandb,Kohler bathroom refit,Westlands,installation,2026-05-26,2026-10-10,Kevin Otieno
+KB-1211,73ffce35-6f23-eff6-13b1-395ffbb33f17,kandb,Full interior fit-out,Westlands,handover,2026-05-13,,Daniel Mwangi
+KB-1212,1ef2dca1-c3b3-b3f9-088b-736136c53ff1,kandb,Full interior fit-out,Karen,design_3d,2026-04-22,2026-09-25,Priya Shah
+KB-1213,0a7387fa-82ca-76ce-649b-a3183e396475,kandb,"Caesar tiling, whole ground floor",Lavington,handover,2026-06-04,2026-12-09,Priya Shah
+KB-1214,5a4b3f7d-60be-125f-ae49-3928d7b8e2a3,kandb,Snaidero kitchen + Bosch appliances,Karen,delivery,2026-05-21,2026-09-10,Priya Shah
+KB-1215,4eebf6d3-0613-9d88-e32c-2ba21b091a72,kandb,Kohler bathroom refit,Lavington,handover,2026-04-23,,Priya Shah
+KB-1216,b3bf16d2-9ab7-8408-7b37-97ada9e85e6d,kandb,Full interior fit-out,Kitisuru,order_placed,2026-03-03,,Kevin Otieno
+KB-1217,47d3e053-8088-a238-e018-179cc7aa6a2a,kandb,Snaidero kitchen + Bosch appliances,Nyari,installation,2026-05-21,2026-12-09,Aisha Noor
+KB-1218,de44810d-e8c6-96ba-d7c7-0f61cab3e7f1,kandb,Full interior fit-out,Gigiri,delivery,2026-04-24,2026-11-09,Aisha Noor
+KB-1219,70a25623-5a95-ad08-a021-5d48c97d2018,kandb,Snaidero kitchen + Bosch appliances,Runda,quotation_approval,2026-06-21,2026-09-25,Priya Shah
+KB-1220,1324a716-a050-c567-d02f-429f6b34b40e,kandb,Snaidero kitchen,Rosslyn,quotation_approval,2026-03-17,2026-09-25,Kevin Otieno
+KB-1221,ed686dc9-ec6a-36f7-06c0-1f2bfa7e1031,kandb,Novamobili wardrobes,Kileleshwa,delivery,2026-06-10,2026-10-10,Kevin Otieno
+KB-1222,3e040891-da78-a341-b358-9790e0754f1d,kandb,Snaidero kitchen + Bosch appliances,Kileleshwa,survey,2026-06-30,2026-11-09,Kevin Otieno
+KB-1223,1b9a02c1-1ae3-63fa-2a76-6e1691ec91f4,kandb,"Caesar tiling, whole ground floor",Kitisuru,delivery,2026-06-10,2026-09-10,Priya Shah
+KB-1224,ce4dc336-738c-1760-1c29-fe477a51d459,kandb,"Caesar tiling, whole ground floor",Kitisuru,design_3d,2026-06-03,,Aisha Noor
+KB-1225,12013adb-2965-57fc-c163-8b780b31e813,kandb,Full interior fit-out,Nyari,quotation_approval,2026-04-14,2026-09-10,Daniel Mwangi
+KB-1226,bcaa3d27-887f-7a33-6247-818995d31a27,kandb,Kohler bathroom refit,Muthaiga,quotation_approval,2026-03-31,2026-11-09,Aisha Noor
+KB-1227,63e064b2-b786-9f25-0305-a2402b397a76,kandb,Full interior fit-out,Kileleshwa,design_3d,2026-05-02,2026-09-25,Kevin Otieno
+KB-1228,3fb76b4a-7e94-d09c-f657-148e67af9664,kandb,"Caesar tiling, whole ground floor",Rosslyn,delivery,2026-03-13,,Aisha Noor
+KB-1229,31ec47e4-6353-f084-ba47-4528437b3c53,kandb,"Caesar tiling, whole ground floor",Lavington,quotation_approval,2026-05-19,2026-12-09,Daniel Mwangi
+KB-1230,85aa91a2-7463-a870-37c0-a62aaa445483,kandb,"Caesar tiling, whole ground floor",Lavington,client_selections,2026-05-02,2026-09-25,Aisha Noor
+KB-1231,ac73351e-6ea3-6946-7ec8-53c704b1212e,kandb,Snaidero kitchen + Bosch appliances,Runda,delivery,2026-05-21,2026-12-09,Daniel Mwangi
+KB-1232,a874a8e6-7ed6-3d78-8a7e-64f467e9ed4d,kandb,Full interior fit-out,Loresho,design_3d,2026-05-28,,Aisha Noor
+KB-1233,f5c19d9a-2e33-9f72-793f-728bb758377f,kandb,Novamobili wardrobes,Kileleshwa,quotation_approval,2026-05-06,2026-12-09,Kevin Otieno
+KB-1234,b6588f03-da71-ef29-5250-1959b7df19c2,kandb,Full interior fit-out,Loresho,installation,2026-07-12,2026-10-10,Priya Shah
+KB-1235,d7dd835f-89ab-eebc-c8aa-08b902aba5fe,kandb,Full interior fit-out,Loresho,order_placed,2026-04-14,2026-09-10,Daniel Mwangi
+KB-1236,23b2ffab-fc9a-bb85-244f-36ef4a99bdac,kandb,Kohler bathroom refit,Runda,quotation_approval,2026-05-12,2026-10-10,Kevin Otieno
+KB-1237,747124d9-588a-2ce9-3490-c573def9c2f7,kandb,Snaidero kitchen,Westlands,handover,2026-04-11,2026-09-25,Aisha Noor
+KB-1238,e922ff44-0a6f-e3d6-2d29-00db2ba11f3f,kandb,Full interior fit-out,Runda,installation,2026-06-14,2026-09-25,Priya Shah
+KB-1239,c02450e3-8edc-a8af-dc49-3bfcae6d30c3,kandb,Snaidero kitchen + Bosch appliances,Lavington,handover,2026-05-12,2026-10-10,Aisha Noor
+KB-1240,dd7332bb-4fc7-a15f-1a9b-93e52df84c16,kandb,Novamobili wardrobes,Spring Valley,design_3d,2026-05-01,,Daniel Mwangi
+KB-1241,5aa4eca6-67db-31d4-5640-a68fd76a1470,kandb,"Caesar tiling, whole ground floor",Kileleshwa,installation,2026-05-18,2026-12-09,Priya Shah

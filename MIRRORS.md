@@ -15,6 +15,7 @@ re-run the matching command from the repo root.
 | Safarilink | Home, About | `flysafarilink.com/index.html`, `flysafarilink.com/about-us/about.html` |
 | Sai Office | Home, Contact | `www.sai-office.com/kenya/index.html`, `www.sai-office.com/kenya/contact-us/index.html` |
 | Ramco Printing | Home, The Company | `www.ramcoprinting.com/index.html`, `www.ramcoprinting.com/the-company.html` |
+| Kitchens & Beyond | Home, About Us | `kitchensandbeyond.co.ke/index.html`, `kitchensandbeyond.co.ke/about-us.html` |
 
 ## Commands
 
@@ -41,6 +42,12 @@ wget -e robots=off --no-check-certificate -E -H -k -p -nv -U "$UA" \
   -P companies/ramco-printing/site-mirror \
   https://www.ramcoprinting.com/ \
   https://www.ramcoprinting.com/the-company
+
+# Kitchens & Beyond
+wget -e robots=off --no-check-certificate -E -H -k -p -nv -U "$UA" \
+  -P companies/kitchens-beyond/site-mirror \
+  https://kitchensandbeyond.co.ke/ \
+  https://kitchensandbeyond.co.ke/about-us
 ```
 
 ## Notes

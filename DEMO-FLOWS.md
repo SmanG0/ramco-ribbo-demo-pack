@@ -6,26 +6,32 @@ Read this before anything else. No prior knowledge assumed. If you only read one
 
 ## The big picture (read this first)
 
-We are building **three little assistants that live inside WhatsApp.**
+We are building **four little assistants that live inside WhatsApp.**
 
 A customer opens WhatsApp — the same app they text friends on — and messages a company's number.
 An assistant answers **instantly, any time of day or night**, using that company's **real
 information**. It can look things up, and it can get things done (place an order, log a repair,
-book-in a print job).
+book-in a print job, book a showroom visit).
 
-We are building **three** of these, for **three different Ramco companies**. Ramco owns 40+
-companies, and we want to prove that Ribbo works for **any** of them — not just one. So we picked
-three companies that need **three different kinds of assistant**, to show the range:
+We are building **four** of these, for **four different Ramco companies**. Ramco owns 40+ companies,
+and we want to prove that Ribbo works for **any** of them — not just one. So we picked four companies
+that each need a **different kind of assistant**, to show the range:
 
-| # | Company | What the customer wants | The kind of assistant it shows off |
-|---|---|---|---|
-| 1 | **Safarilink** (safari airline) | "What can I bring? Where's my flight?" | **Looks things up + checks who you are** before showing private booking info |
-| 2 | **Sai Office** (office supplies) | "Reorder my usual stuff" | **Does a task for you** — checks your price, checks stock, places the order |
-| 3 | **Ramco Printing** (printing works) | "Quote my print job / where is it?" | **Asks the right questions** to build a complete order, and chases nothing |
+| # | Company | Who it serves | What the customer wants | The kind of assistant it shows off |
+|---|---|---|---|---|
+| 1 | **Safarilink** (safari airline) | **B2C** — individual travellers | "What can I bring? Where's my flight?" | **Looks things up + checks who you are** before showing private booking info |
+| 2 | **Sai Office** (office supplies) | **B2B** — company buyers | "Reorder my usual stuff" | **Does a task for you** — checks your price, checks stock, places the order |
+| 3 | **Ramco Printing** (printing works) | **B2B** — corporate print buyers | "Quote my print job / where is it?" | **Asks the right questions** to build a complete order, and chases nothing |
+| 4 | **Kitchens & Beyond** (luxury interiors) | **B2C** — homeowners/renovators | "How much is a kitchen? Can I see one?" | **Qualifies a lead and books a showroom visit** — the only bot that *books* something |
 
-**Why three different ones?** If all three assistants did the same thing, the demo would prove
-nothing. The whole point is: *"Look — same platform, three totally different jobs. We can do this
-for your whole group."*
+All four are **customer-facing** — the end customer messages the bot directly; none are internal
+staff tools. The only difference is whether that customer is a **consumer (B2C)** or a **business
+(B2B)**.
+
+**Why four different ones?** If all four assistants did the same thing, the demo would prove nothing.
+The whole point is: *"Look — same platform, four totally different jobs, four different parts of your
+group. We can do this for the whole thing."* **Demo order: 1, 2, 3, then Kitchens & Beyond last** —
+the first three *save* money, the last one *makes* money, which is the note to end on.
 
 ### A few words we use
 
@@ -47,6 +53,8 @@ know everything is scarier than one with sensible limits).
 ---
 
 ## Bot 1 — Safarilink (the safari airline)
+
+**Type: B2C (consumer) · customer-facing.**
 
 **What it is:** an assistant for travellers flying on safari. Most are tourists in other time zones,
 messaging at 2am the night before a trip, nervous, asking simple questions when no one is at the
@@ -75,6 +83,8 @@ exist.
 ---
 
 ## Bot 2 — Sai Office (office supplies)
+
+**Type: B2B (business customers) · customer-facing.**
 
 **What it is:** an assistant for company buyers who reorder the **same supplies every month** (toner,
 paper, pens). Today that's a phone call to a rep. The bot does it on WhatsApp in under a minute.
@@ -106,6 +116,8 @@ Grace's secret contract price.
 ---
 
 ## Bot 3 — Ramco Printing (the printing works)
+
+**Type: B2B (business customers) · customer-facing.**
 
 **What it is:** an assistant for people ordering printing (business cards, notebooks, packaging,
 banners). Here's the catch: **you can't look up the price of "5,000 notebooks"** — the price depends
@@ -144,11 +156,62 @@ quoting — leading with this refusal wins them over.)
 
 ---
 
+## Bot 4 — Kitchens & Beyond (luxury kitchens & interiors) — DEMO THIS ONE LAST
+
+**Type: B2C (consumer) · customer-facing.**
+
+**What it is:** an assistant for people planning a luxury kitchen or interior renovation. This is a
+big, considered, emotional purchase — researched late at night, and **easily lost to a competitor**.
+Someone browsing Italian kitchens at 11pm either gets engaged now or has looked at three rivals by
+morning.
+
+**The one thing it proves:** this is the only bot that **makes money instead of saving it.** It
+doesn't just answer — it **qualifies** the person (are they a real prospect?) and **books a showroom
+visit**. Its write action is a **calendar slot**, which nothing else in the demo does.
+
+### The exact demo (say out loud: "it's 11pm, nobody is at the showroom")
+
+| Step | The customer types… | The bot does… | What to point at on screen |
+|---|---|---|---|
+| 1 | "How much does a new kitchen cost?" | **Does NOT quote a price** (there are none). Explains what actually drives the cost, then asks about their project — scope, property stage, timeline, and budget range. | "It's qualifying, not deflecting — turning a vague browser into a real brief." |
+| 2 | (gives scope + timeline + a real budget) | Confirms they're a good fit, offers a showroom visit, and mentions the free 3D visualisation as the way to get real numbers. | "It figured out this is a genuine prospect worth a designer's time." |
+| 3 | "Could I come in this Saturday?" | Checks slots — Saturday is nearly full (only 2 of 12 left) — and **books one. This is a real write.** Notes the designer will arrive already briefed on their project. | "It just booked an appointment inside WhatsApp, at 11pm, with nobody at the showroom." |
+| 4 | "Is the quality actually good?" | Answers with the one owned fact: **no product in the range carries a warranty under ten years** — without going near a price. | "Handles the quality objection in one line." |
+
+**The aha moment:** step 3 (a real booking captured at peak intent, out of hours) plus the number —
+*"44% of your enquiries arrive outside opening hours, and 61 of your last 180 never got booked at
+all."* That's leaked revenue the bot converts into pipeline.
+
+**The existing-customer beat (the group-wide pattern):** "when is my kitchen going in?" → *"your tile
+selection is holding your October installation — it's been outstanding 12 days"*, and it offers the
+step to unblock it. Same shape as Ramco Printing's stuck proof and Sai Office's uncollected repair.
+
+**The "I can't do that" moment:** an enquiry with a budget well below the range → the bot says so
+honestly and refers them elsewhere, rather than wasting a designer's Saturday. Honesty builds trust.
+
+---
+
 ## One line to remember for each
 
 - **Safarilink:** "Answers instantly at 2am, and shows your booking only after checking it's really you."
 - **Sai Office:** "Reorders your usual supplies in under a minute, at your price, and spots when you're running low."
 - **Ramco Printing:** "Turns a vague print enquiry into a complete order, and tells you when a job is stuck waiting on you."
+- **Kitchens & Beyond:** "Catches an 11pm luxury-kitchen browser, qualifies them, and books the showroom visit before they shop around."
+
+## The line to close the whole demo on
+
+Three of the four bots surface the **same** hidden problem from completely unrelated businesses:
+
+- **Ramco Printing** — a print job waiting on the client's proof approval
+- **Sai Office** — a repair finished and waiting on collection; a quote waiting on a yes
+- **Kitchens & Beyond** — a kitchen installation waiting on the client's tile selection
+
+> "In every one of your businesses, work is sitting still waiting on your own customers, and nobody is
+> telling them."
+
+That's a group-level insight, not four separate product demos — it's the argument for one platform
+agreement across the whole group.
 
 For the deeper build detail behind each flow (exact data, tools, acceptance tests), see each
-company's `build-pack/0X-*.md` spec and `companies/<name>/README.md`.
+company's `build-pack/0X-*.md` spec (Kitchens & Beyond has none — use its README) and
+`companies/<name>/README.md`.

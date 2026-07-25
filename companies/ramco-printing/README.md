@@ -8,6 +8,41 @@ Package 3 of 3 for the Ramco Group demo. Companion to `03-ramco-printing.md`.
 
 **Read `SPEC-CORRECTIONS.md` first** — though for once it is good news. The spec was materially correct. Corrections are additive.
 
+## What this bot is for (use case)
+
+**Type: B2B · customer-facing.** The people messaging this bot are **corporate print buyers** ordering
+jobs for their company (business cards, notebooks, packaging, banners). Unlike Sai Office this is
+**not a catalogue** — a print job is *configured*, not picked off a shelf, so a price cannot simply be
+looked up.
+
+**What the bot does:** asks the right questions to build a complete, valid spec, routes it to the
+correct division (UNO/DUO/HEX/IX), gives an indicative range on standard items, and hands a tidy brief
+to a human estimator. It also answers "where's my job?" — and flags when a job is stuck waiting on the
+customer's own proof approval. It never quotes a final price on custom work (deliberate).
+
+## What each folder here is for
+
+- **`kb/`** — fixed facts the bot reads to answer general questions (division routing, proofing, how
+  quoting works). Never contains prices, job status or turnaround times — those come from tools.
+- **`seed/`** — realistic fake demo data (customers, jobs, proofs, rate cards) engineered so the
+  rehearsed demo questions always return a good answer.
+- **`scripts/`** — `generate_seed.py`, which regenerates that data relative to the demo date.
+- **`site-mirror/`** — an offline copy of two real Ramco Printing web pages to drop the widget onto.
+
+## What each knowledge base file is for
+
+| File | The customer situation it covers |
+|---|---|
+| `kb-divisions.md` | **The most important file.** "Which of your divisions handles my job?" UNO/DUO/HEX/IX definitions + 18 worked routing examples (6 flagged for the client to settle, including branded notebooks). |
+| `kb-about.md` | "Who is Ramco Printing?" Since 1994, 650+ staff, 160,000 sq ft, four divisions, ISO 9001, offset/digital/screen/large-format capability. |
+| `kb-locations.md` | "Where do I collect / which site?" Two physical sites split by division — collection location depends on which division holds the job (opposite sides of Nairobi). |
+| `kb-payment-credit.md` | "How do I pay / open an account?" The published M-PESA path and the Apply-for-Credit flow. |
+| `kb-proofing.md` | "What's a proof, what am I signing off, what happens while it waits?" **Powers the "your job is stuck waiting on your approval" beat.** |
+| `kb-quote-process.md` | "How do I get a quote / why can't you just tell me the price?" What an estimator needs; the hard no-auto-pricing rule. |
+| `kb-artwork-spec.md` | "What file format / resolution do you need?" ⚠️ *Numbers deliberately withheld* (bleed/dpi/colour marked unconfirmed) — a wrong spec gets a file rejected, so the bot explains what it *can* do without them. |
+| `kb-turnaround.md` | "How long will it take?" ⚠️ *States no timings* — turnaround is planner knowledge; the bot won't promise dates it can't guarantee. |
+| `kb-stock-and-finishing.md` | "What paper and finishes do you offer?" Categories only; specific range/availability is a tool call or needs confirming. |
+
 ## Contents
 
 ```

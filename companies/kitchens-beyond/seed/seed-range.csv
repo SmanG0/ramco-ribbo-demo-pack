@@ -1,0 +1,9 @@
+range_code,tenant_id,category,brand,note,min_warranty_years,is_active
+SNA-KITC,kandb,Kitchens,Snaidero,Italy,10,True
+KOH-SANI,kandb,Sanitaryware,Kohler,Kenyan retailer,10,True
+NOV-WARD,kandb,Wardrobes,Novamobili,,10,True
+CAE-PORC,kandb,Porcelain tiles,Caesar,,10,True
+IDE-VANI,kandb,Vanities,Ideagroup,,10,True
+AZZ-VANI,kandb,Vanities,Azzurra,,10,True
+BOS-BUIL,kandb,Built-in appliances,Bosch,,10,True
+FRA-SINK,kandb,Sinks & faucets,Franke,,10,True
