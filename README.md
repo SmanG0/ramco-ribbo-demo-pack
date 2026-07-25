@@ -8,6 +8,12 @@ The three bots each run a **different agent pattern** on **one shared platform**
 whole point of the demo: to prove Ribbo is a platform, not a point solution. If all three ran
 the same way, the demo would prove nothing.
 
+> ### 👉 New here? Read **[`DEMO-FLOWS.md`](DEMO-FLOWS.md)** first.
+> It explains, in plain English with no assumptions, **what each bot is, the exact conversation to
+> show, and what each moment proves to the client.** This README below is the *build* reference
+> (where files live, what's corrected, how to run things). `DEMO-FLOWS.md` is the *what-are-we-even-
+> doing* reference. Start there.
+
 | Bot | Company | Vertical | Agent pattern | Package status |
 |---|---|---|---|---|
 | 02 | Sai Office Supplies | Kora — Office & IT | Lookup and transact | ✅ **ready** |

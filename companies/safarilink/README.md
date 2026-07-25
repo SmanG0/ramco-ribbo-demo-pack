@@ -1,5 +1,9 @@
 # Safarilink Aviation — Ribbo Implementation Package
 
+> **In one line:** an assistant that answers travellers instantly at 2am, and shows a booking only
+> after confirming it's really them. **For the plain-English demo walkthrough — the exact
+> conversation and what each moment proves — see [`../../DEMO-FLOWS.md`](../../DEMO-FLOWS.md) (Bot 1).**
+
 Package 1 of 3 for the Ramco Group demo. Companion to `04-safarilink.md` in the build spec pack.
 
 **Read `SPEC-CORRECTIONS.md` first.** It supersedes the original spec in five places.

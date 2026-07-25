@@ -1,5 +1,9 @@
 # Ramco Printing Works — Ribbo Implementation Package
 
+> **In one line:** an assistant that turns a vague print enquiry into a complete order, and tells a
+> customer when a job is stuck waiting on them. **For the plain-English demo walkthrough — the exact
+> conversation and what each moment proves — see [`../../DEMO-FLOWS.md`](../../DEMO-FLOWS.md) (Bot 3).**
+
 Package 3 of 3 for the Ramco Group demo. Companion to `03-ramco-printing.md`.
 
 **Read `SPEC-CORRECTIONS.md` first** — though for once it is good news. The spec was materially correct. Corrections are additive.

@@ -1,5 +1,9 @@
 # Sai Office Supplies — Ribbo Implementation Package
 
+> **In one line:** an assistant that reorders your usual supplies in under a minute, at your own
+> contract price, and spots when you're running low. **For the plain-English demo walkthrough — the
+> exact conversation and what each moment proves — see [`../../DEMO-FLOWS.md`](../../DEMO-FLOWS.md) (Bot 2).**
+
 Package 2 of 3 for the Ramco Group demo. Companion to `02-sai-office.md`.
 
 **Read `SPEC-CORRECTIONS.md` first.** The original spec under-described this business — it is a seven-line operation including solar, cooling, equipment leasing and an authorised Epson/APC service centre, not a consumables reseller. That changes the demo.
