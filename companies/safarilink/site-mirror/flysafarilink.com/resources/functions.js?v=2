@@ -1,0 +1,321 @@
+function createQueryArray(path,type, urlFormatted){
+    
+    if(urlFormatted == undefined)
+        urlFormatted = false;
+
+    var arr = path.split('/');
+    var qo = {};
+    switch (type) {
+        case 'flightresults':
+        if (path.indexOf('flight-results') === -1 && path.indexOf('rebookFlights') === -1)
+            return qo;
+            if (arr.indexOf('flight-results') == 2 || arr.indexOf('rebookFlights') == 2) {
+                arr[2] = arr[3];
+                arr[3] = arr[4];
+                arr[4] = arr[5];
+                arr[5] = arr[6];
+                arr[6] = arr[7];
+            }
+            var fromto = arr[2].split('-');
+            qo.from = fromto[0];
+            qo.to = fromto[1];
+            qo.start = arr[3];
+            qo.end = arr[4];
+            if (!urlFormatted) {
+                qo.start = qo.start.replace(/-/g,'/');
+                qo.end = qo.end.replace(/-/g,'/');
+            }
+            qo.adults = arr[5];
+            qo.child = arr[6];
+            qo.infant = arr[7];
+            if (qo.infant.indexOf('?') > -1) {
+                qo.infant = qo.infant.substring(0,qo.infant.indexOf('?'));
+            }
+            //Select all elements that are after the ?
+            var queryString = window.location.search.substring(1);
+            var array = queryString.split('&');
+            array.forEach(function(element) {
+                var keyVal = element.split('=');
+                qo[keyVal[0]] = keyVal[1];
+            });
+            break;
+
+        case 'packages':
+            if (path.indexOf('packages') === -1)
+                return qo;
+            qo.style = arr[2];
+            qo.destination = arr[3];
+            qo.days = arr[4];
+            qo.date = arr[5];
+            break;
+
+        case 'package':
+            if (path.indexOf('package') === -1)
+                return qo;
+            qo.pkgname = arr[2];//.replace(/-/g,' ');
+            break;
+
+        default:
+            break;
+    }
+    return qo;
+}
+
+function createQueryString(path,type,urlFormatted){
+
+    if(urlFormatted == undefined)
+        urlFormatted = false;
+
+    var qs = "?";
+    var qo = createQueryArray(path,type, urlFormatted);
+    for(x in qo) {
+        qs += x+"="+qo[x]+"&"
+    }
+    return qs.substring(0,qs.length-1);
+}
+
+function addOrdinalNumberSuffix(num) {
+    if([11,12,13].indexOf(num % 100) < 0) {
+        switch (num % 10) {
+        // Handle 1st, 2nd, 3rd
+            case 1:  return num+'st';
+            case 2:  return num+'nd';
+            case 3:  return num+'rd';
+        }
+    }
+    return num+'th';
+}
+
+function copyObj(obj) {
+    return JSON.parse(JSON.stringify(obj));
+}
+
+function getAncestor(obj,generations) {
+    var ret = obj;
+    for(var x = 0; x < generations; x++){
+        ret = ret.parentElement;
+    }
+    return ret;
+}
+
+// ==== GLOBAL QUEUE FOR SESSION REQUESTS ====
+window.__sessionQueue = window.__sessionQueue || [];
+window.__sessionActive = false;
+
+function storeInSession(container, action, element, rawData, callback, urlAddition) {
+
+    if(element == undefined)
+        element = false;
+    if(rawData == undefined)
+        rawData = false;
+    if(callback == undefined)
+        callback = false;
+    if (urlAddition == undefined)
+        urlAddition = '';
+
+    // Prepare the request payload
+    var data = {};
+    data['container'] = container;
+
+    if (element === false) {
+        data['data'] = rawData;
+    } else {
+        data['data'] = {};
+        for (var i = 0; i < element.attributes.length; i++) {
+            var attribute = element.attributes[i];
+            if (attribute.specified && attribute.name.substring(0,5) === 'data-') {
+                var key = attribute.name.substring(5);
+                if (key !== 'selected')
+                    data['data'][key] = attribute.value;
+            }
+        }
+    }
+
+    data['action'] = action;
+
+
+    // ===== QUEUE WRAPPER =====
+    function enqueue() {
+        window.__sessionQueue.push({
+            data,
+            urlAddition,
+            callback
+        });
+        processQueue();
+    }
+
+    function processQueue() {
+        if (window.__sessionActive) return;
+        if (window.__sessionQueue.length === 0) return;
+
+        window.__sessionActive = true;
+
+        const job = window.__sessionQueue.shift();
+
+        var request = new XMLHttpRequest();
+        var url = '/controllers/general/sessionHandler.php' + job.urlAddition;
+
+        request.open("POST", url, true);
+        request.onreadystatechange = function() {
+            if (window.CsrfTokenManager)
+                window.CsrfTokenManager.updateCsrfTokenFromResponse(this);
+
+            if (this.readyState == 4) {
+
+                // fire the callback if provided
+                if (this.status == 200 && typeof job.callback === 'function') {
+                    job.callback(this.responseText);
+                }
+
+                // allow next item to run
+                window.__sessionActive = false;
+
+                // process next
+                setTimeout(processQueue, 0);
+            }
+        };
+
+        request.send(JSON.stringify(job.data));
+    }
+
+    // Add session call to queue
+    enqueue();
+}
+
+
+/*
+    * removeAllFromLocation - removes all nodes of this class, starting from the location
+*/
+function cloneElement(className, location, remove, removeAllFromLocation) {
+
+    if(remove == undefined)
+        remove = true;
+    if(removeAllFromLocation == undefined)
+        removeAllFromLocation = false;
+
+    var cloned = (document.getElementsByClassName(className)[location]) !== undefined ? document.getElementsByClassName(className)[location].cloneNode(true,true,true) : false;
+    if (remove)
+        removeElement(className, location, removeAllFromLocation);
+    return cloned;
+}
+
+function removeElement(className, location, removeAllFromLocation) {
+    if ($('.'+className+':eq('+location+')') !== undefined) {
+        for (var i = location; document.getElementsByClassName(className)[location] !== undefined && document.getElementsByClassName(className)[location] !== null; i++) {
+            $('.'+className+':eq('+location+')').remove();
+            if (!removeAllFromLocation)
+                break;
+        }
+    }
+}
+
+function validateName(name) {
+   
+    var allowNonEnglishChar = $('#allowNonEnglishChar').val();
+    var flag = false;
+    var nameRegex = /^[^\.|,|\-|@|\d\s][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{1,}$/
+    //You can't touch this!!!!! ^^
+    //Only if there is at least one letter then flag = true
+    if((allowNonEnglishChar == 1 && (/^(?=.*).{2,}$/.test(name)) || (allowNonEnglishChar == 0 && /[A-Za-z]/.test(name)))) {
+        flag = true;
+    }
+    //if there are char's that are not letters or quote or hyphen then flag = false
+    if(flag && ((allowNonEnglishChar == 1 && !(nameRegex.test(name))) ||(allowNonEnglishChar == 0 && !(/^[a-zA-Z ]*$/.test(name))))) { 
+        flag = false;
+    }
+
+    return flag;
+}
+
+function validateAddress(data) {
+    var unicodeAddressRegex;
+    try {
+        unicodeAddressRegex = new RegExp("^[\\p{L}0-9\\s/\\\\\"'\\u05F3,\\-]*$", "u");
+    } catch (e) {
+        unicodeAddressRegex = /^[a-zA-Z\u0590-\u05FF0-9\s\/\\"'\u05F3,\-\s]*$/;
+    }
+    return unicodeAddressRegex.test(data);
+}
+
+//When we need to send a manual error
+function logError (e){
+    if (typeof(e) == 'object') {
+        rg4js('send', {
+            error: e,
+            tags: generateTagsCallback
+          });
+    }
+}
+
+// CRS 2148
+function buildDynamicLi(name, logo, description, newpage) {
+    if (newpage == undefined)
+        newpage = false;
+    var newI = document.createElement("i")
+    newI.classList.add("fas", logo)
+
+    var newDiv = document.createElement("div")
+
+    var newLi = document.createElement("li")
+    if (newpage) {
+        newLi.classList.add("content__list")
+        newDiv.classList.add("content__list__icon")
+        newDiv.appendChild(newI)
+        
+        var span2div = document.createElement("span")
+        span2div.classList.add("content__list__text")
+        span2div.innerHTML = description
+
+        var new2Div = document.createElement("div")
+        new2Div.classList.add("content__list_content")
+        new2Div.appendChild(span2div)
+        
+        newLi.appendChild(newDiv)
+        newLi.appendChild(new2Div)
+    }
+    else {
+        newDiv.classList.add("svgHolder")
+
+        newLi.appendChild(newDiv).appendChild(newI)
+    }
+
+    name = name.trim().replace(/ /g, '_');
+    newLi.classList.add(name)
+
+    return newLi
+}
+
+function buildDynamicLiTooltip(name, logo, description) {
+    var newITt = document.createElement("i")
+    newITt.classList.add("fas", logo)
+    newITt.style.color = "black"
+
+    var newInsideDivTt = document.createElement("div")
+    newInsideDivTt.classList.add("svgHolder")
+    newInsideDivTt.appendChild(newITt)
+
+    var newSpanTt = document.createElement("span")
+    newSpanTt.innerHTML = description
+
+    var newDivTt = document.createElement("div")
+    newDivTt.classList.add("imgHolder")
+    newDivTt.appendChild(newInsideDivTt)
+    
+    var newLiTt = document.createElement("li");
+    name = name.trim().replace(/ /g, '_');
+    newLiTt.classList.add(name)
+    newLiTt.appendChild(newDivTt)
+    newLiTt.appendChild(newSpanTt)
+
+    return newLiTt
+}
+
+function manageTooltipDisplay() {
+    $('.flightChoice_tooltipHolder').hover(function() {
+        var flightChoice_tooltip = $(this).find('.flightChoice_tooltip');
+        var flightChoice_tooltipText = $(flightChoice_tooltip).html().trim().toLowerCase();
+        if (flightChoice_tooltipText.indexOf("direct") > -1 || flightChoice_tooltipText === "" || flightChoice_tooltipText.indexOf("non stop") > -1  ) {
+           $(this).addClass('dontAllowHover'); 
+        }
+    })
+}

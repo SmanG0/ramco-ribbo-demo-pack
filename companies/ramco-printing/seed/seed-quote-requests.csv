@@ -1,0 +1,71 @@
+quote_ref,customer_id,tenant_id,division,spec_json,is_urgent,needed_by,status,estimator,quoted_value,created_at
+QR-2200,4bdf9fbf-d1a8-b378-d9d9-1e732ccf62ab,ramco-printing,HEX,"{""product"":""B5 notebook""}",False,2026-09-21,lost,Naomi Muthoni,1128414.77,2026-07-15
+QR-2201,de046c82-323a-44d9-4bbd-387ca8ad5f7b,ramco-printing,HEX,"{""product"":""desk diary 2027""}",False,2026-09-20,won,Peter Barasa,1193199.72,2026-05-20
+QR-2202,264f9508-8edc-52a7-5b1f-e22ec5f9d06b,ramco-printing,UNO,"{""product"":""letterheads""}",False,2026-09-11,new,James Mutiso,477889.12,2026-06-02
+QR-2203,a6e43db4-0e02-1dce-b316-ec6483e80d5e,ramco-printing,HEX,"{""product"":""A5 softcover journal""}",True,2026-09-14,quoted,Mercy Wafula,611949.02,2026-05-24
+QR-2204,273f0a46-b0e0-15e4-2eea-537dd458199d,ramco-printing,DUO,"{""product"":""paperback book 300pp""}",True,2026-09-25,won,Naomi Omondi,1231150.15,2026-05-14
+QR-2205,431a0612-649b-ac0c-b17f-741d131f33b3,ramco-printing,DUO,"{""product"":""instruction leaflet""}",True,2026-09-18,with_estimator,Esther Achieng,390434.7,2026-08-06
+QR-2206,f4bcea1c-a9fc-85f2-a1fc-4c957ae2f877,ramco-printing,UNO,"{""product"":""presentation folder""}",False,2026-09-01,won,Mercy Wanjiru,1204261.38,2026-07-21
+QR-2207,d7c87397-488b-3eac-c17d-b4e2b56cb2b7,ramco-printing,HEX,"{""product"":""A5 hardcover notebook""}",False,2026-09-10,won,Victor Wafula,1063206.49,2026-05-20
+QR-2208,5ed7e7d8-8371-128d-9e01-df5e9d3259b2,ramco-printing,DUO,"{""product"":""monthly magazine""}",False,2026-10-02,won,Esther Muthoni,64162.12,2026-07-10
+QR-2209,056acd07-b13e-29f4-fcee-2c1b453aba36,ramco-printing,UNO,"{""product"":""letterheads""}",False,2026-09-01,new,Dennis Njoroge,974957.73,2026-07-03
+QR-2210,273f0a46-b0e0-15e4-2eea-537dd458199d,ramco-printing,DUO,"{""product"":""monthly magazine""}",True,2026-09-07,new,Victor Njoroge,971994.31,2026-07-11
+QR-2211,cf6df40d-2ae6-3792-70c8-c21ba56cd4c9,ramco-printing,IX,"{""product"":""outdoor signage panel""}",False,2026-09-04,new,Dennis Achieng,218963.92,2026-05-13
+QR-2212,f504ebaa-0156-eb96-e381-aa808aaf5f98,ramco-printing,IX,"{""product"":""pull-up banner""}",False,2026-09-12,lost,Victor Otieno,1202322.37,2026-06-27
+QR-2213,dbc3b092-5210-ecf2-db66-87e70035347c,ramco-printing,DUO,"{""product"":""carton sleeve""}",False,2026-10-05,quoted,Mercy Otieno,445987.36,2026-06-10
+QR-2214,92eba0e3-1087-a447-9bae-74f56bef94c2,ramco-printing,IX,"{""product"":""outdoor signage panel""}",True,2026-10-08,new,Samuel Wafula,974155.69,2026-08-07
+QR-2215,644f0335-74ad-84e7-c2fe-e1ba6f020342,ramco-printing,DUO,"{""product"":""product label roll""}",False,2026-10-08,new,Joyce Achieng,986651.69,2026-07-03
+QR-2216,eedb3a03-9d8d-9f4e-8e4e-511ecfee26dc,ramco-printing,DUO,"{""product"":""folding carton""}",False,2026-10-09,new,Alice Ochieng,1064947.15,2026-06-10
+QR-2217,f0976376-bdc7-6d35-b8b2-e6e3cb2a0036,ramco-printing,DUO,"{""product"":""paperback book 300pp""}",True,2026-09-03,lost,Grace Mwende,405817.0,2026-06-17
+QR-2218,056acd07-b13e-29f4-fcee-2c1b453aba36,ramco-printing,IX,"{""product"":""branded mugs""}",False,2026-08-18,new,James Njeri,437246.11,2026-07-06
+QR-2219,72dd4feb-facf-13d3-79a2-1d440e62147b,ramco-printing,DUO,"{""product"":""product label roll""}",False,2026-08-22,quoted,Alice Kamau,524890.11,2026-05-23
+QR-2220,e4a24a2b-9485-8c1f-0863-f6897e3d4a0f,ramco-printing,HEX,"{""product"":""pocket diary 2027""}",False,2026-08-23,new,Grace Mureithi,393810.79,2026-05-20
+QR-2221,fdee6e16-066c-ffcc-87bd-d0d370dcd6eb,ramco-printing,DUO,"{""product"":""instruction leaflet""}",False,2026-08-30,won,Grace Ochieng,73153.44,2026-07-08
+QR-2222,056acd07-b13e-29f4-fcee-2c1b453aba36,ramco-printing,HEX,"{""product"":""A5 hardcover notebook""}",True,2026-09-12,with_estimator,Winnie Njoroge,444572.27,2026-07-04
+QR-2223,4066f493-868c-4f3d-16c6-1a9458abe20c,ramco-printing,IX,"{""product"":""exhibition backdrop""}",True,2026-10-05,quoted,Mercy Muthoni,1310784.49,2026-07-20
+QR-2224,4bdf9fbf-d1a8-b378-d9d9-1e732ccf62ab,ramco-printing,DUO,"{""product"":""paperback book 300pp""}",False,2026-09-10,lost,Alice Wanjiru,824854.88,2026-06-12
+QR-2225,e2fb492f-f2af-0e4a-b09a-10a7853c7d4f,ramco-printing,IX,"{""product"":""branded mugs""}",True,2026-09-22,quoted,Alice Kariuki,1069818.9,2026-05-24
+QR-2226,0cd87a05-096d-b4c7-e804-63323654b0e1,ramco-printing,HEX,"{""product"":""pocket diary 2027""}",False,2026-08-28,won,James Mwende,1256365.05,2026-05-23
+QR-2227,f698aed6-9f84-5bec-cc70-d1998377c749,ramco-printing,IX,"{""product"":""outdoor signage panel""}",False,2026-10-04,won,Joyce Njoroge,861902.65,2026-05-17
+QR-2228,ca2f6f71-ed08-482b-f26a-4d45fe5fdc9e,ramco-printing,HEX,"{""product"":""A5 hardcover notebook""}",False,2026-09-11,won,Peter Chebet,1265272.9,2026-05-21
+QR-2229,c2a78948-672d-3480-815c-adaf49b3a057,ramco-printing,DUO,"{""product"":""carton sleeve""}",False,2026-09-10,won,Mercy Otieno,510788.0,2026-07-30
+QR-2230,f698aed6-9f84-5bec-cc70-d1998377c749,ramco-printing,DUO,"{""product"":""carton sleeve""}",False,2026-09-26,lost,Caroline Achieng,136661.66,2026-06-25
+QR-2231,30917424-9b81-3f23-0d08-4a01d60b505d,ramco-printing,IX,"{""product"":""vehicle branding set""}",False,2026-09-16,new,Esther Odhiambo,641916.03,2026-08-10
+QR-2232,1fa48a73-7222-9877-55df-b36e5fc29844,ramco-printing,UNO,"{""product"":""letterheads""}",False,2026-10-03,won,Mercy Ochieng,157599.83,2026-08-03
+QR-2233,f4bcea1c-a9fc-85f2-a1fc-4c957ae2f877,ramco-printing,UNO,"{""product"":""A4 booklet 24pp""}",False,2026-09-03,won,Joyce Mutiso,1348079.45,2026-06-09
+QR-2234,40ce51ac-1c59-d345-c400-97e7d1a1bc8c,ramco-printing,DUO,"{""product"":""training manual perfect bound""}",False,2026-10-08,new,James Mureithi,109333.22,2026-06-28
+QR-2235,b5c603f1-af1d-e19b-df98-e35de2c28820,ramco-printing,HEX,"{""product"":""B5 notebook""}",False,2026-08-31,with_estimator,Joyce Njeri,237205.6,2026-06-19
+QR-2236,85a66359-8341-c3df-1cdf-66e0599545c6,ramco-printing,IX,"{""product"":""pull-up banner""}",False,2026-08-27,won,Caroline Achieng,411918.11,2026-07-19
+QR-2237,e4a24a2b-9485-8c1f-0863-f6897e3d4a0f,ramco-printing,DUO,"{""product"":""product label roll""}",True,2026-08-21,won,Peter Odhiambo,1284047.44,2026-05-22
+QR-2238,cc9a38b8-22cd-3a50-f6b1-0a7fc187593a,ramco-printing,HEX,"{""product"":""desk diary 2027""}",True,2026-09-01,quoted,Dennis Omondi,1352557.8,2026-06-04
+QR-2239,5f66bb0d-da5a-b328-4211-0288cdc4ba6f,ramco-printing,IX,"{""product"":""branded pens""}",False,2026-09-26,new,Grace Achieng,526818.08,2026-06-23
+QR-2240,72dd4feb-facf-13d3-79a2-1d440e62147b,ramco-printing,UNO,"{""product"":""annual report 48pp""}",False,2026-08-24,quoted,Winnie Ochieng,539411.25,2026-06-18
+QR-2241,85a66359-8341-c3df-1cdf-66e0599545c6,ramco-printing,UNO,"{""product"":""A4 brochure 8pp""}",False,2026-09-13,lost,Grace Wafula,65396.48,2026-07-28
+QR-2242,b5c603f1-af1d-e19b-df98-e35de2c28820,ramco-printing,UNO,"{""product"":""letterheads""}",False,2026-10-10,lost,Caroline Achieng,444642.89,2026-07-30
+QR-2243,85a66359-8341-c3df-1cdf-66e0599545c6,ramco-printing,UNO,"{""product"":""compliment slips""}",False,2026-10-05,quoted,Daniel Achieng,1282684.85,2026-06-30
+QR-2244,d7c87397-488b-3eac-c17d-b4e2b56cb2b7,ramco-printing,UNO,"{""product"":""A4 brochure 8pp""}",False,2026-09-01,new,Victor Njeri,703707.75,2026-08-10
+QR-2245,fdee6e16-066c-ffcc-87bd-d0d370dcd6eb,ramco-printing,UNO,"{""product"":""compliment slips""}",False,2026-10-04,lost,Caroline Njeri,1007083.68,2026-08-05
+QR-2246,f504ebaa-0156-eb96-e381-aa808aaf5f98,ramco-printing,DUO,"{""product"":""monthly magazine""}",False,2026-09-06,quoted,David Mutiso,1005559.23,2026-07-13
+QR-2247,056acd07-b13e-29f4-fcee-2c1b453aba36,ramco-printing,HEX,"{""product"":""pocket diary 2027""}",False,2026-08-17,lost,Samuel Kamau,1271129.44,2026-06-21
+QR-2248,2a27a916-5c7e-b7da-75da-e841e7d303bc,ramco-printing,IX,"{""product"":""branded mugs""}",False,2026-10-10,won,Kevin Barasa,878769.39,2026-07-07
+QR-2249,d57861d7-86fb-2683-58be-f8bcc467249b,ramco-printing,IX,"{""product"":""pull-up banner""}",False,2026-10-03,quoted,Daniel Wanjiru,1250489.04,2026-07-21
+QR-2250,25eb2245-41ad-78e8-9a51-101ffb45ae29,ramco-printing,IX,"{""product"":""exhibition backdrop""}",False,2026-09-27,new,Kevin Kiptoo,259084.95,2026-05-21
+QR-2251,fdee6e16-066c-ffcc-87bd-d0d370dcd6eb,ramco-printing,DUO,"{""product"":""paperback book 300pp""}",False,2026-09-18,lost,Winnie Omondi,274811.73,2026-06-23
+QR-2252,f698aed6-9f84-5bec-cc70-d1998377c749,ramco-printing,IX,"{""product"":""branded mugs""}",False,2026-08-25,new,Alice Kiptoo,50486.41,2026-05-26
+QR-2253,de046c82-323a-44d9-4bbd-387ca8ad5f7b,ramco-printing,UNO,"{""product"":""A4 booklet 24pp""}",False,2026-10-03,lost,Grace Mureithi,89125.45,2026-06-18
+QR-2254,40ce51ac-1c59-d345-c400-97e7d1a1bc8c,ramco-printing,DUO,"{""product"":""training manual perfect bound""}",False,2026-08-28,won,Daniel Wafula,699724.15,2026-05-26
+QR-2255,b5c603f1-af1d-e19b-df98-e35de2c28820,ramco-printing,DUO,"{""product"":""monthly magazine""}",False,2026-09-18,quoted,Peter Mutiso,197224.45,2026-05-31
+QR-2256,431a0612-649b-ac0c-b17f-741d131f33b3,ramco-printing,IX,"{""product"":""outdoor signage panel""}",False,2026-08-27,new,Samuel Omondi,1076119.61,2026-05-28
+QR-2257,de046c82-323a-44d9-4bbd-387ca8ad5f7b,ramco-printing,UNO,"{""product"":""A4 booklet 24pp""}",False,2026-09-29,quoted,Peter Mwende,978695.46,2026-06-14
+QR-2258,40ce51ac-1c59-d345-c400-97e7d1a1bc8c,ramco-printing,UNO,"{""product"":""letterheads""}",True,2026-08-18,quoted,Daniel Omondi,1380027.33,2026-08-04
+QR-2259,f698aed6-9f84-5bec-cc70-d1998377c749,ramco-printing,UNO,"{""product"":""A4 brochure 8pp""}",False,2026-10-10,new,James Muthoni,836584.52,2026-05-27
+QR-2260,eedb3a03-9d8d-9f4e-8e4e-511ecfee26dc,ramco-printing,DUO,"{""product"":""monthly magazine""}",False,2026-09-05,quoted,Esther Njeri,223024.16,2026-05-29
+QR-2261,2a27a916-5c7e-b7da-75da-e841e7d303bc,ramco-printing,HEX,"{""product"":""A5 hardcover notebook""}",False,2026-08-29,lost,Naomi Mutiso,1110039.0,2026-08-06
+QR-2262,de046c82-323a-44d9-4bbd-387ca8ad5f7b,ramco-printing,UNO,"{""product"":""annual report 48pp""}",True,2026-09-25,won,Samuel Omondi,865281.16,2026-06-17
+QR-2263,056acd07-b13e-29f4-fcee-2c1b453aba36,ramco-printing,IX,"{""product"":""outdoor signage panel""}",False,2026-09-09,quoted,Samuel Mureithi,965745.39,2026-06-23
+QR-2264,5f66bb0d-da5a-b328-4211-0288cdc4ba6f,ramco-printing,HEX,"{""product"":""A5 hardcover notebook""}",False,2026-10-03,won,Grace Mureithi,1163810.18,2026-07-08
+QR-2265,fdee6e16-066c-ffcc-87bd-d0d370dcd6eb,ramco-printing,UNO,"{""product"":""A5 flyers""}",True,2026-09-14,quoted,Peter Mwende,942078.01,2026-05-23
+QR-2266,72dd4feb-facf-13d3-79a2-1d440e62147b,ramco-printing,HEX,"{""product"":""A5 softcover journal""}",False,2026-09-28,lost,Victor Odhiambo,956821.97,2026-06-04
+QR-2267,cf6df40d-2ae6-3792-70c8-c21ba56cd4c9,ramco-printing,UNO,"{""product"":""annual report 48pp""}",False,2026-09-07,with_estimator,Brian Omondi,568079.89,2026-05-26
+QR-2268,f504ebaa-0156-eb96-e381-aa808aaf5f98,ramco-printing,HEX,"{""product"":""A5 softcover journal""}",False,2026-09-01,lost,Kevin Wanjiru,419454.13,2026-07-05
+QR-2269,5824d67b-7c9b-d73a-a492-78cf9a10f5c7,ramco-printing,HEX,"{""product"":""A5 hardcover notebook""}",False,2026-09-03,new,Caroline Barasa,308429.44,2026-05-21

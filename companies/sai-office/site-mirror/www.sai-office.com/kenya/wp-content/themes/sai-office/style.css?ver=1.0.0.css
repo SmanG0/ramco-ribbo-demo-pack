@@ -1,0 +1,184 @@
+/*!
+Theme Name: Sai Office
+Theme URI: http://underscores.me/
+Author: Creative, George Moturi, Brian Gatarwa
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: sai-office
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+html{text-rendering:optimizeLegibility !important;-webkit-font-smoothing:antialiased !important;}
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;	
+	margin:0px;padding:0px;background:#f9f9f9;overflow-x:hidden
+}
+page-header-items-rs>* {
+    margin-left: 1rem;
+}
+figure.gci-img{position:relative}
+.play-btn{background-color:rgba(0,0,0,0.2);width:100%;height:100%;position:absolute}
+.play-icon{font-weight:900;color:#42C0FB;font-size:3em;position:absolute;top:50%;transform:translate(50%,-50%);left:40%}
+.overlay{position:absolute;background:rgba(0,0,0,0.3);top:0;left:0;right:0;bottom:0}
+.lnr{font-size:30px}
+.pcgi-text h3{height:40px;font-size:1.25em}
+.page-id-2 .poti-text-body{background-color:#fff}
+.contact-form-item .gform_wrapper .gform_body .gform_fields #field_3_9{width:100%}
+#field_3_9 .gfield_label .gfield_required{display:none}
+#input_3_8,#input_3_4{background-color:#e1e1e1;padding:1rem!important;width:100%!important;border-radius:.3rem;color:#83a52f}
+.subscribe-email-row .ginput_container_email #input_1_1{color:#fff}
+.page-id-46 .page-text-display-section{margin-bottom:0}
+.logo-carousel{margin-top:20px;margin-bottom:-50px}
+.logo-carousel .highlight-grid-carousel-item.slick-current{background-color:transparent}
+.logo-carousel .highlight-grid-carousel-item{border:none}
+.logo-carousel .slick-slide img{margin:0 auto}
+.page-stats-section{margin-top:0!important}
+.page-id-43 .pitci-text-body>ul{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:justify;justify-content:space-around}
+.page-id-43 .pitci-text-body > ul li::before{content:none!important}
+.term-stationery .pitci-text-body > ul li::before{content:none!important}
+.term-it-solutions .pitci-text-body > ul li::before{content:none!important}
+.partners > li::before{content:none!important}
+.ptdi-body>ul{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:justify;justify-content:flex-start;-ms-flex-align:baseline;align-items:baseline}
+.pitci-text-body>ul{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:justify;justify-content:flex-start;-ms-flex-align:baseline;align-items:baseline}
+.pitci-text-body ul li{padding-right:10px!important}
+.ptdi-body>ul li{margin:20px 15px}
+.partners{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:justify;justify-content:flex-start;-ms-flex-align:baseline;align-items:baseline}
+.search .page-header .page-title{text-align:center;margin-bottom:3%}
+.search-results article{padding-bottom:50px;width:90%;margin-left:5%;margin-right:5%}
+.search-results .entry-summary{margin-top:2%}
+.search-results .entry-title{margin-bottom:1.5%}
+.page-id-47 .contact-details-body>*{width:auto;padding:1px 15px;margin:0 auto}
+.page-map-item{right: -6em !important;}
+.quick-link-details p {
+	font-size: 1rem !important;
+}
+.gallery{
+    margin-bottom: 1.5em;
+    margin-top: 1.5rem;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+.gallery-item{display:inline-block;text-align:center;vertical-align:top;width:100%;}
+.page-id-199 .gallery-item .gallery-icon a img{border: none;}
+.gallery-item .gallery-icon a img{border: 4px solid #f2991e;}
+.gallery-columns-2 .gallery-item{max-width:50%;}
+.gallery-columns-3 .gallery-item{max-width:33.33%;padding: 20px;}
+.gallery-columns-4 .gallery-item{max-width:25%;}
+.gallery-columns-5 .gallery-item{max-width:20%;}
+.gallery-columns-6 .gallery-item{max-width:16.66%;}
+.gallery-columns-7 .gallery-item{max-width:14.28%;}
+.gallery-columns-8 .gallery-item{max-width:12.5%;}
+.gallery-columns-9 .gallery-item{max-width:11.11%;}
+.gallery-caption{display:block;}
+#gallery-1 .gallery-item{border:1px solid #ccc;margin-left:-1px;margin-top:-1px !important;margin-bottom:0;}
+#gallery-1 img{max-width: 100%;height: auto;border:none !important;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+#gallery-1 img:hover{-webkit-filter:grayscale(60%);-ms-filter:grayscale(60%);filter:grayscale(60%);}
+
+.post-929 .post-thumbnail{
+	padding-left: 3rem;
+	padding-right: 3rem;
+	margin-bottom: 4.5rem;
+}
+
+.page-id-947 .post-thumbnail {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 4.5rem;
+}
+
+.page-id-945 .post-thumbnail {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 4.5rem;
+}
+
+.page-id-1047 .post-thumbnail {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 4.5rem;
+}
+
+.post-929 .post-thumbnail img {
+	max-width: 100%;
+	height: auto;
+}
+
+.page-id-947 .post-thumbnail img {
+	max-width: 100%;
+	height: auto;
+}
+
+.page-id-945 .post-thumbnail img {
+	max-width: 100%;
+	height: auto;
+}
+
+.page-id-1047 .post-thumbnail img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (max-width: 768px){
+
+.post-929 .post-thumbnail {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 0.5rem;
+}
+	
+.page-id-947 .post-thumbnail {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 0.5rem;
+}
+	
+.page-id-945 .post-thumbnail {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 0.5rem;
+}
+	
+.page-id-1047 .post-thumbnail {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 0.5rem;
+}
+	
+.gallery-item {
+		max-width: 50% !important;
+}
+	
+.gallery {
+	margin-bottom: 0.5em !important;
+	margin-top: 0rem !important;
+}
+
+}
+
+@media (max-width:720px) {
+	.modal-form-wrapper {width: 90% !important;}
+}
+
+@media (max-width: 575px){
+	
+	.section-bottom-space {
+    margin-bottom: 3rem;
+}
+	
+	.double-lines-bottom {
+		padding-bottom: 2rem !important;
+	}
+	
+	.gallery-item {
+		max-width: 100% !important;
+	}
+	
+}
+
+@media (max-width:500px) {
+	.page-id-47 .contact-details-body>* {width: 100%;margin: 0 auto;}
+}

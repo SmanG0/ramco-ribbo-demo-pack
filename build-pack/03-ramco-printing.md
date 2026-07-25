@@ -1,5 +1,9 @@
 # 03 — Ramco Printing Works
 
+> ✅ **This spec is materially correct** — see `companies/ramco-printing/SPEC-CORRECTIONS.md`. The four divisions (UNO/DUO/HEX/IX), 650+ staff and 160,000 sq ft are all confirmed. The corrections are **additive**, and two of them matter for the build:
+> **Two physical sites split by division** — UNO at Dunga Close/Industrial Area (+ showroom); DUO/HEX/IX at Ramco Industrial Park, Mombasa Road. **Collection location depends on which division holds the job** (opposite sides of Nairobi), so `collection_site` is a column on `jobs`. New file `kb-locations.md`.
+> **Published payment/credit paths** — M-PESA is live and there's an "Apply for Credit" flow (lead capture). New file `kb-payment-credit.md`. Also ISO 9001:2015 certified (job statuses exist formally). **Settle the 6 `[VERIFY]` division-routing questions with the client** — routing accuracy drives demo quality. And read section 13 (the estimator who challenges automated quoting) before the demo.
+
 **Vertical:** Ramco Plexus (Print & Packaging)
 **Agent pattern:** Structured capture
 **Tenant:** `ramco-printing`

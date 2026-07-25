@@ -11,8 +11,12 @@ the same way, the demo would prove nothing.
 | Bot | Company | Vertical | Agent pattern | Package status |
 |---|---|---|---|---|
 | 02 | Sai Office Supplies | Kora — Office & IT | Lookup and transact | ✅ **ready** |
-| 03 | Ramco Printing Works | Plexus — Print & Packaging | Structured capture | ⏳ **pending** |
+| 03 | Ramco Printing Works | Plexus — Print & Packaging | Structured capture | ✅ **ready** |
 | 04 | Safarilink Aviation | Oritsu — Services & Trading | Inventory query + identity verification | ✅ **ready** |
+
+All three packages are delivered. Each `companies/<name>/` folder is complete and includes a
+`site-mirror/` — the company's real homepage + one more page, mirrored for offline use, for
+dropping the Ribbo widget onto (see "Website mirrors" below).
 
 ---
 
@@ -23,9 +27,9 @@ Do these in order. **Do not start a company bot until the shared spine passes it
 1. **`build-pack/00-overview.md`** — read first. Global conventions that apply to all three bots.
 2. **`build-pack/01-shared-spine.md`** — build this completely. ~70% of total effort (4–5 eng days). Multi-tenant WhatsApp platform, Postgres schema, tool router, RLS isolation, auth. No company-specific code lives here.
 3. Then each company, in any order (they're independent once the spine exists):
-   - **Safarilink** → spec `build-pack/04-safarilink.md` + package `companies/safarilink/` ✅ ready to build now
-   - **Sai Office** → spec `build-pack/02-sai-office.md` + package `companies/sai-office/` ✅ ready to build now
-   - **Ramco Printing** → spec `build-pack/03-ramco-printing.md` (package pending)
+   - **Safarilink** → spec `build-pack/04-safarilink.md` + package `companies/safarilink/` ✅
+   - **Sai Office** → spec `build-pack/02-sai-office.md` + package `companies/sai-office/` ✅
+   - **Ramco Printing** → spec `build-pack/03-ramco-printing.md` + package `companies/ramco-printing/` ✅
 
 ---
 
@@ -46,13 +50,21 @@ companies/                    ← the deliverables (KBs + data to build with)
     kb/                         12 knowledge base docs (markdown)
     seed/                       11 seed CSVs (generated)
     scripts/generate_seed.py    reproducible generator, 20 assertions
+    site-mirror/                real homepage + About, mirrored offline (widget target)
   sai-office/     ✅ READY
     README.md                   package guide + demo beats the data supports
     SPEC-CORRECTIONS.md         ⚠️ SUPERSEDES parts of 02-sai-office.md — read before building
     kb/                         7 knowledge base docs (markdown)
     seed/                       14 seed CSVs (generated)
     scripts/generate_seed.py    reproducible generator, 26 assertions
-  ramco-printing/ ⏳ pending
+    site-mirror/                real homepage + Contact, mirrored offline (widget target)
+  ramco-printing/ ✅ READY
+    README.md                   package guide + demo beats the data supports
+    SPEC-CORRECTIONS.md         additive — spec was materially correct; new facts only
+    kb/                         9 knowledge base docs (markdown)
+    seed/                       9 seed CSVs (generated)
+    scripts/generate_seed.py    reproducible generator, 19 assertions
+    site-mirror/                real homepage + The Company, mirrored offline (widget target)
 ```
 
 **Specs** (`build-pack/`) tell you *what to build*. **Packages** (`companies/`) give you the
@@ -121,6 +133,25 @@ lives only in `price_lists`, per account.
 
 ---
 
+## ✅ Ramco Printing: spec is correct — corrections are additive
+
+`companies/ramco-printing/SPEC-CORRECTIONS.md` did **not** need to fix the spec — the four divisions
+(UNO/DUO/HEX/IX), 650+ staff and 160,000 sq ft are all confirmed. Two additions change the build:
+
+| New fact | Why it matters |
+|---|---|
+| **Two physical sites, split by division** | UNO → Dunga Close/Industrial Area (+ showroom); DUO/HEX/IX → Ramco Industrial Park, Mombasa Road. **Collection site depends on which division holds the job** — opposite sides of Nairobi. `collection_site` is a column on `jobs`. |
+| **M-PESA + "Apply for Credit" are published** | A real payment path and an account-opening lead-capture flow the bot can route into. |
+| **ISO 9001:2015 certified** | Job statuses/stages exist formally — de-risks the Tier 2 job-status integration. |
+
+**Open item:** 6 of the 18 division-routing examples in `kb-divisions.md` are genuinely ambiguous
+(catalogues, product labels, **branded notebooks**, annual reports, presentation folders, books
+needing binding) — take them to the client meeting. Settle **branded notebooks** first; it's the
+opening enquiry in the demo. And read **section 13** of the spec (the estimator who challenges
+automated quoting) before demoing.
+
+---
+
 ## `[VERIFY]` markers = the client questionnaire
 
 The KBs contain 30+ `[VERIFY]` markers. That is **not** incompleteness — it's the honest boundary
@@ -140,12 +171,36 @@ confidently invented the answers.
 
 ---
 
-## Website mockups (per company)
+## Website mirrors — drop the widget on and demo
 
-Build a lightweight styled replica of ~3 key pages per company's brand — colours, type, layout —
-with the Ribbo widget embedded. **Do not scrape live site mirrors:** they break, pull in assets you
-don't control, are slow, look worse live, and raise a needless ToS question in a sales conversation.
-A clean three-page mockup is faster to build and better to present.
+Each company has an **offline mirror of two real pages** (homepage + one more), captured with all
+assets so they render without internet. These are for embedding the Ribbo chat widget and showing
+the client what it looks like on *their own site*.
+
+| Company | Open these files |
+|---|---|
+| Safarilink | `companies/safarilink/site-mirror/flysafarilink.com/index.html` · `…/about-us/about.html` |
+| Sai Office | `companies/sai-office/site-mirror/www.sai-office.com/kenya/index.html` · `…/kenya/contact-us/index.html` |
+| Ramco Printing | `companies/ramco-printing/site-mirror/www.ramcoprinting.com/index.html` · `…/the-company.html` |
+
+**To add the widget:** open a mirror's `index.html` in an editor, paste the Ribbo embed snippet just
+before `</body>`, save, and open the file in a browser. The widget loads live from Ribbo over the
+page's static copy — exactly what the client would see on production.
+
+```html
+    <!-- Ribbo widget — paste your embed snippet here, then reload the page -->
+    <script src="https://widget.ribbo.ai/embed.js" data-bot-id="YOUR_BOT_ID" defer></script>
+  </body>
+```
+
+Notes:
+- These are **static snapshots** — forms, booking and live data won't work, and that's fine; the
+  point is the widget over a realistic page. Some third-party embeds (Google Maps, fonts) may not
+  render offline.
+- Mirrored on 25 Jul 2026. To refresh a page, re-run the mirror command in `MIRRORS.md`.
+- ⚠️ These are copies of the companies' live sites, for **internal demo use only** — don't
+  redistribute or host them publicly. (The package READMEs originally advised styled replicas over
+  mirrors; real mirrors were used here by request for a faster, pixel-accurate widget preview.)
 
 ---
 

@@ -1,0 +1,402 @@
+body.opened{ position: fixed;left:0;width:100%;}
+#cartBox.lightBox{display:none;background:rgba(0,0,0,0.4);z-index:999;width:100%;height:100vh;overflow-x:hidden;overflow-y:auto;position:absolute;top:0;right:0;}
+#cartBox.lightBox .block{-webkit-box-shadow: -1px 0 9px 0 #000000; box-shadow: -1px 0 9px 0 rgba(0,0,0,0.32);-webkit-transition: all 0.8s ease-in-out;-moz-transition: all 0.8s ease-in-out;-o-transition: all 0.8s ease-in-out;transition: all 0.8s ease-in-out;min-height:100%;height:auto;background:white;width:758px;position:absolute;right:-100%;}
+#cartBox.lightBox.view .block{right:0;}
+
+#cartBox .wrapper{-webkit-transition: all 0.8s ease-in-out;-moz-transition: all 0.8s ease-in-out;-o-transition: all 0.8s ease-in-out;transition: all 0.8s ease-in-out;width:818px;right:-818px;position:absolute;}
+#cartBox.view .wrapper{right:0;}
+#cartBox .top-tale{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:9;width:100%;height:70px;background:#e6e6e6;border-bottom-left-radius:4px;border-top-left-radius:4px;}
+#cartBox .top-tale{color:;}
+#cartBox .top-tale span{color:#684287;font-weight:700;font-size:30px;margin-left:36px;}
+#cartBox .top-tale .icon{width:35px;height:31px;}
+#cartBox .top-tale .icon svg{height:100%;width:100%;fill:#684287;}
+#cartBox .top-tale .left{display:flex;align-items:center;margin-left:14px;}
+#cartBox .top-tale .closeCart{width:20px;height:20px;margin-right:15px;fill:#684287;}
+
+#cartBox .block{width:758px;padding-top:21px;position:absolute;right:0;min-height:calc(100% - 70px);background:white;-webkit-box-shadow: -1px 0 9px 0 #000000;box-shadow: -1px 0 9px 0 rgba(0,0,0,0.32);}
+#cartBox .block .main{width:92%;margin:0px auto;}
+#cartBox .mobile{display:none;}
+#cartBox .rowArea{margin-bottom:50px;}
+#cartBox .packPkg .rowArea{margin-bottom: 0px;}
+#cartBox .rowArea .topRow{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom:13px;}
+#cartBox .rowArea .cartTitle{}
+#cartBox .rowArea h2{color:#a3238e;font-size:24px;font-weight:700;display:inline-block;margin-right:4px;}
+#cartBox .rowArea .cartTitle a[href]{display:inline-block;color:#616161;font-size:12px;font-weight:700;text-decoration:underline;}
+#cartBox .rowArea .price{color:#a3238e;font-size:20px;font-weight:700;text-align:right;}
+#cartBox .rowArea .price b{font-size:18px;}
+#cartBox .rowArea .price .small{display:block;color:#a3238e;font-size:14px;}
+.openClose[aria-expanded="false"] svg{transform:rotate(180deg);}
+
+.flightRow{padding-right: 36px;}
+a.removeFlight{position: absolute; right: 10px; top: 16px; width: 24px; height: 24px; display: flex; flex-direction: column; justify-content: center; text-align: center;}
+a.removeFlight svg{width: 16px; height: 16px; margin: 0px auto; fill: #684287;}
+
+#cartBox .extras .moreInfo .fullRow .column a.removeFlight{right: 8px;}
+#cartBox .extras .moreInfo .fullRow .column a.removeFlight svg{width: 14px; height: 14px;}
+
+
+
+#cartBox .flights .grayRow{position: relative; margin-top:6px;border-radius:4px;background: rgb(230, 230, 230);width:100%;padding:1.07% 2.16% 1% 17px;}
+#cartBox .flights .grayRow .flex{align-items: center;justify-content:space-between;display:flex;}
+#cartBox .flights .grayRow .timesBox{display:flex;}
+#cartBox .flights .grayRow .timesBox .timesCell{color:#684287;}
+#cartBox .flights .grayRow .timesBox .timesCell span.small{font-size:12px;font-weight:700;color:#684287;display:block;margin-top:3px;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph{border-color:#684287;margin-left:13px;margin-right:13px;padding-top:11px;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph .centerDote{position:absolute;background:#684287;top:-6px;right:calc(50% - 5px);width:10px;height:10px;border-radius:50%;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph:before{background-color:#684287;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph:after{background-color:#684287;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph{color:#684287;font-size:12px;}
+#cartBox .flights .grayRow .extrasBox{background:white;text-align:center;border-radius:4px;padding:15px 35px 13px 35px;}
+#cartBox .flights .grayRow .extrasBox span.extrasTitle{font-size:16px;color:#684287;font-weight:700;}
+#cartBox .flights .grayRow .extrasBox .flightChoice_icons{padding-top:13px;}
+#cartBox .flights .grayRow .flightNumber{width:17.326%;}
+#cartBox .flights .grayRow .flightNumber span.big{font-size:20px;color:#684287;font-weight:700;display:block;margin-bottom:4px;}
+#cartBox .flights .grayRow .flightNumber span.small{display:block;font-size:12px;color:#616161;font-weight:400;}
+#cartBox .flights .grayRow .flightNumber a{color:#616161;font-size:12px;font-weight:400;text-decoration:underline;}
+#cartBox .flights .grayRow .openClose{color:#616161;}
+#cartBox .flights .grayRow a.openClose[href]{text-decoration:none;}
+#cartBox .flights .grayRow .openClose span{text-decoration:underline;font-size:12px;font-weight:400;margin-right:9px;}
+#cartBox .flights .grayRow .price{color:#684287;font-size:24px;font-weight:900;max-width: 100px;min-width: 100px;}
+#cartBox .flights .moreInfo{margin-top:2px;display:none;}
+#cartBox .flights .moreInfo .dataRow_title{color:#684287;font-size:24px;font-weight:700;}
+#cartBox .flights .moreInfo .grayRow{margin-top:0;display:block;}
+#cartBox .flights .moreInfo .description{display:block;color:#684287;font-size:16px;font-weight:700;}
+#cartBox .flights .moreInfo .flightData{margin-top:18px;}
+#cartBox .flights .moreInfo .flightData span{font-weight:300;color:#616161;font-size:16px;}
+#cartBox .flights .moreInfo ul{position:relative;margin-top:8px;}
+#cartBox .flights .moreInfo ul li{padding-left:15px;color:#616161;font-weight:300;font-size:14px;position:relative;margin-bottom:9px;}
+#cartBox .flights .moreInfo ul li:before{content:' ';border-radius:50%;top:2.5px;width:9px;height:9px;position:absolute;left:0;background:white;border:1px solid rgb(104, 66, 135);}
+#cartBox .flights .moreInfo ul:before{position:absolute;left:4.5px;width:1px;top:2.5px;height:calc(100% - 5px);background:rgb(104, 66, 135);content:' ';}
+#cartBox .flights .moreInfo .dataRow{}
+#cartBox .flights .moreInfo .gLine{background-color:#ffffff;margin-top:20px;margin-bottom:20px;}
+#cartBox .flights .link{width:7.5%;}
+#cartBox .flights .grayRow .flex.mobile{display:none;}
+#cartBox .flights .grayRow .timesBox{width:332px;}
+#cartBox .flights .grayRow .timesBox .timesCell{font-size:18px;text-align:left;font-weight:700;}
+#cartBox .flights .grayRow .timesBox .timesCell span.small{font-size:12px;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph{margin-left:-9px;}
+#cartBox .flights .grayRow .extrasBox{min-width: 27%;padding:6px 32px 6px 32px;}
+#cartBox .flights .grayRow .extrasBox .flightChoice_icons{padding-top:9px;}
+#cartBox .flights .grayRow .flightNumber{display:none;}
+#cartBox .flights .grayRow .link{display:none;}
+#cartBox .flights .grayRow .flex.mobile{display:flex;width:100%;}
+#cartBox .flights .grayRow .flex.mobile .left{display:flex;align-items:center;justify-content:space-between;width:70%;}
+#cartBox .flights .grayRow .flex.mobile span{color:#616161;font-size:12px;font-weight:300;}
+#cartBox .flights .grayRow .flex.mobile a{color:#616161;font-size:12px;font-weight:300;text-decoration:underline;}
+#cartBox .flights .grayRow .flex.mobile a.openClose{text-decoration:none;}
+#cartBox .flights .grayRow .gLine.mobile{padding:1px 0px 1px 0px;display:block;width:100%;height:0.8px;background:white;margin:8px 0 8px;}
+#cartBox .flights .second_left{display:none;}
+
+.openClose svg{width:19px;height:11px;fill:#684287;}
+
+#cartBox .extras .pack{margin-bottom:4px;}
+#cartBox .extras .fullRow{width:100%;display:flex;justify-content:space-between;height:90px;}
+#cartBox .extras .fullRow .column{height:100%;border-radius:4px;background: rgb(230, 230, 230);width:100%;padding:13px 17px 11px 13px;}
+#cartBox .extras .fullRow .column.column-1{display:flex;align-items: center;width:35%;line-height:90px;text-align:middle;}
+
+#cartBox .extras .packHS .fullRow .column.column-1 .mCell{line-height: normal;white-space: nowrap;}
+#cartBox .extras .packHS .fullRow .column.column-1 {width: 25%;}
+#cartBox .extras .packHS .fullRow .column.column-1 .iconHSCart i {font-size: 1.33em;}
+#cartBox .extras .packHS .fullRow .column.column-2 {width:30%;}
+#cartBox .extras .packHS .fullRow .column.column-2 .eSecond .price{padding-right:10px;}
+#cartBox .extras .packHS .fullRow .removeIns{width: 14px;height: 14px;display: flex;flex-direction: column;justify-content: center;text-align: center;}
+
+#cartBox .extras .packTrans .fullRow .column.column-1 .mCell{line-height: normal;white-space: nowrap;}
+#cartBox .extras .packTrans .fullRow .column.column-1 {width: 25%;}
+#cartBox .extras .packTrans .fullRow .column.column-1 .iconTransCart i {font-size: 1.33em;}
+/* #cartBox .extras .packTrans .fullRow .column.column-2 {width:30%;} */
+#cartBox .extras .packTrans .fullRow .column.column-2 .eSecond .price{padding-right:10px;}
+#cartBox .extras .packTrans .fullRow .removeTrans{width: 14px;height: 14px;position: absolute;right: 10px;top: 50px;}
+#cartBox .extras .packTrans .fullRow .cell_1{flex-wrap: wrap;}
+#cartBox .extras .packTrans .fullRow .pickUp:after{content: '';position: absolute;width: 28px;margin-top:4px;height: 12px;background: url(imgs/arrow_right.svg) center top / 15px 12px no-repeat;}
+#cartBox .extras .packTrans .fullRow .break{flex-basis:100%;height:0;}
+/* #cartBox .extras .packTrans .fullRow .dropOffUpDate::before{content: '';position: absolute;width: 28px;margin-top:4px;height: 12px;background: url(imgs/arrow_right.svg) center top / 15px 12px no-repeat;} */
+#cartBox #packageContainer .fullRow .column.column-1{display:flex;align-items: center;width:35%;line-height:90px;text-align:middle;}
+#cartBox #packageContainer .fullRow .column.column-1 .mCell{text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+#cartBox .extras .fullRow .column.column-2{align-items: center;justify-content:space-between;width:65%;display:flex;padding-left:6.7%;padding-right:2.16%;}
+#cartBox #packageContainer .fullRow .column.column-2{align-items: center;justify-content:space-between;width:65%;display:flex;padding-right:2.16%;}
+#cartBox .extras .suitcase{width:42px;height:37px;fill:#868686;}
+#cartBox .extras .seats{width:25px;height:37px;fill:#868686;}
+#cartBox .extras .car{width:42px;height:39px;fill:#868686;overflow:hidden;position:relative;}
+#cartBox .extras .car svg{width:100%;height:100%;position:absolute;top:0;}
+#cartBox .extras .food{width:39px;height:52px;fill:#868686;overflow:hidden;position:relative;}
+#cartBox .extras .food svg{width:100%;height:100%;position:absolute;top:0;}
+#cartBox .extras .column-1 span{color:#684287;font-size:28px;font-weight:700;margin-left:18px;}
+#cartBox .extras .openClose{color:#616161;}
+#cartBox .extras a.openClose[href]{text-decoration:none;}
+#cartBox .extras .gLine{background:white;width:97%;margin:0px auto;}
+#cartBox .extras .openClose span{text-decoration:underline;font-size:12px;font-weight:400;margin-right:9px;}
+#cartBox .extras .openClose svg{width:13px;height:7px;}
+.openClose[aria-expanded="false"] svg{transform:rotate(180deg);}
+#cartBox .extras .eFirst{display:flex;width:55%;align-items: center;color:#616161;font-size:18px;font-weight:700;}
+#cartBox .extras .eSecond{display:flex;width:34%;padding-left:13%;align-items: center;justify-content: space-between;}
+#cartBox #packageContainer .extras .eSecond{width:100;}
+#cartBox .extras .eSecond .price{color:#684287;font-size:24px;width:95px;font-weight:900;}
+#cartBox .extras .moreInfo{display:none;margin-top:2px;}
+#cartBox .extras .moreInfo .title{color:#684287;font-size:24px;font-weight:700;}
+#cartBox .extras .moreInfo .fullRow{height:auto;margin-top:0;display:block;border-radius:4px;background: rgb(230, 230, 230);width:100%;}
+#cartBox .extras .moreInfo #cartBox .hotel .fullRow .price.gLine{background-color:#ffffff;margin-top:0;margin-bottom:0;}
+#cartBox .extras .moreInfo .fullRow .column{background:none;border-radius:0;padding:20px 0 20px 29.86%;display:flex;align-items: center;justify-content:space-between;}
+#cartBox .extras .moreInfo .fullRow .column .cell_1{width:42.5%;display:flex;align-items: center;color:#684287;font-size:18px;font-weight:700;align-items: center;justify-content:space-between;}
+#cartBox .extras .moreInfo .fullRow .column .cell_2{width:32.4%;text-align:center;color:#684287;font-size:24px;font-weight:900;display:flex;align-items: center;}
+#cartBox .extras .moreInfo .fullRow .column .cell_1 .bags{word-wrap: break-word;}
+#cartBox .extras .fullRow .column{border-radius:0;background:none;}
+#cartBox .extras .fullRow{background: rgb(230, 230, 230);border-radius: 4px;height:64px;}
+#cartBox .extras .column-1 span{font-size:18px;}
+#cartBox .extras .car{width:28px;height:30px;}
+#cartBox .extras .svgHolder svg{width:100%;height:100%;}
+#cartBox .extras .food{width:18px;height:34px;}
+#cartBox .extras .suitcase{width:23px;}
+#cartBox .extras .eFirst{font-size:12px;}
+#cartBox .flights .moreInfo ul li{font-size:12px;}
+#cartBox .extras .eSecond .price{font-size:16px;}
+#cartBox .flights .grayRow .price{font-size:16px;}
+#cartBox .flights .moreInfo .dataRow_title{font-size:20px;}
+#cartBox .extras .moreInfo .fullRow .column .cell_2{font-size:16px;}
+#cartBox .extras .moreInfo .fullRow .column .cell_1{font-size:16px;}
+#cartBox .extras .fullRow .column.column-2{padding-left:0;}
+#cartBox .extras .eSecond{margin-left:0;width:72%;}
+#cartBox .extras .moreInfo .fullRow .column{padding-left:8.86%; position: relative;}
+#cartBox .extras .moreInfo .fullRow .column .cell_1{width:60%;}
+#cartBox .extras .price .points{font-size:14px;color:#684287;font-weight:700;display:block;margin-top:3px;}
+#cartBox .extras .removeRow{width:16px;height:16px;}
+#cartBox .extras .removeRow svg{width:100%;height:100%;}
+#cartBox .extras .packcoupon .name{text-transform: uppercase;}
+
+#cartBox .hotel .fullRow{overflow:hidden;width:100%;display:flex;justify-content:space-between;height:165px;background:#e6e6e6;border-radius:4px;}
+#cartBox .hotel .fullRow .img{height:100%;width:23.18%;border-radius:4px;position:relative;overflow:hidden;border-radius:4px;}
+#cartBox .hotel .fullRow .img img{min-height:100%;min-width:100%;position:absolute;transform: translate(-50%, -50%);left:50%;top: 50%!important;}
+#cartBox .hotel .fullRow .column-1{width:54%;padding-top:30px;}
+#cartBox .hotel .fullRow span.hotelTitle{color:#684287;font-size:20px;font-weight:700;}
+#cartBox .hotel .fullRow span{display:block;color:#616161;font-size:18px;}
+#cartBox .hotel .fullRow .price{width:8%;text-align:center;display:flex;align-items: center;color:#684287;font-size:24px;font-weight:700;}
+#cartBox .hotel .fullRow .column-1 .price.mobile{display:none;}
+#cartBox .hotel .fullRow span.in-l{display:inline-block;}
+#cartBox .hotel .fullRow{height:auto;min-height:134px;}
+#cartBox .hotel .fullRow .column-1{padding-bottom:15px;padding-top:15px;}
+#cartBox .hotel .fullRow span{font-size:14px;}
+#cartBox .hotel .fullRow .img{height:auto;}
+#cartBox .hotel .fullRow .column-1{padding:0;}
+#cartBox .hotel .fullRow .column-1{align-self:center;}
+#cartBox .hotel .fullRow{padding-right:13px;}
+#cartBox .hotel h2{font-size:30px;}
+
+#cartBox .totalRow{border-top:1px solid #ebebeb;width:100%;padding-bottom:60px;padding-top:40px;display:flex;justify-content:flex-end;}
+#cartBox .totalRow .cell{color:#684287;font-weight:700;font-size:30px;display:flex;align-items:flex-start;}
+#cartBox .totalRow .cell strong{font-size:28px;}
+#cartBox .totalRow .cell span.small{color:#a3238e;font-weight:700;font-size:14px;text-align:right;display:block;}
+#cartBox .totalRow .cell a.btnOk[href]{text-decoration:none;margin-left:8px;border:1px solid rgb(163, 35, 142);border-radius:4px;width:110px;margin-top: 3px;height:32px;text-align:center;line-height:30px;color:#684287;font-size:24px;display:block;}
+
+#cartBox .extras .gLine{background:white;width:97%;height:1px;margin:0px auto;}
+
+#cartBox .packGiftcard .cell_1 .description{white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 20px;}
+
+.emptyCart h2 {margin: 100px;}
+
+@media screen and (max-width:837px) {
+	#cartBox .wrapper{width:100%;}
+	#cartBox .block, #cartBox.lightBox .block{width:100%;}
+	#cartBox .top-tale{border-radius:0;}
+
+}
+@media screen and (max-width:680px) {
+	a.removeFlight{right: 3px; top: 3px;}
+	#cartBox .block{padding-bottom:30px;}
+	#cartBox .rowArea .price{font-size:16px;}
+	#cartBox .rowArea h2{font-size:22px;}
+	#cartBox .rowArea .cartTitle a[href]{font-size:11px;}
+	#cartBox .rowArea .topRow{margin-bottom:15px;}
+	#cartBox .totalRow .cell{font-size:22px;}
+	#cartBox .totalRow .cell strong{font-size:20px;}
+	#cartBox .totalRow{padding-top:20px;}
+	#cartBox .totalRow .cell a.btnOk[href]{font-size:18px;line-height:26px;width:95px;height: 28px;}
+	
+	#cartBox .flights .second_left{display:flex;}
+	#cartBox .extras .eFirst{display:none;}
+	#cartBox .extras .fullRow .column.column-2{width:330px;}
+	#cartBox .extras .eSecond{width:100%;}
+	#cartBox .extras .fullRow .column.column-1{width:85%;}
+	#cartBox .extras .eSecond .price{font-size:16px;width:auto;margin-left:0;text-align:center;}
+	#cartBox .extras .eSecond{flex-wrap: wrap;}
+	#cartBox .extras .openClose{display:block;}
+	#cartBox .extras .openClose.mobile{display:none;}
+	#cartBox .extras .openClose span{display:none;}
+	/* #cartBox .flights .grayRow .timesBox{width:263px;} */ 
+	#cartBox h1{font-size:27px;margin-bottom:23px;}
+	#cartBox .topCell{margin-bottom:25px;}
+	#cartBox .flights .grayRow .extrasBox{display:none;}
+	#cartBox .flights .grayRow .price{display:none;}	
+	#cartBox .flights .grayRow .flex_2 .extrasBox{display:block;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;min-width: 65%;max-width: 65%;}
+	#cartBox .flights .grayRow .flex_2 .price{display:block;}
+	#cartBox .flights .flex_2.mobile{display:flex;justify-content:space-between;align-items:center;}
+	#cartBox .flights .grayRow .gLine2.mobile{display:block;width:100%;height:0.8px;background:white;margin:8px 0 8px;}
+	#cartBox .flights .grayRow{padding:9px 13px 9px 13px;}
+	#cartBox .flights .grayRow .extrasBox .flightChoice_icons{padding-top:3px;}
+	#cartBox .flights .grayRow .extrasBox span.extrasTitle{font-size:14px;}
+	#cartBox .flights .grayRow .extrasBox{padding-right:17px;padding-left:17px;}
+
+	#cartBox .flights .moreInfo .description{font-size:15px;}
+	#cartBox .flights .moreInfo .flightData span{font-size:15px;}
+	#cartBox .hotel .fullRow .column.price{display:none;}
+	#cartBox .hotel .fullRow .column-1{width:73%;}
+	#cartBox .hotel .fullRow .column-1 .price.mobile{display:block;float:right;font-size:20px;    margin-right: 13px;}
+	#cartBox .hotel .fullRow .column-1 .in-l{display:block;}
+	
+	#cartBox .extras .moreInfo .fullRow{background: #f5f5f5;}
+	#cartBox .extras .gLine{background: #d9dadd;width:96%;}
+	#cartBox .extras .moreInfo .fullRow .column{padding-left:2%;padding-right:2%;}
+	#cartBox .extras .moreInfo .fullRow .column .cell_2{text-align:right;font-size:20px;}
+	#cartBox .extras .moreInfo .fullRow .column .cell_1{display:block;}
+	#cartBox .extras .moreInfo .fullRow .column .cell_1 span{display:block;}
+}
+@media screen and (max-width:555px) {
+	#cartBox .flights .grayRow .timesBox{width:100%;}
+	#cartBox .flights .grayRow .timesBox .flightItem_graph{position:relative;left:0;}
+	#cartBox .flights .grayRow .timesBox .timesCell span.small{font-size:12px;width: max-content;}
+	#cartBox .flights .grayRow .openClose span{display:none;}
+	#cartBox .flights .grayRow .flex.mobile .left span.flightNum{font-weight:700;color:#684287;margin-right:5px;}
+	#cartBox .flights .grayRow .flex.mobile .mb{display:none;}
+	#cartBox .flights .grayRow .flex.mobile.mb_block{display:block;}
+	.second_left{display:flex;justify-content:space-between;margin-top:4px;}
+	#cartBox .flights .grayRow .flex.mobile .left{justify-content:flex-start;}
+	#cartBox .hotel .fullRow .column-1{margin-top:14px;margin-bottom:14px;}
+	.cartFlightChoice_tooltip {margin-left: 70px; width: 250px;}
+}
+@media screen and (max-width:480px) {
+	#cartBox .flights .grayRow .timesBox{position:relative;justify-content:space-between;width: 100%;}
+	#cartBox .flights .grayRow .timesBox .flightItem_graph{position:absolute;transform: translate(-50%, 0);left:50%;}
+}
+@media screen and (max-width:415px) {
+	#cartBox .hotel .fullRow .column-1 .price.mobile{margin-right:21px;}
+    #cartBox .flights .grayRow .timesBox .flightItem_graph{min-width: 100px;font-size: 2.5vw;}
+    #cartBox .flights .grayRow .timesBox .timesCell{width: 65px;}
+}
+
+/* Start new modification */
+
+#cartBox .extras .fullRow .column.column-1 {
+    width: 50%;
+    line-height: 1.5;
+}
+
+#cartBox .extras .fullRow .column.column-2 {
+    width: 50%;
+    line-height: 1.5;
+}
+
+#cartBox .extras .eFirst {
+    display: none;
+}
+
+#cartBox .extras .eSecond {
+    width: 100%;
+    margin-right: 12px;
+    padding-left: 0;
+}
+
+#cartBox .extras .column-1 span:first-child {
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+#cartBox .extras .eSecond .price {
+    width: 130px;
+    margin-left: 20px;
+}
+
+#cartBox .extras .openClose {
+    margin-left: auto;
+}
+
+#cartBox .extras .openClose svg {
+    transition: all .5s ease;
+}
+
+#cartBox .extras .moreInfo .fullRow .column {
+    padding-left: 0;
+    padding: 15px 17px;
+    align-items: unset;
+    border-bottom: 1px solid #fff;
+    flex-wrap: wrap;
+}
+
+#cartBox .extras .moreInfo .fullRow .column a.removeFlight {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+#cartBox .extras .moreInfo .fullRow .column .cell_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    line-height: 1.5;
+}
+
+#cartBox .extras .moreInfo .fullRow .column .cell_2 b {
+    margin-right: 10px;
+}
+
+#cartBox .extras .moreInfo .fullRow .column .cell_1 {
+    width: 67%;
+    line-height: 1.5;
+    justify-content: space-between;
+}
+
+#cartBox .extras .moreInfo .fullRow .column .cell_1 span {
+    width: 30%;
+    word-wrap: break-word;
+}
+
+#cartBox .extras .moreInfo .fullRow .column .cell_1 .bags {
+    text-align: left;
+    padding: 0 15px;
+    width: 36%;
+}
+
+#cartBox .extras .moreInfo .fullRow .column .cell_1 span:last-child {
+    text-align: left;
+}
+
+@media screen and (max-width: 680px) {
+
+    #cartBox .extras .moreInfo .fullRow .column .cell_1 span,
+    #cartBox .extras .moreInfo .fullRow .column .cell_1 .bags {
+        display: block;
+        width: 100%;
+        text-align: left !important;
+        padding: 0;
+    }
+
+    #cartBox .extras .moreInfo .fullRow .column .cell_1,
+    #cartBox .extras .moreInfo .fullRow .column .cell_2 {
+        width: 100% !important;
+        justify-content: left;
+    }
+}
+
+/* End new modification */
+
+
+/* New Added */
+#cartBox .extras .eSecond .price b{font-size:14px;}
+#cartBox .extras .moreInfo .fullRow .column .cell_2 b{font-size:14px;}
+#cartBox .totalRow .cell strong b{font-size:24px;}
+#cartBox .flights .grayRow .price b{font-size:14px;}
+
+@media screen and (max-width:680px) {
+
+#cartBox .extras .eSecond .price b{font-size:11px;}
+#cartBox .rowArea .price b{font-size:14px;}
+#cartBox .totalRow .cell strong b{font-size:16px;}
+#cartBox .extras .column-1 span{font-size:16px;}
+#cartBox .extras .car{width:20px;}
+.flightSummary .flights .grayRow .flightRow{padding-right: 0px;} 
+}
+@media screen and (max-width:360px) {
+	
+	#cartBox .totalRow .cell strong{font-size:18px;}
+	#cartBox .totalRow .cell{font-size:19px;}
+	#cartBox .totalRow .cell strong b{font-size:12px;}
+}

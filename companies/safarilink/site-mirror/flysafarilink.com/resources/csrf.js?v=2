@@ -1,0 +1,38 @@
+(function(window) {
+    const localStorageKey = 'csrf_token';
+
+    /**
+     * Sets the CSRF token received from the server and stores it in local storage.
+     * 
+     * @param {string} token - The CSRF token to store.
+     */
+    function setCsrfToken(token) {
+        localStorage.setItem(localStorageKey, token);
+    }
+
+    /**
+     * Gets the current CSRF token from local storage.
+     * 
+     * @returns {string|null} The current CSRF token or null if not found.
+     */
+    function getCsrfToken() {
+        return localStorage.getItem(localStorageKey);
+    }
+
+    /**
+     * Extracts the CSRF token from the response headers and updates the local storage.
+     * 
+     * @param {XMLHttpRequest} request - The XMLHttpRequest object to extract the token from.
+     */
+    function updateCsrfTokenFromResponse(request) {
+        const token = request.getResponseHeader('x-csrf-token');
+        if (token) {
+            setCsrfToken(token);
+        }
+    }
+
+    window.CsrfTokenManager = {
+        getCsrfToken,
+        updateCsrfTokenFromResponse
+    };
+})(window);

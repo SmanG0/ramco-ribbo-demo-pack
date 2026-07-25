@@ -1,0 +1,12 @@
+finishing_code,name,applies_to_product_types,adds_lead_days,cost_band
+FIN-GLOSSLAM,Gloss lamination,"{cover,card,brochure}",1,low
+FIN-MATTLAM,Matt lamination,"{cover,card,brochure}",1,low
+FIN-SOFTLAM,Soft-touch lamination,"{cover,card}",2,medium
+FIN-SPOTUV,Spot UV,"{cover,card}",2,medium
+FIN-FOIL,Foiling,"{cover,card,notebook}",3,high
+FIN-EMBOSS,Embossing,"{cover,card,notebook}",3,high
+FIN-DIECUT,Die-cutting,"{carton,folder,label}",2,medium
+FIN-PERFECT,Perfect binding,"{book,manual,report}",2,medium
+FIN-SADDLE,Saddle stitch,"{booklet,magazine}",1,low
+FIN-WIRO,Wiro binding,"{manual,notebook}",1,low
+FIN-CASE,Case binding,"{book,notebook}",4,high

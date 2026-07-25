@@ -1,0 +1,592 @@
+/*****  aeroCRS.css  *****/
+*:focus{outline: 1px dashed #7A5E1B;}
+*:active:focus{outline: 1px dashed #7A5E1B;}
+a.skip-main{font: 400 12px arial; color: #424242;}
+a.loginMenu_toggleMobile .svgHolder svg{fill: #7A5E1B;}
+.heapItem .block .imgTop{color: #7A5E1B;}
+a.loginMenu_toggleMobile:hover, a.loginMenu_toggleMobile:focus{color: #7A5E1B;}
+a.loginMenu_toggleMobile:hover .svgHolder svg, .headerTop_left ul a:focus .svgHolder svg{fill: #7A5E1B;}
+.headerTop_left ul a .svgHolder svg{fill: #7A5E1B;}
+.headerTop_left ul a:hover, .headerTop_left ul a:focus{color: #7A5E1B;}
+.headerTop_left ul a span{color: #424242;}
+.headerTop_left ul a:hover .svgHolder svg, .headerTop_left ul a:focus .svgHolder svg{fill: #7A5E1B;}
+ul.headerTop_right li a.headerTop_toggle B{background-color: #7A5E1B;}
+ul.headerTop_right li a.headerTop_toggle span{color: #424242;}
+ul.headerTop_right li a.headerTop_toggle span:after{ border-top-color: #7A5E1B;}
+.headerTop_pop a B{background-color: #7A5E1B;}
+#cookieButton, .cookieButtons button:nth-child(1){background-color: #7A5E1B;}
+#cookieButton, .cookieButtons button:nth-child(2){background-color: #7A5E1B;}
+.boxAlert{border: 1px solid #7A5E1B;}
+.headerMenu > ul > li > a.headerMenu_toggle:after{ border-top-color: #7A5E1B;}
+.engineTabs li a{background-color: #7A5E1B;}
+.engineTabs li a:hover, .engineTabs li a:focus{background-color: #A58813;}
+.flightForm .switch{border-color: #A58813;}
+.engineTabs li a[aria-selected="true"]{background-color: #A58813;}
+.enginePanel{background-color: #A58813;}
+.toggleBtn .circle{background: #A58813;}
+.flightType .comboHolder select, .flightType_vi .comboHolder_vi select{background-color: #A58813;}
+.flightCoupon_form button{background-color: #7A5E1B;}
+.flightSubmit input{background-color: #7A5E1B;}
+.easy-autocomplete-container ul li b{color: #A58813;}
+.flightForm_popConfirm button{background-color: #7A5E1B;}
+.flightForm_popConfirm button:hover, .flightForm_popConfirm button:focus{background-color: #A58813;}
+.dateFrame_month ul.dateFrame_calendar li.dateFrame_priceHighlight a span{color: #7A5E1B;}
+.dateFrame_month ul.dateFrame_calendar li a.startDate_selected, .dateFrame_month_pkg ul.dateFrame_calendar_pkg li a.pkg_selected, .dateFrame_month_pkg2 ul.dateFrame_calendar_pkg2 li a.pkg_selected{background-color: #7A5E1B;}
+.dateFrame_month ul.dateFrame_calendar li a.endDate_selected{border-color: #7A5E1B;}
+.dateFrame_month ul.dateFrame_calendar li a.pathDate{background-color: #A58813;}
+a.flightForm_datePrevMonth .svgHolder svg, a.flightForm_dateNextMonth .svgHolder svg{ fill: #A58813;}
+a.flightForm_datePrevMonth:hover, a.flightForm_dateNextMonth:hover,a.flightForm_datePrevMonth:focus, a.flightForm_dateNextMonth:focus{background-color: #A58813;}
+.dateFrame_mobileTitle input.focused{border-color: #7A5E1B;}
+.flightForm_passPop *:focus{outline-color: #A58813;}
+.passPop_form a{background-color: #7A5E1B;}
+.passPop_form a:hover, .passPop_form a:focus{background-color: #A58813;}
+.inner_headerBottom .headerMenu a.headerMenu_toggleMobile span{background-color: #7A5E1B; border-top: 1px solid #7A5E1B; }
+.headerBottom_search{color: #424242;}
+.headerBottom_searchButton a{ color: #424242; border: 1px solid #424242;}
+.headerBottom_searchButton a[aria-expanded="true"]:before{border-top-color: #424242;}
+.progressBar li{color: #5EC273;}
+.progressBar li:before{border: 1px solid #5EC273;}
+.progressBar li.active:before{background-color: #5EC273;}
+.progressBar li.active:after{background-color: #5EC273;}
+.progressBar li.visited:before{background: #5EC273 url(../resources/imgs/checkmark_white.svg) center no-repeat;}
+.cartButton a{background-color: #5EC273;} 
+.resultsTitle h1{color: #7A5E1B;}
+.resultsTitle_trip{color: #7A5E1B;}
+.resultsGallery .item a > div{background-color: #FCF8E3; }
+.resultsGallery .item a:hover > div, .resultsGallery .item a:focus > div{background-color: #7A5E1B;}
+.resultsGallery .item a.selected > div{background-color: #7A5E1B;}
+.flightItem_title{background-color: #7A5E1B;}
+.flightChoice_title, .flight-class__box__title{color: #7A5E1B;background-color: #F9F7F1;}
+.flightClass_btn{border-color: #7A5E1B}
+.flightChoice_tooltipToggle{background-color: #7A5E1B; color: #F9F7F1;}
+.flightItem_body > ul > li > a:hover .flightChoice_title{background-color: #7A5E1B; color: #F9F7F1;}
+.flightItem_body > ul > li > a:hover .flightChoice_tooltipToggle
+{background-color: #F9F7F1; color: #7A5E1B;}
+.flightChoice_tooltip{color: #7A5E1B;}
+.flightChoice_tooltipTitle strong{color: #7A5E1B;}
+.flightChoice_tooltipTitle span{color: #7A5E1B;}
+.flightChoice_tooltipOptions li, .flightChoice_tooltipNote li{ background-color: #FCF8E3; overflow: auto;}
+.closeToolTip svg{fill:#7A5E1B}
+.flightChoice_body{background-color: #FCF8E3;}
+.flightChoice_body strong{color: #7A5E1B;}
+.flightChoice_body span{color: #7A5E1B;}
+.moreInfo_box{background-color: #F9F7F1;}
+.moreInfo_title{color: #7A5E1B;}
+.moreInfo_details li:before{border: 1px solid #7A5E1B;}
+.moreInfo_details li:after{background-color: #7A5E1B;}
+.altVersionItem{ border-color: #7A5E1B;}
+.altVersionItem .flightItem_title{color: #7A5E1B;}
+.altVersionItem .flightItem_graph{border-color: #7A5E1B;}
+.altVersionItem .flightItem_graph:before{background-color: #7A5E1B;}
+.altVersionItem .flightItem_graph:after{background-color: #7A5E1B;}
+.altVersionItem .flightItem_titleRight strong, .altVersionItem a.flightItem_stopToggle{color: #7A5E1B;}
+.flightItemNew .openStops{color: #7A5E1B !important;}
+.selected > a > .flightChoice_title{color: #F9F7F1;background-color: #7A5E1B;}
+.selected > a > .flightChoice_title .flightChoice_tooltipHolder .flightChoice_tooltipToggle{color: #7A5E1B;background-color: #F9F7F1;}
+.flightSelection_title{color: #7A5E1B;}
+.flightSelection_frame{background-color: #7A5E1B;}
+.flightSelection_chosenFrame{color: #7A5E1B;background-color: #FCF8E3;}
+.flightSelection_chosenPrice strong{ color: #7A5E1B;}
+.flightSelection_chosenPrice span{color: #7A5E1B;}
+a.flightSelection_chosenButton{border: 1px solid #7A5E1B;color: #7A5E1B;}
+a.flightSelection_chosenButton:hover, a.flightSelection_chosenButton:focus{background-color: #7A5E1B;}
+.flightSection_continue button, .giftcards_continue button{background-color: #7A5E1B; }
+.flightSection_continue button:hover, .flightSection_continue button:focus,.giftcards_continue button:hover, .giftcards_continue button:focus{background-color: #7A5E1B;}
+.flightItem_body > ul > li > a:hover .cartFlightChoice_tooltipToggle{background-color: #F9F7F1;color: #7A5E1B;}
+.flightItem_titleBtn{ border: 1px solid #7A5E1B; background-color: #7A5E1B}
+.flightClass_btn:hover{background-color: #7A5E1B;}
+.flightSection_continue button{background-color: #7A5E1B; }
+.flightSection_continue button:hover, .flightSection_continue button:focus{background-color: #7A5E1B;}
+.flightItem_body > ul > li > a:hover .cartFlightChoice_tooltipToggle{background-color: #F9F7F1;color: #7A5E1B;}
+.cartFlightChoice_tooltip{ color: #7A5E1B;}
+.cartFlightChoice_tooltipTitle strong{color: #7A5E1B;}
+.cartFlightChoice_tooltipTitle span{color: #7A5E1B;}
+.cartFlightChoice_tooltipOptions li{background-color: #FCF8E3;}
+.loadMore{background-color: #7A5E1B;}
+.horizontalse{margin-top: -40px; margin-left: 0px; margin-bottom: -160px;}
+.uprightEngine_frame{top: 615px; left:0px;}
+/*.engineFrame.uprightEngine{top: 500px;}*/
+#main{top: 500px; left: 0px;}
+@media screen and (max-width: 1024px) {
+	.horizontalse{margin-top: 0px; margin-left: 0px; margin-bottom: -280px;}
+}
+@media screen and (max-width: 1023px) {
+	.horizontalse{margin-top: 40px; margin-left: 0px; margin-bottom: -280px;}
+}
+@media screen and (max-width: 800px) {
+    .horizontalse{margin-bottom: 200px;}
+    .uprightEngine_frame{margin-top: 10px; left:0px;}
+}
+@media screen and (max-width: 767px) {
+    .uprightEngine_frame{margin-top: 280px; margin-left:0px;}  
+}
+@media screen and (max-width: 670px) {	
+    .headerBottom_searchButton a .svgHolder svg{fill: #7A5E1B;}
+    .horizontalse{margin-bottom: 270px;}
+    .uprightEngine_frame{margin-top: 10px; left:0px;}
+	#main{top: 310px; left: 0px;}
+}
+@media screen and (max-width: 480px){
+    .flightChoice_select{ background-color: #FCF8E3;}
+    .flightChoice_select span{background-color: #7A5E1B;}
+    .flightItem_body > ul > li > a:hover .flightChoice_title{color: #7A5E1B;background-color: #F9F7F1;}
+    .flightItem_body > ul > li > a:hover .flightChoice_tooltipToggle{background-color: #7A5E1B;color: #F9F7F1;}
+    .altVersionItem .flightItem_title .svgHolder svg{fill: #7A5E1B;}
+    .flightSelection_Fnumber{background-color: #FCF8E3;}
+}
+.passengersDetails h1{color: #7A5E1B;}
+.underTitle{color: #7A5E1B; }
+.underTitle a{color: #7A5E1B;}
+.passengersDetails_required{color: #7A5E1B;}
+.passengersDetails_titleTraveler{background-color: #F9F7F1;}
+.passengersDetails_title{ color: #7A5E1B;background-color: #F9F7F1;}
+.passengersDetails_title .svgHolder svg{fill: #7A5E1B;}
+.passengersDetails_titleTraveler .comboHolder:after{border-top-color: #7A5E1B;}
+.passengersDetails_addSpecialAssistance{color: #7A5E1B;}
+.passengersDetails_addSpecialAssistance:hover{color: #7A5E1B;}
+.passengersDetails_body li .comboHolder:after{border-top-color: #7A5E1B;}
+.passengersDetails_phoneExt a.phoneExt_toggle:after{ border-top-color: #7A5E1B;}
+.passengersDetails_phoneFrame .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #7A5E1B;}
+.passengersDetails_phoneFrame .passengersDetails_phoneFrameInner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #7A5E1B;}
+
+.passengersDetails_chk label input:focus + span{outline: 1px dashed #7A5E1B;}
+.passengersDetails_contact > label input:focus + span{outline: 1px dashed #7A5E1B;}
+.passengersDetails_bottom > label input:focus + span{outline: 1px dashed #7A5E1B;}
+.passengersDetails_bottom li .comboHolder:after{border-top-color: #7A5E1B;}
+.passengersDetails_continue input{background-color: #7A5E1B;}
+.passengersDetails_continueExtras{color: #7A5E1B;}
+.checkin_title h2{color: #7A5E1B;}
+ul.checkin_flight{color: #7A5E1B;}
+li.checkin_graph div{background-color: #7A5E1B;}
+li.checkin_graph div:before{background-color: #7A5E1B;}
+li.checkin_graph div:after{background-color: #7A5E1B;}
+.checkinIncluded strong{color: #7A5E1B;}
+.checkinAdditions_itemTitle , .paidExtras_itemTitle{background-color: #F9F7F1;color: #7A5E1B;}
+.checkinAdditions_itemBody , .paidExtras_itemBody{color: #7A5E1B;background-color: #F9F7F1;}
+a.checkinAdditions_itemModify, ul.paidExtras_itemDetails li:last-child{color: #7A5E1B;}
+/* .checkinAdditions_buttons li a{background-color: #7A5E1B;} */
+.userPop_title{color: #7A5E1B;background-color: #F9F7F1;}
+a.userPop_close{color: #7A5E1B;}
+.userPop_tabs > ul a .svgHolder svg{fill: #7A5E1B;}
+.userPop_tabs > ul a:hover, .headerTop_left ul a:focus{color: #7A5E1B;}
+.userPop_tabs > ul a:hover .svgHolder svg, .headerTop_left ul a:focus .svgHolder svg{fill: #7A5E1B;}
+.userPop_tabs > ul a[aria-selected="true"]{color: #7A5E1B;}
+.userPop_tabs > ul a[aria-selected="true"]:after{background-color: #7A5E1B;}
+.signUp_form li .comboHolder:after{border-top-color: #7A5E1B; }
+.userPop_submit input{background-color: #7A5E1B;}
+.flightForm_passPop .userPop_submit input {background-color: #7A5E1B !important;}
+.signUp_benefits strong{color: #7A5E1B;}
+.signUp_benefits li .svgHolder svg{fill:#7A5E1B;}
+.signUp_formSubscribe label input:focus + span{outline: 1px dashed #7A5E1B;}
+.checkinPop_frame strong{color: #7A5E1B;}
+.checkinPop_text .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #7A5E1B;}
+.checkinPop_confirm a{ border: 1px solid #7A5E1B;color: #7A5E1B;}
+a.resultsGrid_moveRight{background-color: #F9F7F1;}
+a.resultsGrid_moveLeft{background-color: #F9F7F1;}
+.resultsGrid_flightTitle{background-color: #7A5E1B;}
+.resultsGrid_flightList > div.resultsGrid_thCol strong{color: #7A5E1B;}
+.resultsGrid_flightList .resultsGrid_item{background-color: #FCF8E3;}
+.resultsGrid_itemPrice strong{ color: #7A5E1B;}
+.resultsGrid_itemPrice span{color: #7A5E1B;}
+.resultsGrid_itemSelect span{background-color: #7A5E1B;}
+.resultsGrid_flightTitle .flightItem_moreInfo{background-color: #7A5E1B; border: 1px solid #FCF8E3;} 
+.resultsGrid_flightTitle .flightItem_moreInfo:after{border-top-color: #7A5E1B; }
+@media screen and (max-width: 670px){
+    .resultsGrid_itemTitle{color: #7A5E1B;background-color: #F9F7F1;}
+    .resultsGrid_itemPrice strong{color: #7A5E1B;}
+    .resultsGrid_right > ul > li a.resultsGrid_flightTitle_mobile{background-color: #7A5E1B;}
+}
+.flightForm2 .afterArrow label:after{border-top-color: #7A5E1B;}
+.closePass{fill: #A58813;}
+.flightForm2 .select2-container--default .select2-search--dropdown .select2-search__field{border-color:#7A5E1B;}
+.flightForm2 .select2-results__option{color:#7A5E1B;}
+.flightForm2 .select2-container--default .select2-results__option--highlighted[aria-selected]{color:#7A5E1B;}
+.flightForm2 .select2-container--default .select2-results__option[aria-selected=true]{color:#7A5E1B;}
+.flightForm2 .flightSubmit2{background:#7A5E1B;}
+.recoverPassPage h2.pageTitle{color: #7A5E1B;}
+.recoverPassPage h4.pageSubTitle{color: #7A5E1B;}
+.recoverPassPage .blockRecover .recoverBtn{background: #7A5E1B;}
+
+/*****  aeroCRS_account.css  *****/
+.accountPage h2.pageTitle{color: #7A5E1B;}
+.accountPage span.titleReg{color:#7A5E1B;}
+.accountPage .tripsSection .all .arrowLeft{fill:#7A5E1B;}
+.accountPage .tripsSection .all .arrowRight{fill:#7A5E1B}
+.accountPage .tripsSection .allTrips{border:1px solid #7A5E1B;}
+.accountPage .tripsSection .allTrips .trip .checkinDate span{color:#7A5E1B;}
+.accountPage .tripsSection .allTrips .trip .checkinDate .btn{color:#7A5E1B;border:1px solid #7A5E1B;}
+.accountPage .tripsSection .additions li a{background:#7A5E1B;}
+.accountPage .personalSection .tale{background:#F9F7F1;}
+.accountPage .btnTwo .details{fill: #7A5E1B;}
+.accountPage .personalSection .tale .svg svg{fill: #7A5E1B;}
+.accountPage .personalSection .tale .title{color:#7A5E1B;}
+.accountPage .personalSection .tale .arrow{fill:#7A5E1B;}
+.accountPage .personalSection .tale .ar{fill:#7A5E1B;}
+.accountPage .blockDetails .button{background:#7A5E1B;}
+.accountPage .blockDetails span.title{color: #7A5E1B;}
+.accountPage .blockDetails .comboHolder:after { border-top-color: #7A5E1B;}
+.accountPage .blockDetails .rowDetails .buttons .btn-label.checked{background:#7A5E1B;}
+.accountPage .blockDetails .rowDetails .age a.ageBtn{background:#7A5E1B;}
+.accountPage .btnTwo a[href]{background:#F9F7F1;}
+.accountPage .btnTwo .previous{fill:#7A5E1B;}
+.accountPage .btnTwo span{color:#7A5E1B;}
+.accountPage .btnTwo .ar{fill: #7A5E1B;}
+.agtBookings input[type="submit"]{background-color: #7A5E1B;}
+.owl-dots .owl-dot.active{background:#7A5E1B;}
+#exportBtn{border: 1px solid #7A5E1B;color: #7A5E1B;}
+.bookingBtn .active{background-color: #7A5E1B;}
+.agtBtns{border: 1px solid #7A5E1B;color: #7A5E1B;}
+.prevBookings .prevBookingMore{background-color: #7A5E1B;}
+.prevBookings{background-color: #F9F7F1;}
+.prevBookings_table li:nth-child(even) div{background-color: #FCF8E3;}
+.prevBookings_table li.prevBookings_headers div{background-color: #7A5E1B;}
+@media screen and (max-width: 820px){
+    .prevBookings_table li:nth-child(even){background-color: #FCF8E3;}
+}
+
+/*****  aeroCRS_cart.css  *****/
+#cartBox .top-tale{background:#F9F7F1;}
+#cartBox .top-tale span{color:#7A5E1B;}
+#cartBox .top-tale .icon svg{fill:#7A5E1B;}
+#cartBox .top-tale .closeCart{fill:#7A5E1B;}
+#cartBox .rowArea h2{color:#7A5E1B;}
+#cartBox .rowArea .price{color:#7A5E1B;}
+#cartBox .rowArea .price .small{color:#7A5E1B;}
+a.removeFlight svg{fill: #7A5E1B;}
+#cartBox .flights .grayRow{background: #F9F7F1;}
+#cartBox .flights .grayRow .timesBox .timesCell{color:#7A5E1B;}
+#cartBox .flights .grayRow .timesBox .timesCell span.small{color:#7A5E1B;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph{border-color:#7A5E1B;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph .centerDote{background:#7A5E1B;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph:before{background-color:#7A5E1B;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph:after{background-color:#7A5E1B;}
+#cartBox .flights .grayRow .timesBox .flightItem_graph{color:#7A5E1B;}
+#cartBox .flights .grayRow .extrasBox span.extrasTitle{color:#7A5E1B;}
+#cartBox .flights .grayRow .flightNumber span.big{color:#7A5E1B;}
+#cartBox .flights .grayRow .price{color:#7A5E1B;}
+#cartBox .flights .moreInfo .dataRow_title{color:#7A5E1B;}
+#cartBox .flights .moreInfo .description{color:#7A5E1B;}
+#cartBox .flights .moreInfo ul li:before{border:1px solid #7A5E1B;}
+#cartBox .flights .moreInfo ul:before{background-color:#7A5E1B;}
+.openClose svg{fill:#7A5E1B;}
+#cartBox .extras .fullRow .column{background: #F9F7F1;}
+#cartBox .extras .suitcase{fill:#7A5E1B;}
+#cartBox .extras .seats{fill:#7A5E1B;}
+#cartBox .extras .column-1 span{color:#7A5E1B;}
+#cartBox .extras .eSecond .price{color:#7A5E1B;}
+#cartBox .extras .moreInfo .title{color:#7A5E1B;}
+#cartBox .extras .moreInfo .fullRow{background:#F9F7F1;}
+#cartBox .extras .moreInfo .fullRow .column .cell_1{color:#7A5E1B;}
+#cartBox .extras .moreInfo .fullRow .column .cell_2{color:#7A5E1B;}
+#cartBox .extras .fullRow{background-color: #F9F7F1;}
+#cartBox .extras .price .points{color:#7A5E1B;}
+#cartBox .hotel .fullRow{background:#F9F7F1;}
+#cartBox .hotel .fullRow span.hotelTitle{color:#7A5E1B;}
+#cartBox .hotel .fullRow .price{color:#7A5E1B;}
+#cartBox .totalRow .cell{color:#7A5E1B;}
+#cartBox .totalRow .cell span.small{color:#7A5E1B;}
+#cartBox .totalRow .cell a.btnOk[href]{border:1px solid #7A5E1B;color:#7A5E1B;}
+@media screen and (max-width:680px){
+	#cartBox .extras .moreInfo .fullRow{background: #FCF8E3;}
+}
+@media screen and (max-width:555px){
+	#cartBox .flights .grayRow .flex.mobile .left span.flightNum{color:#7A5E1B;}
+}
+
+/*****  aeroCRS_confirmation.css  *****/
+.flightSummary{color:#7A5E1B;}
+.flightSummary .topCell{background: #F9F7F1;}
+.flightSummary .flights h2{color:#7A5E1B;}
+.flightSummary a.topPrint svg{fill:#7A5E1B;}
+.leftPrint svg{fill:#7A5E1B;}
+.flightSummary .flights span.priceTotal{color:#7A5E1B;}
+.flightSummary .flights .grayRow{background: #F9F7F1;}
+.flightSummary .flights .grayRow .timesBox .timesCell{color:#7A5E1B;}
+.flightSummary .flights .grayRow .timesBox .flightItem_graph{border-color:#7A5E1B;}
+.flightSummary .flights .grayRow .timesBox .flightItem_graph .centerDote{background:#7A5E1B;}
+.flightSummary .flights .grayRow .timesBox .flightItem_graph:before{background-color:#7A5E1B;}
+.flightSummary .flights .grayRow .timesBox .flightItem_graph:after{background-color:#7A5E1B;}
+.flightSummary .flights .grayRow .extrasBox span.title{color:#7A5E1B;}
+.flightSummary .flights .grayRow .flightNumber span.big{color:#7A5E1B;}
+.flightSummary .flights .grayRow .price{color:#7A5E1B;}
+.flightSummary .flights .moreInfo .title{color:#7A5E1B;}
+.flightSummary .flights .moreInfo .description{color:#7A5E1B;}
+.flightSummary .flights .moreInfo ul:before{background:#7A5E1B;}
+.flightSummary .flights .moreInfo ul li:before{border:1px solid #7A5E1B;}
+.flightSummary .extras h2{color:#7A5E1B;}
+.flightSummary .extras span.priceTotal{color:#7A5E1B;}
+.flightSummary .extras .fullRow .column{background: #F9F7F1;}
+.flightSummary .extras .column-1 span{color:#7A5E1B;}
+.flightSummary .extras .eFirst{color:#7A5E1B;}
+.flightSummary .extras .eSecond .price{color:#7A5E1B;}
+.flightSummary .extras .moreInfo .title{color:#7A5E1B;}
+.flightSummary .extras .moreInfo .fullRow{background: #F9F7F1;}
+.flightSummary .extras .moreInfo .fullRow .column .cell_1{color:#7A5E1B;}
+.flightSummary .extras .moreInfo .fullRow .column .cell_2{color:#7A5E1B;}
+.flightSummary .hotel h2{color:#7A5E1B;}
+.flightSummary .hotel span.priceTotal{color:#7A5E1B;}
+.flightSummary .hotel .fullRow{background:#F9F7F1;}
+.flightSummary .hotel .fullRow span.title{color:#7A5E1B;}
+.flightSummary .hotel .fullRow .price{color:#7A5E1B;}
+.flightSummary .traveler h2{color:#7A5E1B;}
+.flightSummary .traveler span.priceTotal{color:#7A5E1B;}
+.flightSummary .traveler .fullRow{background:#F9F7F1;}
+.flightSummary .traveler .fullRow .column-1{color:#7A5E1B;}
+.flightSummary .services h2{color:#7A5E1B;}
+.flightSummary .services .fullRow{background:#F9F7F1;}
+.flightSummary .services .fullRow .content{background:#FCF8E3;}
+.flightSummary .services .fullRow .content .title{color:#7A5E1B;}
+.flightSummary .services .fullRow .content .price{color:#7A5E1B;}
+.flightSummary .services .fullRow .content .btn{color:#7A5E1B;border:1px solid #7A5E1B;}
+.flightSummary .services .fullRow .content .bigPrice strong{color:#7A5E1B;}
+.flightSummary .bottom .totalPrice{color:#7A5E1B;}
+.totalBookingPrice{color:#7A5E1B;}
+.flightSummary .bottom .row .home{border-right:1px solid #7A5E1B;fill:#7A5E1B;}
+.flightSummary .bottom .row .btn{background:#7A5E1B;}
+.flightSummary .top .row .home{border-right:1px solid #7A5E1B;fill:#7A5E1B;}
+.flightSummary .top .row .btn{background:#7A5E1B;}
+.flightSummary .flights .editFlightBtn,.flightSummary .flights .approveEdit .approveEditBtn{background:#7A5E1B;}
+.flightSummary .extras .moreInfo .fullRow .column .cell_1 .editSeat {background:#7A5E1B;}
+#btnConfirmFreeAmend[href]{background:#7A5E1B;}
+.reviewSmallBtn{background:#7A5E1B;}
+@media screen and (max-width:990px){
+	.flightSummary .extras .fullRow{background: #F9F7F1 ;}
+}
+@media screen and (max-width:750px){
+	.flightSummary .traveler .all{background: #F9F7F1;}
+}
+@media screen and (max-width:680px) {
+	.flightSummary .extras .moreInfo .fullRow{background: #FCF8E3;}
+}
+@media screen and (max-width:555px){
+	.flightSummary .flights .grayRow .flex.mobile .left span.flightNum{color:#7A5E1B;}
+}
+.flightExtras{color:#7A5E1B;}
+.flightExtras .option{color:#7A5E1B;}
+.flightExtras .option .imgCell{background:#F9F7F1;}
+.flightExtras .option .contentCell{background:#FCF8E3;}
+.flightExtras .option .imgCell .svg{color: #7A5E1B;}
+.flightExtras .option .imgCell .svg #seat{fill:#7A5E1B;}
+.flightExtras .option .imgCell .svg #suitcase{fill:#7A5E1B;}
+.flightExtras .option .imgCell .checkedBg{background:#FCF8E3;}
+.flightExtras .option .imgCell .checkedSvg svg{height:100%;width:100%; fill: #7A5E1B;}
+.flightExtras .option .contentCell .actives span.price{color:#7A5E1B;}
+.flightExtras .option .contentCell .actives .button{color:#7A5E1B;border:1px solid #7A5E1B;}
+.flightExtras .option .contentCell .actives .button.btn-active{background:#7A5E1B;}
+.flightExtras .option .contentCell .actives span.points{color:#7A5E1B;}
+.flightExtras .buttonsRow .btn-continue{background:#7A5E1B;}
+.lightBox .block h1{background: #F9F7F1;color:#7A5E1B;}
+.lightBox .block h2{color:#7A5E1B;}
+.lightBox .block .info{color:#7A5E1B;}
+.lightBox .block .closeBox{fill:#7A5E1B;}
+.lightBox .block .bgGray{background:#F9F7F1;}
+.lightBox .block .toggleBtn .circle{border:1px solid #7A5E1B;}
+.lightBox .block .toggleBtn.on .circle{background:#7A5E1B;}
+.lightBox .block .toggleBtn .circle .xIcon{fill:#7A5E1B;}
+.lightBox .block .title{background:#FCF8E3;color:#7A5E1B;}
+.lightBox .block .formRow{color:#7A5E1B;}
+.lightBox .block .comboHolder:after { border-top-color: #7A5E1B;}
+.lightBox .block .priceRow span.price{color:#7A5E1B;}
+@media screen and (max-width: 800px) {
+    .flightExtras .option .imgCell .svg #seatMobile{fill:#7A5E1B;}
+    .flightExtras .option .imgCell .checkedBg svg{fill:#7A5E1B}
+}
+@media screen and (max-width: 600px){
+    .lightBox .block .closeBox{ fill: #7A5E1B;}
+}
+.lightBox .block .priceRow .button{color:#7A5E1B;border:1px solid #7A5E1B;}
+@media screen and (max-width: 500px){
+	.lightBox .block .priceRow .pointsm{color:#7A5E1B;}
+}
+.seatSelection_flightTabs li a{border: 1px solid #7A5E1B;}
+.upPlane_svg svg, .downPlane_svg svg{fill: #7A5E1B;}
+.seatSelection_flightTabs li a[aria-selected="true"]{background-color: #7A5E1B;}
+.seatSelection_passengerList .item a, .seatSelection_passengerList .item div{color: #7A5E1B;background-color: #FCF8E3;}
+.seatMap_layoutTitle div{border-bottom: 1px solid #7A5E1B;}
+ul.seatMap_layoutGrid li div.seatMap_itemOccupied span{border: 1px solid #F9F7F1;background-color: #FCF8E3;}
+ul.seatMap_layoutGrid li div.seatMap_itemFirst a.seatMap_itemToggle{background-color: #7A5E1B;border: 1px solid #7A5E1B;}
+.seatSelection_totalText strong{color: #7A5E1B;}
+.seatSelection_totalSubmit strong{color: #7A5E1B;}
+.seatSelection_totalSubmit a{color: #7A5E1B; border: 1px solid #7A5E1B;}
+.seatSelection_totalSubmit a:hover{background-color: #7A5E1B;}
+.seatSelection_MapLegend li.legendOccupied:before{ border-color: #F9F7F1;background-color: #FCF8E3;}
+.seatSelection_MapLegend li.legendSelection:before{border-color: #F9F7F1;}
+.seatSelection_MapLegend li.legendPaid:before{border-color: #F9F7F1;}
+.seatSelection_MapLegend li.legendFirst:before{background-color: #7A5E1B; border-color: #7A5E1B;}
+a.seatMap_itemClose svg{fill:#7A5E1B;}
+.seatMap_itemTitle{color: #7A5E1B;}
+.seatMap_itemPrice{color: #7A5E1B;}
+.seatMap_itemButton a{ border: 1px solid #7A5E1B;}
+.seatMap_itemButton a:hover{background-color: #7A5E1B;}
+.priceBreakdown_title{border-bottom: 3px solid #FCF8E3;color: #7A5E1B;}
+ul.priceBreakdown_passengers li{color: #7A5E1B;}
+.priceBreakdown_total strong{ color: #7A5E1B;}
+.priceBreakdown_total span{color: #7A5E1B;}
+.inner_headerBottom, .checkin_headerBottom{background: url(../resources/imgs/inner_engine_bg.jpg) center top no-repeat; position: static; left: auto; right: auto;}
+.progressBar_cartFixed{position: fixed; left: 0px; right: 0px; top: 0px; background: url(../resources/imgs/inner_engine_bg.jpg) center top no-repeat; z-index: 4;}
+@media screen and (max-width: 670px){
+    .seatSelection_flightTabs li a[aria-selected="true"]{color: #7A5E1B;background-color:#ffffff}
+    .seatSelection_flightTabs li a[aria-selected="true"] svg{fill: #7A5E1B;}
+    .seatSelection_flightTabs li a[aria-selected="true"] .flightTab_graph div{background-color: #7A5E1B;}
+    .seatSelection_flightTabs li a[aria-selected="true"] .flightTab_graph div:before,.seatSelection_flightTabs li a[aria-selected="true"] .flightTab_graph div:after{background-color: #7A5E1B;}
+    .seatSelection_passengerList .item a, .seatSelection_passengerList .item div{color: #7A5E1B;background-color: #F9F7F1;}
+    .seatSelection_passengerList .item a[aria-selected="true"]{background-color: #7A5E1B;}
+    .seatSelection_passengerList .item a[aria-selected="true"]:after{border-top-color: #7A5E1B;}
+    .seatSelection_total{background-color: #FCF8E3;}
+}
+
+/*****  aeroCRS_pages.css  *****/
+.pageDestination .titelTop h1{color:#7A5E1B;}
+.pageDestination .contentRight span.title{color:#7A5E1B;}
+.pageDestination .contentRight .table .row .column{background:#F9F7F1;}
+.pageDestination .contentRight .table .titleRow .column{color:#7A5E1B;}
+.pageDestination .contentRight .table .rowHeader .column{color:#7A5E1B;}
+.pageDestination .contentLeft span.title{color:#7A5E1B;}
+.pageDestination .contentLeft .table .titleRow .column{color:#7A5E1B;}
+.pageDestination .contentLeft .table .rowHeader .column{color:#7A5E1B;}
+@media screen and (max-width: 600px) {
+	.pageDestination .contentRight .table .row .column .m33{color:#7A5E1B;background:#FCF8E3;}
+    .pageDestination .contentRight .table .row .column .m65{background:#FCF8E3;}
+    .pageDestination .contentRight .table .row .column.mTitle .m65{background:#F9F7F1;}
+    .pageDestination .contentRight .table .row .column.mTitle .m33{background:#F9F7F1;}
+}
+.pageContact .titleTop h1{color:#7A5E1B;}
+.pageContact .titleW{color:#7A5E1B;}
+.pageContact .contactDetails strong.title{color:#7A5E1B;}
+.pageContact .contactDetails .firstRow .leftData span.bl{color:#7A5E1B;}
+.pageContact .contactDetails .firstRow .leftData .rowColumns .column span{color:#7A5E1B;}
+.pageContact .contactDetails .firstRow .socials span{color:#7A5E1B;}
+.pageContact .table .row span.cl{background:#FCF8E3;}
+.pageContact .table .row span.c15{color:#7A5E1B;}
+.pageContact .table .row span.c83 span.inner:before{color:#7A5E1B;}
+.pageContact .form .selectFiled:after{border-top-color: #7A5E1B;}
+.pageContact .form .bottom .btnFiled a.btnSbumit[href]{background:#7A5E1B;}
+@media screen and (max-width: 1024px){
+	.pageContact .table .row{background: #FCF8E3;}
+}
+@media screen and (max-width: 600px){
+	.pageContact .table .row{background: #FCF8E3;}
+}
+.track-progress li.done > span {background-color:#7A5E1B;}
+.track-progress li.done + li > span:before {border-left-color: #7A5E1B;}
+.track-progress li > span{color: #7A5E1B;}
+#trackingcode{border: 3px solid #7A5E1B;}
+button.track{border: 1px solid #7A5E1B; background: #7A5E1B;}
+.payment .titleSmall{color:#7A5E1B;}
+.payment .rowArea h2{color: #7A5E1B;}
+.payment .rowArea h2 svg{fill: #7A5E1B;}
+.payment .rowArea h2 *{color: #7A5E1B;}
+.payment .rowArea h3{color: #7A5E1B;}
+.rowArea .comboHolder:after { border-top-color: #7A5E1B;}
+.payment .rowArea .smallPoints{color:#7A5E1B;}
+.place .fullRow{background: #F9F7F1;}
+.place .explanation{color:#7A5E1B;}
+.method .row .column-2{background:#F9F7F1;}
+.ui-slider-handle{background: #7A5E1B !important;}
+.tooltip {color:#7A5E1B;}
+.method .points{color:#7A5E1B;}
+.method .total{color:#7A5E1B;}
+.method .allOpions .option label input:checked + .fullOption{color:#7A5E1B;}
+.btnPay[href]{background:#7A5E1B;}
+@media screen and (max-width: 940px){
+    .total.mobile{background:#F9F7F1;}
+}
+@media screen and (max-width: 680px){	
+	.start.mobile{color:#7A5E1B;}
+	.end.mobile{color:#7A5E1B;}
+}
+
+/** packages **/
+.package_page .pageTitle h1{color:#7A5E1B;}
+.package_page .pageTitle .selectFiled:after{border-top-color: #7A5E1B;}
+.package_page .allPackages .package .details{background:#FCF8E3;}
+.package_page .allPackages .package .price{background:#FCF8E3;}
+.package_page .allPackages .package .rowTitle{color:#7A5E1B;}
+.package_page .allPackages .package .price a.btnPrice[href]{background:#7A5E1B;}
+.package_page .pager ul li a[href]{color:#7A5E1B;}
+.packgesSearch .closeSearch{border:1px solid #7A5E1B}
+.packgesSearch .closeSearch .btnOpen{background:#7A5E1B;}
+.searchPage .engineTabs a.btnCloseSearch svg{fill: #7A5E1B;}
+.searchPage .topContent{color:#7A5E1B;}
+.searchPage .pack{background:#FCF8E3;}
+.searchPage .pack .content span.title{color:#7A5E1B;}
+.searchPage .daysRow .title{color:#7A5E1B;}
+.searchPage .daysRow .table .row{background:#F9F7F1;}
+.searchPage .daysRow .table .rowHeader{background:#FCF8E3;}
+.searchPage .daysRow .table .column-3 .mR{color:#7A5E1B;}
+.searchPage .terms .title{color:#7A5E1B;}
+.searchPage .bookNow{background:#F9F7F1;}
+.searchPage .bookNow span.title{color:#7A5E1B;}
+.searchPage .bookNow .buttonSubmit{background:#7A5E1B;}
+@media screen and (max-width: 780px){
+    .searchPage .daysRow .table .row .column .mL{background:#FCF8E3;}
+    .searchPage .daysRow .table .row .column .mR{background:#F9F7F1;}
+}
+.voucherBox button{background-color:#7A5E1B;}
+.voucherBox button:hover{background-color:#7A5E1B;}
+.voucherBox:hover{border: 2px solid #7A5E1B;}
+.fa-taxi {color: #7A5E1B;}
+.ckSeatNotification {
+	text-align: left;
+    color: #7A5E1B;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 6px 5px 12px 1%;
+    padding: 10px;
+    background-color: #EEEEEE75;
+    margin-top: 15px;
+}
+.hmbb {
+    border-color: #7A5E1B;
+}
+
+.newflightpage .flightItem:before {
+	background: #7A5E1B;
+}
+
+.resultsTitle_icon i {
+	color: #7A5E1B;
+}
+
+#final-checkin-btn {background-color: #7A5E1B;}
+.bk-container input:checked ~ .bk-checkmark {background-color: #7A5E1B;}
+
+.pspPayBtn{background-color:#7A5E1B;}
+.pspPayBtn:focus{background-color:#F9F7F1;}
+.pspPayBtn:active{background-color:#FCF8E3;}
+.pspBackBtn{background-color:#7A5E1B;}
+.pspBackBtn:focus{background-color:#F9F7F1;}
+.pspBackBtn:active{background-color:#FCF8E3;}
+
+.mmb-section .btn{background:#7A5E1B;}
+.mmb-section .btn:hover{background-color:#7A5E1B;}
+
+/*****  aeroCRS_extras.css  *****/
+    .no-extra-alert-check{
+        background:#7A5E1B;
+    }
+    .anchold{
+        order: 1; 
+        -webkit-order: 1;
+    }
+    .seathold{
+        order: 10; 
+        -webkit-order: 10;
+    }
+    .heapItem{
+        order: 3; 
+        -webkit-order: 3;
+    }
+    .transferItem{
+        order: 4; 
+        -webkit-order: 4;
+    }
+    .membershiphold{
+        order: 5; 
+        -webkit-order: 5;
+    }
+
+	.exclamation path{
+        fill: #7A5E1B;
+    }

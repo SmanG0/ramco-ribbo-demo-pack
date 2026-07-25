@@ -1,0 +1,723 @@
+this.loaded = {};
+this.jsFiles = {};
+
+function showAeroLoader(){
+    $('.loader').show();
+}
+
+function hideAeroLoader(){
+    $('.loader').fadeOut('slow', () => {
+        $('.loader').hide();
+    });
+}
+
+function showLoader(){
+    if($('.loader').css('display') == 'none'){
+        showAeroLoader();
+    }
+    else{
+        hideAeroLoader();
+    }
+}
+
+function callController(
+  controllerName,
+  componentFile,
+  data,
+  container = false,
+  removeInner=false,
+  callback = false,
+  callbackData = false,
+  requestType= "GET"
+) {
+
+
+
+  var page = "/controllers/" + controllerName + "/" + componentFile + ".php";
+
+  if (requestType == "GET" && data) {
+    page += (data[0] === "?" ? "" : "?") + data;
+    data = null;
+  }
+
+  var request = new XMLHttpRequest();
+  var element = container ? document.getElementById(container) : false;
+  var textAlign = "";
+
+  try {
+    if (
+      element &&
+      Array.prototype.slice.call(element.querySelectorAll(".aerocrsWrapper"), 0)
+        .length === 0 &&
+      container !== "cartBodyContainer" &&
+      componentFile != "seats"
+    ) {
+      addLoader(element, removeInner);
+    }
+  } catch (err) {
+    logError(err);
+  }
+  request.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      window.CsrfTokenManager?.updateCsrfTokenFromResponse(this);
+        try {
+          JSON.parse(this.responseText);
+         } catch (error) {
+            if (
+             this.responseText.length > 0 &&
+             this.responseText.includes('id="main-iframe"') &&
+             this.responseText.includes("Incapsula")
+           ) {
+             document.getElementById("captcha_message").innerHTML = this.responseText;
+             handleControllerError("pop", "captcha");
+             hideAeroLoader();
+            return;
+            }
+        }
+        
+      if (callbackData) callback(this.responseText, callbackData);
+      else callback(this.responseText);
+
+            if (element) {
+                var wrapper = Array.prototype.slice.call(element.querySelectorAll('.aerocrsWrapper'),0);
+                wrapper.forEach(function(div){
+                    try {
+                        element.removeChild(div);
+                    }
+                    catch (err){
+                        logError(err);
+                    }
+                });
+            }
+            //else if added for car rental only: getting error 502 or other and not 200 so callControler need to take in count
+        }else if (componentFile === 'carRental' && this.readyState == 4) {
+            if (callbackData)
+                callback(this.responseText, callbackData);
+            else
+                callback(this.responseText);
+        } 
+    };
+
+    request.open(requestType, page, true);
+
+    if (window.lastRecaptchaToken) {
+        request.setRequestHeader('X-Recaptcha-Token', window.lastRecaptchaToken);
+    }
+
+    const csrfToken = window.CsrfTokenManager.getCsrfToken();
+    if (csrfToken) {
+        request.setRequestHeader('X-CSRF-Token', csrfToken);
+    }
+
+  if (requestType == "POST")
+    request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+
+  request.send(data);
+  return request;
+}
+
+function injectHTML(data, element, container, outerIteration, override, injectToDoc, debug, ignoreNodeA) {
+    if(outerIteration === undefined)
+        outerIteration = false;
+    if(override === undefined)
+        override = false;
+    if (injectToDoc === undefined)
+        injectToDoc = true;
+    if(debug === undefined)
+        debug = false;
+    if(ignoreNodeA === undefined)
+        ignoreNodeA = false;
+
+    var newElement = element.cloneNode(true,true,true);
+    var allChildren = Array.prototype.slice.call(newElement.querySelectorAll('*'),0);
+    allChildren.forEach(function(childElement){
+        try {
+            if (childElement === undefined || childElement.nodeName === undefined)
+                return;
+            if(data[childElement.nodeName.toLowerCase()] !== undefined ) {
+                if(!(childElement.nodeName.toLowerCase() == 'a' && ignoreNodeA))
+                    injectVariables(data,childElement); 
+            }
+        }
+        catch (err) {
+            logError(err);
+        }   
+    });
+    newElement = injectDataAttributes(data, newElement);
+    if (injectToDoc) {
+        try{
+            var containerElement = (typeof(outerIteration) !== 'boolean') ? document.getElementsByClassName(container)[outerIteration] : document.getElementById(container);
+            if (containerElement) {
+                var existingLoaders = (containerElement !== null) ? containerElement.querySelectorAll(".ACloader") : null;
+                if (existingLoaders !== null && existingLoaders.length > 0) 
+                    containerElement.removeChild(existingLoaders[0]);     
+                if (override) {
+                    containerElement.innerHTML = newElement.innerHTML;
+                }
+                else {
+                    containerElement.appendChild(newElement);
+                }
+            }
+        }
+        catch (err) {
+            logError(err);
+        }
+    }
+    return newElement;
+}
+
+function injectChildren(data, element, classToDuplicate, parentElementName , outerIteration , replace , appendTo) {
+
+    if(parentElementName == undefined)
+        parentElementName = false;
+    if(outerIteration == undefined)
+        outerIteration = false;
+    if(replace == undefined)
+        replace = false;
+    if(appendTo == undefined)
+        appendTo = false;
+
+    var holder = (element.getElementsByClassName(classToDuplicate)[0] !== undefined) ? element.getElementsByClassName(classToDuplicate)[0] : element;
+    if (parentElementName)
+        holder = holder.cloneNode(true,true,true);
+    if (appendTo)
+        var replica = holder;
+    else
+        var replica = holder.firstElementChild;
+    var customHolder = false;
+    if (appendTo)
+        customHolder = document.createElement('div');
+    for (var key in data){
+        var newCopy = replica.cloneNode(true,true,true);
+        var allChildren = Array.prototype.slice.call(newCopy.querySelectorAll('*'),0);
+        allChildren.forEach(function(childElement){
+            if(data[key][childElement.nodeName.toLowerCase()] !== undefined)
+                injectVariables(data[key],childElement);
+        });
+        if (appendTo)
+            customHolder.appendChild(injectDataAttributes(data[key],newCopy));
+        else
+            holder.appendChild(injectDataAttributes(data[key],newCopy));
+    }
+    if (!appendTo)
+        holder.removeChild(replica);
+
+    switch (typeof(parentElementName)) {
+        case 'string':
+            if (replace) {
+                var replacable = document.getElementsByClassName(classToDuplicate)[outerIteration];
+
+                if (customHolder) {
+                    for (var i = customHolder.children.length -1; i > 0; i--){
+                        if (i > 0) {
+                            replacable.parentElement.insertBefore(customHolder.children[i],replacable);
+                        }
+                    }
+                    replacable.parentElement.replaceChild(customHolder.children[0],replacable);
+                }
+                else
+                    replacable.parentElement.replaceChild(holder,replacable);
+            }
+            else {
+                document.getElementsByClassName(classToDuplicate)[outerIteration].appendChild((customHolder) ? customHolder : holder);
+            }
+            break;
+        case 'object':
+            if (parentElementName.getElementsByClassName(classToDuplicate)[0] !== undefined)
+                parentElementName.getElementsByClassName(classToDuplicate)[0].appendChild((customHolder) ? customHolder : holder);
+            break;
+    }
+    return (customHolder) ? customHolder : holder;
+}
+
+function injectDataAttributes(data, element) {
+    for (var key in data) {
+        key = key.replace(/\s/g, "-");
+        var selector = '[data-'+key+']';
+        if (element.hasAttribute("data-"+key) && element.dataset !== undefined) {
+            element.dataset[key] = (element.hasAttribute("data-"+key) !== '') ? data[key] : element.dataset[key];
+        }
+        relevantChildren = Array.prototype.slice.call(element.querySelectorAll(selector),0);
+        relevantChildren.forEach(function(child){
+            child.dataset[key] = data[key];
+        });
+    }
+    return element;
+}
+
+function injectVariables(data,element) {
+    var parent = element.parentElement;
+    if (parent === undefined || parent === null)
+        return element;
+    parent.replaceChild(document.createTextNode(data[element.nodeName.toLowerCase()]),element);
+    //Now that we have an innerHTML with html entities - we will decode it using textArea that converts html elements from text
+    if (parent.innerHTML.indexOf('&lt;') > -1 || parent.innerHTML.indexOf('&gt;') > -1) {
+        var txt = document.createElement("textarea");
+        txt.innerHTML = parent.innerHTML;
+        parent.innerHTML = txt.value;
+    }
+    return element;
+}
+
+function injectLeftovers(data,element) {
+    var allChildren = Array.prototype.slice.call(element.querySelectorAll('*'),0);
+    allChildren.forEach(function(childElement){
+        if(data[childElement.nodeName.toLowerCase()] !== undefined) {
+            injectVariables(data,childElement); 
+        }   
+    });
+    return element;
+}
+
+function addIndex(element, classes, index, attributes, replaceClass) {
+
+    if(attributes == undefined)
+        attributes = false;
+    if(replaceClass == undefined)
+        replaceClass = true;
+
+    var array = [];
+    if(element)
+        array = Array.prototype.slice.call(element.querySelectorAll('[data-add-index]'),0);
+      
+    array.forEach(function(child) {
+        for (var i = 0; i < classes.length; i++) {
+            if (child.id === classes[i])
+                child.id = child.id+index;
+            if (replaceClass) {
+                if ($(child).hasClass(classes[i])) {
+                    $(child).removeClass(classes[i]);
+                    $(child).addClass(classes[i]+index);
+                }
+            }
+            if (attributes){
+                for (var j = 0; j < attributes.length; j++) {
+                    if (child.hasAttribute(attributes[j])) {
+                        if (child.getAttribute(attributes[j]) === classes[i]) {
+                            child.setAttribute(attributes[j], classes[i]+index); 
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+//Keep this function - each call to get component will return the HTML and a list of JS files to include
+function injectJSfile(filepath, callback) {
+
+    if(callback == undefined)
+        callback = false;
+    
+    var injectedID = document.getElementsByTagName('body')[0];
+    if(typeof filepath != 'string'){
+        for(var x in filepath){
+            var newScript = document.createElement("script");
+            newScript.src = filepath[x];
+            injectedID.appendChild(newScript);
+        }
+    }else{
+        var newScript = document.createElement("script");
+        newScript.src = filepath;
+        injectedID.appendChild(newScript);
+    }
+    if (callback)
+        callback();
+}
+
+function injectDropDown(dataArr, valueKey, displayKey, injectTo, zeroValue, selectedValue, setFirstDefaultOption) {
+
+    if(zeroValue == undefined)
+        zeroValue = false;
+    if(selectedValue == undefined)
+        selectedValue = false;
+    if(setFirstDefaultOption == undefined)
+        setFirstDefaultOption = true;
+
+    if(setFirstDefaultOption)
+    {
+        var defaultSelectWord = ($('#selectWord').length > 0) ? $('#selectWord').val() : 'Select';
+        zeroValueName = (zeroValue) ? zeroValue : defaultSelectWord;
+        var newOption = document.createElement("option");
+        newOption.setAttribute("value",0);
+        newOption.innerText = zeroValueName;
+        injectTo.appendChild(newOption);
+    }
+    for(var x in dataArr) {
+        var newOption = document.createElement("option");
+        newOption.setAttribute("value",dataArr[x][valueKey]);
+        newOption.innerText = dataArr[x][displayKey];
+        if(dataArr[x][valueKey] == selectedValue)
+            newOption.setAttribute('selected','selected');
+            //newOption.selected = true;
+        injectTo.appendChild(newOption);
+    }
+}
+
+function waitForLoading(waitFor,waitingTime,func){
+    if(window[waitFor].length > 0) {
+        func();
+    }else{
+        setTimeout(function(){
+            func()
+        },waitingTime);
+    }
+}
+
+function addLoader(element, removeInner) {
+
+    var wrapper = document.createElement('div');
+    var wrapperCell = document.createElement('div');
+    var wrapperImg = document.createElement('div');
+    var wrapperText = document.createElement('div');
+    var wrapperTextLine = document.createElement('div');
+    wrapper.className = 'aerocrsWrapper';
+    wrapperCell.className = 'aerocrsWrapper-cell';
+    wrapperImg.className = 'image';
+    wrapperText.className = 'text';
+    wrapperTextLine.className = 'text-line';
+
+    if (element.id === 'dateFrameDepart' || element.id === 'dateFrameReturn')
+        wrapperTextLine.style.width = '150px';
+    else
+        wrapperTextLine.style.width = (element.offsetWidth - 130)+'px';
+
+    wrapperText.appendChild(wrapperTextLine.cloneNode(true,true,true));
+    wrapperText.appendChild(wrapperTextLine.cloneNode(true,true,true));
+    wrapperText.appendChild(wrapperTextLine.cloneNode(true,true,true));
+    wrapperText.appendChild(wrapperTextLine.cloneNode(true,true,true));
+    wrapperCell.appendChild(wrapperImg);
+    wrapperCell.appendChild(wrapperText);
+    wrapper.appendChild(wrapperCell);
+    if (removeInner) 
+        element.innerHTML = '';
+    element.appendChild(wrapper.cloneNode(true,true,true));
+    element.appendChild(wrapper.cloneNode(true,true,true));
+
+}
+
+function loadComponentPart (url, elId, callBack) {
+    var url = '/components/'+url+'.php'; 
+    var xhr = new XMLHttpRequest();
+    var container = document.getElementById(elId);
+    if (!container) { console.log("container not found"); return false; }
+
+    xhr.onreadystatechange = function (e) { 
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            callBack(xhr.responseText, container);
+        }
+    }
+
+    xhr.open("GET", url, true);
+    xhr.setRequestHeader('Content-type', 'text/html');
+    xhr.send();
+}
+
+function loadScript(src, callback) {
+    var seatmapScript = document.createElement("script");
+    seatmapScript.src = src;
+    if (callback !== undefined)
+        seatmapScript.onload = function() { callback(); }
+    document.body.appendChild(seatmapScript); 
+
+}
+
+function numberFormatFunction(price,format,toRound){
+    var format = (format == undefined || format == null ? document.getElementById('format_number').value : format);
+    var toRound = (toRound == undefined || toRound == null ? document.getElementById('to_round_number').value : toRound);
+    var decimals = document.getElementById('curr_decimals').value
+    var returnValue = '';
+    switch (format) {
+        case "1":
+            returnValue = parseNumberToFloat ((toRound == true ? roundPrice(price,true) : price), (toRound ? 0 : decimals), '', '.')
+            break;
+        case "2":
+            returnValue = parseNumberToFloat ((toRound == true ? roundPrice(price,true) : price), (toRound ? 0 : decimals), ',', '.')
+            break;
+        case "3":
+            returnValue = parseNumberToFloat ((toRound == true ? roundPrice(price,true) : price), (toRound ? 0 : decimals), '.', ',')
+            break;
+        default:
+            returnValue = parseNumberToFloat ((toRound == true ? roundPrice(price,true) : price), (toRound ? 0 : decimals), '', '.')
+            break;
+    }
+    return returnValue;
+}
+
+/**
+ * Parse a possibly format-decorated price string ("1,234.56", "1.234,56", "23,456")
+ * into a Number for arithmetic. Use on JSON values like flight.classes[].price /
+ * .oneadultfare / .membershipamount where the server may apply thousands separators.
+ * For hidden inputs that we emit ourselves as raw floats, use plain parseFloat.
+ */
+function parsePriceForCalc(val) {
+    if (val === undefined || val === null || val === '') return 0;
+    if (typeof val === 'number') return isNaN(val) ? 0 : val;
+    var s = String(val).replace(/^\s+|\s+$/g, '');
+    if (s === '') return 0;
+    var lastComma = s.lastIndexOf(',');
+    var lastDot = s.lastIndexOf('.');
+    if (lastComma < 0 && lastDot < 0) {
+        var plain = parseFloat(s);
+        return isNaN(plain) ? 0 : plain;
+    }
+    if (lastComma >= 0 && lastDot >= 0) {
+        if (lastComma > lastDot) {
+            s = s.replace(/\./g, '').replace(',', '.');
+        } else {
+            s = s.replace(/,/g, '');
+        }
+    } else if (lastComma >= 0) {
+        s = /^\d{1,3}(,\d{3})+$/.test(s) ? s.replace(/,/g, '') : s.replace(',', '.');
+    } else if (/^\d{1,3}(\.\d{3})+$/.test(s)) {
+        s = s.replace(/\./g, '');
+    }
+    var n = parseFloat(s);
+    return isNaN(n) ? 0 : n;
+}
+
+/**
+ * MMB rebook price diff: symmetrically round both operands to display precision before
+ * subtracting and clamp to >= 0. Mirrors PHP mmbPriceDiff() so back-end and front-end
+ * produce identical numbers, which is what kills the "free flight becomes $1" residue.
+ *
+ * Also snaps to 0 when the diff would have rounded to 0 in the currency that was
+ * active at capture time. Without this, a fare diff smaller than 1 default-currency
+ * unit displays as $0 in USD but rounds up to €1 in EUR — the "free in USD becomes
+ * €1 in EUR" asymmetry caused by sub-cent residue propagating through currency conversion.
+ */
+function mmbPriceDiff(newPriceDisplay, oldPriceDisplay) {
+    var newNum = typeof newPriceDisplay === 'number' ? newPriceDisplay : parsePriceForCalc(newPriceDisplay);
+    var oldNum = typeof oldPriceDisplay === 'number' ? oldPriceDisplay : parsePriceForCalc(oldPriceDisplay);
+    var decEl = document.getElementById('curr_decimals');
+    var decimals = decEl ? parseInt(decEl.value, 10) : 2;
+    if (isNaN(decimals) || decimals < 0) decimals = 2;
+    var factor = Math.pow(10, decimals);
+    var diff = Math.round(newNum * factor) / factor - Math.round(oldNum * factor) / factor;
+    if (diff <= 0) return 0;
+    var rawDiff = newNum - oldNum;
+    var captureEl = document.getElementById('mmbOldPriceCaptureRate');
+    var currentEl = document.getElementById('mmbCurrentRate');
+    var captureRate = captureEl ? parseFloat(captureEl.value) : 0;
+    var currentRate = currentEl ? parseFloat(currentEl.value) : 0;
+    if (captureRate > 0 && currentRate > 0 && Math.abs(captureRate - currentRate) > 1e-9) {
+        // Use UN-rounded diff so sub-unit residues are not amplified by current-currency
+        // rounding before being converted back to capture currency.
+        var rawDiffAtCapture = rawDiff * (captureRate / currentRate);
+        var captureDecEl = document.getElementById('mmbOldPriceCaptureDecimals');
+        var captureDecimals = captureDecEl ? parseInt(captureDecEl.value, 10) : decimals;
+        if (isNaN(captureDecimals) || captureDecimals < 0) captureDecimals = decimals;
+        var captureFactor = Math.pow(10, captureDecimals);
+        if (Math.round(rawDiffAtCapture * captureFactor) / captureFactor <= 0) {
+            return 0;
+        }
+    }
+    // Same-currency residue snap: in MMB context, a display diff equal to one
+    // minor unit (e.g. $0.01) is rounding noise — either from float arithmetic,
+    // from converting old price default->display->default, or from the API
+    // pre-rounding fare values before sending them to the client. Drop it so
+    // PHP carousel and JS class buttons agree (PHP works on un-rounded fare-
+    // table values; JS works on API-pre-rounded fares).
+    if (captureRate > 0 && decimals > 0) {
+        var minorUnit = 1 / factor;
+        if (diff <= minorUnit) {
+            return 0;
+        }
+    }
+    return diff;
+}
+
+function parseNumberToFloat (number, decimals, thousands_sep, dec_point) {
+    // Strip all characters but numerical ones.
+    number = (number + '').replace(/[^0-9+\-Ee.]/g, '');
+    var n = !isFinite(+number) ? 0 : +number,
+        prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+        sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
+        dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+        s = '',
+        toFixedFix = function (n, prec) {
+            var k = Math.pow(10, prec);
+            return '' + Math.round(n * k) / k;
+        };
+    // Fix for IE parseFloat(0.55).toFixed(0) = 0;
+    s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
+    if (s[0].length > 3) {
+        s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep);
+    }
+    if ((s[1] || '').length < prec) {
+        s[1] = s[1] || '';
+        s[1] += new Array(prec - s[1].length + 1).join('0');
+    }
+    return s.join(dec);
+}
+
+function roundPrice(price,toRound){
+    var toRound = (toRound == undefined || toRound == null ? document.getElementById('curr_decimals').value : toRound);
+    var roundFormat = document.getElementById('round_format').value;
+    
+    switch (roundFormat) {
+        case "1":
+            priceFormat = price;
+            break;
+        case "2":
+            priceFormat = Math.round(price);
+            break;
+        case "3":
+            priceFormat = Math.ceil(price);
+            break;
+        default:
+            priceFormat = price;
+            break;
+    }
+    
+    return priceFormat;
+}
+
+function convertStrToNumber(price,format){
+    var format = (format == undefined || format == null ? document.getElementById('format_number').value : format);
+
+    var returnValue = '';
+    switch (format) {
+        case "1":
+            returnValue = price
+            break;
+        case "2":
+            price = price+'';
+            var split = price.split('.');
+            split[0] = split[0].replace(',','');
+            returnValue = split.join('.');
+            break;
+        case "3":
+            price = price+'';
+            var split = price.split(',');
+            split[0] = split[0].replace('.','');
+            returnValue = split.join('.');
+            break;
+        default:
+            returnValue = price
+            break;
+    }
+    return returnValue;
+
+}
+
+function validateText(data) { //making sure text doesn't contain URLs
+    const regex = /(https?|ftp):\/\/[^\s]+|www\.[^\s]+|[a-zA-Z]{1,}\.[a-zA-Z]{1,}/;
+    return regex.test(data);
+}
+
+function validateNumbersOnly(data) {
+    const regex = /^(?!\d+$).*$/;
+    return regex.test(data);
+}
+
+
+/**
+ * error response UI handler
+ * perform UI action on controller error  
+ * @param {string} action(required ): redirect (redirect tot new page), pop (show notice popup modal) 
+ * @param {string} popId(optional): ID of the pop not including trailing pop (exmple: for <div id="someNamePop"> popId = someName) - for pop action only required
+ * @param {object { callbackSubmit: function, callbackClose: function } } callbacks(optional): for click event handler - for pop action only (optional) 
+ * @param {string} redirect(optional) relative/full redirect path - for redirect action only required
+ * @returns {bool}
+ */
+function handleControllerError(action, popId, callbacks, redirect) {
+    if(!action) return false;
+    const actions = {
+        redirect: () => {
+            if(!redirect) return false;
+            const BASE = window.location.origin;
+            try {
+                let url = redirect.startsWith('http') ? new URL(redirect) : new URL(redirect, BASE);
+                window.location.href = url.href;
+                return true;
+            } catch (error) {
+                return false;            
+            }
+        }, 
+        pop: () => {
+            if(!popId || !$(`#${popId}Pop`)) return false;
+            // notice modal controller
+            $('#overlay').attr('aria-hidden', 'false');
+            $(`#${popId}Pop`).attr('aria-hidden','false');
+            $("#"+$(`${popId}Pop`).attr('aria-controls')).fadeIn().promise().done(function(){
+                $(this).attr('aria-hidden', 'false');
+                $(this).css('display', '');
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                // submit event handler
+                $(`#${popId}Pop_panel .userPop_form .userPop_submit input`).css('pointer-events', 'auto');
+                $(`#${popId}Pop_panel .userPop_form .userPop_submit input`).on('click', function(){
+                    selfix = this;
+                    $('#overlay').attr('aria-hidden', 'true');
+                    $("#"+$(`${popId}Pop`).attr('aria-controls')).fadeIn(1400).promise().done(function(){
+                        $(this).attr('aria-hidden', 'true');
+                        $(`#${popId}Pop`).attr('aria-hidden','true');
+                        $(this).css('display', '');
+                    });
+                    if(callbacks && callbacks.callbackSubmit && typeof callbacks.callbackSubmit === 'function') {
+                        callbacks.callbackSubmit()
+                    }
+                });
+                
+                // close event handler
+                $(`#${popId}Pop .userPop_close`).on('click',function(){
+                    $('#overlay').attr('aria-hidden', 'true');
+                    $(`#${popId}Pop`).attr('aria-hidden','true');
+                    if(callbacks && callbacks.callbackClose && typeof callbacks.callbackClose === 'function') {
+                        callbacks.callbackClose()
+                    }
+                });
+            });
+            return true;
+        }
+    }
+    // on no action found
+    if(!actions[action]) return false;
+    // on action found
+    return actions[action]();
+}
+
+function updatePricesForOnePax() {
+    if ($('#showonepaxfare').val()){
+        const selectors = [
+            { //Grid view
+                container: 'a.resultsGrid_item',
+                priceSelector: '.resultsGrid_itemPrice',
+                update: (el, fare) => {
+                    el.innerHTML = `<strong><b>${$('#rtSymbol').val()}</b> ${fare}</strong>`;
+                }
+            },
+            { //Regular view
+                container: '.classList li',
+                priceSelector: '.flightChoice_body strong',
+                update: (el, fare) => {
+                    const bTag = el.querySelector('b');
+                    if (bTag) {
+                        bTag.textContent = $('#rtSymbol').val();
+                        el.innerHTML = `${bTag.outerHTML} ${fare}`;
+                    }
+                }
+            },
+            { //Branding view
+                container: '.flight-class__box',
+                priceSelector: '.flightClass_btn span:nth-of-type(2)',
+                update: (el, fare) => {
+                    el.textContent = fare;
+                }
+            }
+        ];
+
+        selectors.forEach(({ container, priceSelector, update }) => {
+            document.querySelectorAll(container).forEach(item => {
+                const fare = numberFormatFunction(item.getAttribute('data-oneadultfare'));
+                if (fare && fare.trim() !== '' && fare.trim() !== '0') {
+                    const priceElement = item.querySelector(priceSelector);
+                    if (priceElement) {
+                        update(priceElement, fare);
+                    }
+                }
+            });
+        });
+    }
+}
+

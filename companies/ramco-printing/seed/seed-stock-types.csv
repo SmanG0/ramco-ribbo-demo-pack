@@ -1,0 +1,13 @@
+stock_code,name,gsm,family,finish,is_available,typical_lead_days
+STK-BOND-80,Bond uncoated,80,uncoated,natural,True,0
+STK-BOND-100,Bond uncoated,100,uncoated,natural,True,0
+STK-SILK-130,Silk coated,130,coated,silk,True,0
+STK-SILK-150,Silk coated,150,coated,silk,True,0
+STK-SILK-170,Silk coated premium,170,coated,silk,False,12
+STK-GLOSS-130,Gloss coated,130,coated,gloss,True,0
+STK-GLOSS-170,Gloss coated,170,coated,gloss,True,0
+STK-BOARD-250,Board,250,board,silk,True,0
+STK-BOARD-300,Board,300,board,silk,True,0
+STK-BOARD-350,Board,350,board,matt,True,3
+STK-REC-120,Recycled uncoated,120,uncoated,natural,True,5
+STK-KRAFT-280,Kraft board,280,board,natural,True,0
