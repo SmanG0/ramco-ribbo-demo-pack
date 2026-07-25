@@ -8,11 +8,18 @@ The four bots each run a **different agent pattern** on **one shared platform**,
 Ramco's six verticals**. That is the whole point of the demo: to prove Ribbo is a platform, not a
 point solution. If all four ran the same way, the demo would prove nothing.
 
-> ### 👉 New here? Read **[`DEMO-FLOWS.md`](DEMO-FLOWS.md)** first.
-> It explains, in plain English with no assumptions, **what each bot is, the exact conversation to
-> show, and what each moment proves to the client.** This README below is the *build* reference
-> (where files live, what's corrected, how to run things). `DEMO-FLOWS.md` is the *what-are-we-even-
-> doing* reference. Start there.
+> ### 👉 Start with two files:
+> - **[`TALK-TRACK.md`](TALK-TRACK.md)** — the positioning: *why* it's **four unique implementations**,
+>   the demo quality bar, the running order, and the exact language to use (and avoid) in the room.
+> - **[`DEMO-FLOWS.md`](DEMO-FLOWS.md)** — plain-English, no-assumptions walkthrough of each bot: the
+>   exact conversation to show and what each moment proves.
+>
+> This README below is the *build* reference (where files live, what's corrected, how to run things).
+> `TALK-TRACK.md` is *why and how we present it*; `DEMO-FLOWS.md` is *what each bot does*.
+
+**The framing in one line:** four **unique agent implementations**, each purpose-built for a different
+Ramco business — proof that we can build the right agent for *any* of them, fast. Not one bot shown
+four times.
 
 | Bot | Company | Vertical | Agent pattern | Package status |
 |---|---|---|---|---|
@@ -195,9 +202,10 @@ verified current (ramco-group.com, kitchensandbeyond.co.ke). It has **no spec fi
 **The close for the whole demo:** three of the four bots surface the *same* planted problem from
 unrelated businesses — Ramco Printing (job waiting on the client's proof approval), Sai Office (a
 repair waiting on collection / a quote waiting on a yes), Kitchens & Beyond (an installation waiting
-on the client's tile selection). One line: *"In every one of your businesses, work is sitting still
-waiting on your own customers, and nobody is telling them."* That's a group-platform argument, not
-four product demos.
+on the client's tile selection). One line: *"In every one of your businesses, the same kind of
+problem is hiding, and the same kind of agent catches it."* Land the versatility and the speed of
+building — let them pick which business to start with. (See `TALK-TRACK.md` for the full positioning
+and the say/don't-say language.)
 
 ---
 

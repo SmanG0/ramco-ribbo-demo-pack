@@ -29,9 +29,11 @@ staff tools. The only difference is whether that customer is a **consumer (B2C)*
 (B2B)**.
 
 **Why four different ones?** If all four assistants did the same thing, the demo would prove nothing.
-The whole point is: *"Look — same platform, four totally different jobs, four different parts of your
-group. We can do this for the whole thing."* **Demo order: 1, 2, 3, then Kitchens & Beyond last** —
-the first three *save* money, the last one *makes* money, which is the note to end on.
+The whole point is **four unique implementations** — four different *shapes* of agent for four
+genuinely different businesses: *"Building one of these is fast and cheap for us, so we can do it for
+any of your businesses — here are four completely different ones as proof."* **Demo order: 1, 2, 3,
+then Kitchens & Beyond last** — the first three *save* money, the last one *makes* money, the note to
+end on. (Full positioning + the language to use is in `TALK-TRACK.md`.)
 
 ### A few words we use
 
@@ -206,11 +208,11 @@ Three of the four bots surface the **same** hidden problem from completely unrel
 - **Sai Office** — a repair finished and waiting on collection; a quote waiting on a yes
 - **Kitchens & Beyond** — a kitchen installation waiting on the client's tile selection
 
-> "In every one of your businesses, work is sitting still waiting on your own customers, and nobody is
-> telling them."
+> "In every one of your businesses, the same kind of problem is hiding — and the same kind of agent
+> catches it."
 
-That's a group-level insight, not four separate product demos — it's the argument for one platform
-agreement across the whole group.
+Land the versatility and how fast we can build one — then let them pick which business to start with.
+Don't push a scope in the room. (See `TALK-TRACK.md` for the full close and say/don't-say language.)
 
 For the deeper build detail behind each flow (exact data, tools, acceptance tests), see each
 company's `build-pack/0X-*.md` spec (Kitchens & Beyond has none — use its README) and

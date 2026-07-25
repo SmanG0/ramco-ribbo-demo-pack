@@ -123,7 +123,7 @@ Three of the four bots surface the same planted problem from completely unrelate
 
 > In every one of your businesses, work is sitting still waiting on your own customers, and nobody is telling them.
 
-That is a group-level insight rather than four product demos, and it is the argument for a group platform agreement rather than four projects. Build the close around it.
+That is a group-level insight rather than four product demos. Land the versatility and how fast we can build an agent — then let them pick which business to start with. Build the close around it. (See the repo's `TALK-TRACK.md` for the exact positioning and say/don't-say language.)
 
 ## All four packages
 
