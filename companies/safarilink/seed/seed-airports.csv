@@ -1,0 +1,25 @@
+iata_code,icao_code,name,region,is_bush_strip,serves_conservancy,timezone,notes
+WIL,,"Wilson Airport, Nairobi",Nairobi,False,,Africa/Nairobi,
+NBO,,Jomo Kenyatta Intl,Nairobi,False,,Africa/Nairobi,
+OLX,,Olkiombo,Masai Mara,True,Mara Reserve / Talek,Africa/Nairobi,VERIFY station code with Safarilink Ops
+KEU,,Keekorok,Masai Mara,True,Mara Reserve,Africa/Nairobi,VERIFY station code with Safarilink Ops
+MRE,,Mara Serena,Masai Mara,True,Mara Triangle,Africa/Nairobi,VERIFY station code with Safarilink Ops
+KTJ,,Kichwa Tembo,Masai Mara,True,Mara North / Oloololo,Africa/Nairobi,VERIFY station code with Safarilink Ops
+MNA,,Mara North,Masai Mara,True,Mara North Conservancy,Africa/Nairobi,VERIFY station code with Safarilink Ops
+OSE,,Ol Seki,Masai Mara,True,Naboisho Conservancy,Africa/Nairobi,VERIFY station code with Safarilink Ops
+ASV,,Amboseli,Amboseli,True,Amboseli NP,Africa/Nairobi,
+UAS,,Samburu,Samburu,True,Samburu / Buffalo Sp.,Africa/Nairobi,
+LKU,,Lewa Downs,Laikipia,True,Lewa Conservancy,Africa/Nairobi,
+LSB,,Loisaba,Laikipia,True,Loisaba Conservancy,Africa/Nairobi,VERIFY station code with Safarilink Ops
+NYK,,Nanyuki,Laikipia,False,Ol Pejeta / Laikipia,Africa/Nairobi,
+NVA,,Naivasha,Rift Valley,True,Lake Naivasha,Africa/Nairobi,VERIFY station code with Safarilink Ops
+KIU,,"Kilaguni, Tsavo West",Tsavo,True,Tsavo West NP,Africa/Nairobi,
+UKA,,Ukunda (Diani Beach),Coast,False,,Africa/Nairobi,
+MBA,,"Moi Intl, Mombasa",Coast,False,,Africa/Nairobi,
+MYD,,Malindi,Coast,False,,Africa/Nairobi,
+LAU,,"Manda, Lamu",Coast,False,,Africa/Nairobi,
+KIS,,Kisumu,Western,False,,Africa/Nairobi,
+ZNZ,,Zanzibar,Tanzania,False,,Africa/Nairobi,
+EBB,,Entebbe,Uganda,False,,Africa/Nairobi,
+JRO,,Kilimanjaro,Tanzania,False,,Africa/Nairobi,
+ARK,,Arusha,Tanzania,False,,Africa/Nairobi,

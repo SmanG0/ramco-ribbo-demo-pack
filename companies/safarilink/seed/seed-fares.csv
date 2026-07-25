@@ -1,0 +1,133 @@
+fare_id,route_id,fare_class,price,currency,is_refundable,change_fee,conditions
+4f0433c1-1076-1402-f9a4-2c67c7c7fa4f,WIL-OLX,saver,167.0,USD,False,40,
+9474599b-4f6e-71d8-db19-757edd82f551,WIL-OLX,flex,237.14,USD,True,0,
+826cfd9a-d627-21a3-627a-e14290974e4b,WIL-OLX,resident,113.56,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+e66db22a-790d-a6fd-4198-593aa8051c98,OLX-WIL,saver,167.0,USD,False,40,
+73ec3661-0f12-e305-c068-d12b772aca08,OLX-WIL,flex,237.14,USD,True,0,
+5234ada7-76dd-ee3b-c158-6d1e18573f69,OLX-WIL,resident,113.56,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+d9531637-f992-c842-6e65-45a86f95bd72,WIL-KEU,saver,175.0,USD,False,40,
+dcf8b0cd-8e7f-caeb-72f0-5ee2fbb66e65,WIL-KEU,flex,248.5,USD,True,0,
+c52774a4-799d-bdb7-7f7f-d184d7aa808f,WIL-KEU,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+ba83344e-18f8-220c-0f73-80fec4ba8a6a,KEU-WIL,saver,175.0,USD,False,40,
+f090e46d-1b58-4dd1-cf46-3b7f8a252070,KEU-WIL,flex,248.5,USD,True,0,
+a176ef1d-8900-ebca-50ee-83a21ed3838b,KEU-WIL,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+2e45679e-7194-63c1-18c5-7089abe5a389,WIL-MRE,saver,183.0,USD,False,40,
+714e7220-a2e1-ee85-811d-2325377bb66b,WIL-MRE,flex,259.86,USD,True,0,
+bb714b23-4fcd-2a1f-7b28-58e59ace9969,WIL-MRE,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+c9b5fb1a-e678-d351-f273-067e9bd31c06,MRE-WIL,saver,183.0,USD,False,40,
+fa361b44-38fa-7f52-14d9-63840569a59b,MRE-WIL,flex,259.86,USD,True,0,
+f627ae9c-6cd8-b9f9-47b9-588be88682a9,MRE-WIL,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+8cff67e0-7c06-6f6b-af4a-e71e49eae3b7,WIL-KTJ,saver,175.0,USD,False,40,
+e75a9130-bf33-004a-4f8d-55e6f1296e51,WIL-KTJ,flex,248.5,USD,True,0,
+fb242a4a-2ec0-6ef9-403c-0b62415a3cfb,WIL-KTJ,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+7f7e0bd1-7b26-fef8-7990-3d6b1fa1e5df,KTJ-WIL,saver,175.0,USD,False,40,
+56a7e507-18e4-1858-050c-ed77febc7d01,KTJ-WIL,flex,248.5,USD,True,0,
+a986319f-cc2a-c4c3-d8cc-ec657f90dd3b,KTJ-WIL,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+3b87a074-457f-8323-db02-7ee3879a4436,WIL-MNA,saver,175.0,USD,False,40,
+9970173e-8bef-b37a-9234-2fd2da3ae4f7,WIL-MNA,flex,248.5,USD,True,0,
+d62d85d1-b60d-ef85-f843-aeb021ff1826,WIL-MNA,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+344c4d11-ce34-da8f-ca93-07225509753d,MNA-WIL,saver,175.0,USD,False,40,
+96d39d49-491f-06f3-8a64-99f0c170d8b2,MNA-WIL,flex,248.5,USD,True,0,
+37d49916-9af5-9c6d-bd20-f07e6296965d,MNA-WIL,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+9666e162-957c-a5d7-0ba4-dbd2b2bb46fa,WIL-OSE,saver,171.8,USD,False,40,
+e26ee1f7-a0d2-ddc3-1d7c-c141c90b7051,WIL-OSE,flex,243.96,USD,True,0,
+afaf1cab-866f-7b6c-e4c8-6321e847929b,WIL-OSE,resident,116.82,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+d7ca2f04-2678-9b1e-a030-33124db4089c,OSE-WIL,saver,171.8,USD,False,40,
+9931860d-ebdc-f0cb-69e5-4bcf1c2111f2,OSE-WIL,flex,243.96,USD,True,0,
+45a8c9fe-bf49-9eb9-b377-dd97dc40e0f3,OSE-WIL,resident,116.82,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+58805d0e-7bd4-6015-fd13-2914ffe9b7db,WIL-ASV,saver,159.0,USD,False,40,
+410ffda7-0d01-2b95-e0e2-5e13830d08e2,WIL-ASV,flex,225.78,USD,True,0,
+889ea2b3-f716-c18b-149e-bd6906351d55,WIL-ASV,resident,108.12,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+f80e2045-a5cc-88ad-5a07-6c3ec094dd42,ASV-WIL,saver,159.0,USD,False,40,
+201e23cd-c63b-091e-c6b7-98b12a257d82,ASV-WIL,flex,225.78,USD,True,0,
+2d78917e-689e-269c-0ef3-03bae3160645,ASV-WIL,resident,108.12,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+3ed43b37-c95e-ccb4-0bd4-88c2f52b3269,WIL-UAS,saver,191.0,USD,False,40,
+bd3c0dac-6f0f-2e66-e506-5cb63ec7ba18,WIL-UAS,flex,271.22,USD,True,0,
+d811be3f-a37c-e9fb-a0bd-d67f8d0c2e04,WIL-UAS,resident,129.88,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+7356e117-d447-0fd2-c3d0-ff53178c20e9,UAS-WIL,saver,191.0,USD,False,40,
+ead1d9e6-3502-68c1-5ab3-b40a8298d0ee,UAS-WIL,flex,271.22,USD,True,0,
+38ec4b66-2762-8110-2b4f-b6054580a1e0,UAS-WIL,resident,129.88,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+c8e7cf5f-6c32-5b65-63d7-1372f5743b96,WIL-LKU,saver,175.0,USD,False,40,
+8e6b34fa-d447-9898-6e61-f82da0a358ee,WIL-LKU,flex,248.5,USD,True,0,
+6f036e2e-d8d6-1a5a-eb58-ba89946dc753,WIL-LKU,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+2e67fbe7-cdc5-539a-9bc9-140ff3f77c3b,LKU-WIL,saver,175.0,USD,False,40,
+9c37faee-bd34-060c-4893-6ea8f8ea2d6d,LKU-WIL,flex,248.5,USD,True,0,
+aaf4d19d-f26f-ecc6-ff6d-acdb81187376,LKU-WIL,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+9da572bc-c128-5624-b510-7ae922ea9639,WIL-LSB,saver,183.0,USD,False,40,
+58049cb8-b0c8-b03d-c1cf-41851dc4ac80,WIL-LSB,flex,259.86,USD,True,0,
+79bcb153-68dc-9cb3-dd5a-f5921881ec85,WIL-LSB,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+f674d0a2-0927-dc1c-8787-8f54cf1d74f4,LSB-WIL,saver,183.0,USD,False,40,
+f0769010-62ba-3431-6736-956fec0c3ea2,LSB-WIL,flex,259.86,USD,True,0,
+d684e280-1a0f-1d77-efb0-c6fb05074430,LSB-WIL,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+958da1f7-3468-ae7f-672d-c40d887f5765,WIL-NYK,saver,151.0,USD,False,40,
+e96b77bb-cde1-ffae-c15f-97513f66c622,WIL-NYK,flex,214.42,USD,True,0,
+132626b2-beb6-e953-7e23-9d193050202a,WIL-NYK,resident,102.68,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+41bd0937-635b-65ce-beaa-622e39c7455e,NYK-WIL,saver,151.0,USD,False,40,
+1cf794a2-c20a-0b68-091c-2c608aab4421,NYK-WIL,flex,214.42,USD,True,0,
+10ba1eb6-f7bd-6bea-366c-24e97742da95,NYK-WIL,resident,102.68,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+8ca47037-6ca9-ed06-7128-851aca9137db,WIL-NVA,saver,135.0,USD,False,40,
+42683125-f0ab-5fc0-d65f-9ddf01cf9f79,WIL-NVA,flex,191.7,USD,True,0,
+8e0f8240-8aea-e999-e4cf-0815b9e7efb0,WIL-NVA,resident,91.8,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+7098658e-2247-5068-433f-e8036eed392d,NVA-WIL,saver,135.0,USD,False,40,
+5c3cd63f-064e-1a7e-be2e-1ec2c186afc0,NVA-WIL,flex,191.7,USD,True,0,
+9f79fcfe-6dea-aea8-8e95-d9481b9efacc,NVA-WIL,resident,91.8,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+55f475cd-3f65-1c7d-ae84-9c3b616c50f9,WIL-KIU,saver,167.0,USD,False,40,
+4106394b-f8ef-928d-4358-4853b5723b91,WIL-KIU,flex,237.14,USD,True,0,
+0d24d840-4c93-17d1-e101-a4cb5e3cc8d3,WIL-KIU,resident,113.56,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+279f8dce-661f-9a38-d497-c13a040aa457,KIU-WIL,saver,167.0,USD,False,40,
+e5d4870c-fbfc-c7e7-7ce1-22fadba60698,KIU-WIL,flex,237.14,USD,True,0,
+d2b0d77c-ae7a-2e1a-46c7-1cf8a0316b0b,KIU-WIL,resident,113.56,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+027c460c-9631-1797-a16e-cb5c1af56edc,WIL-UKA,saver,175.0,USD,False,40,
+aba245d5-cc97-f867-bf45-0bcb8e8ce8eb,WIL-UKA,flex,248.5,USD,True,0,
+c59fdafb-8eee-2a36-1364-03bc4ea3b9b4,WIL-UKA,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+d441da05-c70a-d823-2b62-583955198965,UKA-WIL,saver,175.0,USD,False,40,
+29ea4a98-815f-6efe-0b6c-ae4eae6bf2ff,UKA-WIL,flex,248.5,USD,True,0,
+dcd72c08-50a6-9588-1b85-17703fc0985c,UKA-WIL,resident,119.0,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+9878758c-cde4-f5e1-b47e-aa611c18efc3,WIL-MBA,saver,183.0,USD,False,40,
+4c8f8429-4479-c692-6bcf-a3b78b2c6b2e,WIL-MBA,flex,259.86,USD,True,0,
+7bfca79e-adc9-f7e6-d52a-5ba31cb3aeb8,WIL-MBA,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+d9aa9e00-71d5-0c75-7d1d-d9e546bde4b9,MBA-WIL,saver,183.0,USD,False,40,
+15a50ee4-7364-95b3-ad64-16062675f03a,MBA-WIL,flex,259.86,USD,True,0,
+a8731a6d-112f-e5c9-b143-61ab6cc7cf5f,MBA-WIL,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+c354ea38-5c79-0ed1-57e9-9ddec089c356,WIL-MYD,saver,199.0,USD,False,40,
+98076200-f408-5090-bf24-872983e63365,WIL-MYD,flex,282.58,USD,True,0,
+a73486cf-0f52-5535-04b0-cc4a6be58f6e,WIL-MYD,resident,135.32,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+5ebce354-9892-7939-bc04-1a66c0f4bf60,MYD-WIL,saver,199.0,USD,False,40,
+172c19a3-3006-5cca-87ef-b04cb29aefaf,MYD-WIL,flex,282.58,USD,True,0,
+3e59abdb-0156-02c2-23a4-5f32f8518091,MYD-WIL,resident,135.32,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+a6d3e233-674d-a8c4-2b62-1854e43a0521,WIL-LAU,saver,223.0,USD,False,40,
+3be726da-4576-fc25-e46b-bba284e0b277,WIL-LAU,flex,316.66,USD,True,0,
+939613b3-7816-ec53-c864-6dac6a16a749,WIL-LAU,resident,151.64,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+e95a3f2a-33ec-1502-fb9c-a63a68ec645c,LAU-WIL,saver,223.0,USD,False,40,
+61711aa4-892a-69d0-317d-6660d3aa0a93,LAU-WIL,flex,316.66,USD,True,0,
+9153c006-77b0-56ba-ffb5-d9527f6d392e,LAU-WIL,resident,151.64,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+0515ea1c-b40e-3a85-555d-39ae518a0f6b,WIL-KIS,saver,183.0,USD,False,40,
+5e168499-e23f-fd30-0f7a-d5600c6911e3,WIL-KIS,flex,259.86,USD,True,0,
+afb59d46-8fb8-f7f9-b533-d71e51559a0c,WIL-KIS,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+a2fc49bc-7ba0-9265-0cca-ffc2fd4b44e5,KIS-WIL,saver,183.0,USD,False,40,
+a6da1621-05c6-244c-3275-9db3f36355ff,KIS-WIL,flex,259.86,USD,True,0,
+87f4d255-c5f1-ce8a-55a4-735a9d18c572,KIS-WIL,resident,124.44,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+0cc81f02-c8f8-41bd-a267-03fa57049fda,WIL-ZNZ,saver,271.0,USD,False,40,
+da34a99a-0f7b-96c8-c6d5-94c85fb5fd39,WIL-ZNZ,flex,384.82,USD,True,0,
+67051708-8a1e-ea6a-48b0-a17cba34eff0,WIL-ZNZ,resident,184.28,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+75a71131-bd3f-5889-3780-0bfa93222a39,ZNZ-WIL,saver,271.0,USD,False,40,
+07bd3948-acef-b730-05f3-a6ba4c9c19b7,ZNZ-WIL,flex,384.82,USD,True,0,
+f96c3465-6d67-4d49-2dd1-302c672cfb1b,ZNZ-WIL,resident,184.28,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+e217bb68-5f47-5209-825f-43ab7c226b14,WIL-EBB,saver,263.0,USD,False,40,
+9e9942d6-d8ae-f14c-b246-dcd6773cc164,WIL-EBB,flex,373.46,USD,True,0,
+acc64cf6-c2a8-109a-2801-582d8bf2bef9,WIL-EBB,resident,178.84,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+c1ac6ba0-149c-b63d-bff9-1b3ee8c2996b,EBB-WIL,saver,263.0,USD,False,40,
+7761a702-12e8-f51e-f475-77d9bae202df,EBB-WIL,flex,373.46,USD,True,0,
+b009ea4b-2fd2-dd8a-ce2a-7179dba5f296,EBB-WIL,resident,178.84,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+1aaad9ae-30cf-3295-0def-1b17b914d32e,WIL-JRO,saver,215.0,USD,False,40,
+870b2749-9175-6221-18f3-38c96680e3b6,WIL-JRO,flex,305.3,USD,True,0,
+b41a4c15-5f42-e265-85a8-39f9bdc2b39b,WIL-JRO,resident,146.2,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+93f2175a-1630-2773-4019-0535f8de3cee,JRO-WIL,saver,215.0,USD,False,40,
+6d872180-6f89-734b-6d4e-ee1a5128f7f0,JRO-WIL,flex,305.3,USD,True,0,
+4bc1abba-4017-23b9-00c1-e8ed28945cb6,JRO-WIL,resident,146.2,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+f4ba4c13-845a-8552-1d5c-26cc2b9d479c,WIL-ARK,saver,223.0,USD,False,40,
+8f5bc801-7589-c589-89b3-cf66af1933d1,WIL-ARK,flex,316.66,USD,True,0,
+a7d66979-73b5-584e-88f5-6ecb0041d953,WIL-ARK,resident,151.64,USD,False,40,Resident fare - valid Kenyan ID required at check-in
+c453cfdd-90c5-2ac4-9341-c7f221bda2fb,ARK-WIL,saver,223.0,USD,False,40,
+2e3e5bf6-baca-9f7e-f3da-a9645b766327,ARK-WIL,flex,316.66,USD,True,0,
+d029a07d-2b33-223e-06b6-47523949359f,ARK-WIL,resident,151.64,USD,False,40,Resident fare - valid Kenyan ID required at check-in
